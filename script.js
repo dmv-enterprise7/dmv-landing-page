@@ -25,6 +25,9 @@ var translations = {
     'hero.seal-2': 'Sem compromisso',
     'hero.seal-3': 'Resposta imediata',
 
+    // Floating WhatsApp button
+    'float.tooltip': 'Fale conosco',
+
     // Section titles (placeholders for future phases)
     'why-ai.title': 'Por que IA?',
     'pain.title': 'Isso e familiar?',
@@ -57,6 +60,9 @@ var translations = {
     'hero.seal-1': 'Free demo, no strings attached',
     'hero.seal-2': 'No commitment required',
     'hero.seal-3': 'Immediate response',
+
+    // Floating WhatsApp button
+    'float.tooltip': 'Talk to us',
 
     // Section titles (natural English — NOT literal translations per I18N-04)
     'why-ai.title': 'Why AI?',
