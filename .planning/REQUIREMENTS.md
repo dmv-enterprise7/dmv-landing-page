@@ -49,10 +49,10 @@
 
 ### Pain Points (PAIN)
 
-- [ ] **PAIN-01**: Secao "Isso e familiar?" com fundo levemente diferente (gradiente shift)
-- [ ] **PAIN-02**: 4 pain points em grid 2x2 desktop / stack mobile, cada um com icone SVG + frase curta e direta
-- [ ] **PAIN-03**: Os 4 pain points reais: "Perde clientes porque demora para responder" / "WhatsApp comercial virou uma bagunca" / "Preso em tarefas manuais que nao acabam" / "Atendimento que muda de qualidade conforme o dia"
-- [ ] **PAIN-04**: Frase de transicao ciano centralizada: "A DMV resolve cada um desses problemas com Inteligencia Artificial."
+- [x] **PAIN-01**: Secao "Isso e familiar?" com fundo levemente diferente (gradiente shift)
+- [x] **PAIN-02**: 4 pain points em grid 2x2 desktop / stack mobile, cada um com icone SVG + frase curta e direta
+- [x] **PAIN-03**: Os 4 pain points reais: "Perde clientes porque demora para responder" / "WhatsApp comercial virou uma bagunca" / "Preso em tarefas manuais que nao acabam" / "Atendimento que muda de qualidade conforme o dia"
+- [x] **PAIN-04**: Frase de transicao ciano centralizada: "A DMV resolve cada um desses problemas com Inteligencia Artificial."
 
 ### Services (SERV)
 
@@ -208,10 +208,10 @@
 | MARKET-06 | Phase 3: Market Data | Complete |
 | MARKET-07 | Phase 3: Market Data | Complete |
 | ANIM-05 | Phase 3: Market Data | Complete |
-| PAIN-01 | Phase 4: Pain Points + Services | Pending |
-| PAIN-02 | Phase 4: Pain Points + Services | Pending |
-| PAIN-03 | Phase 4: Pain Points + Services | Pending |
-| PAIN-04 | Phase 4: Pain Points + Services | Pending |
+| PAIN-01 | Phase 4: Pain Points + Services | Complete |
+| PAIN-02 | Phase 4: Pain Points + Services | Complete |
+| PAIN-03 | Phase 4: Pain Points + Services | Complete |
+| PAIN-04 | Phase 4: Pain Points + Services | Complete |
 | SERV-01 | Phase 4: Pain Points + Services | Pending |
 | SERV-02 | Phase 4: Pain Points + Services | Pending |
 | SERV-03 | Phase 4: Pain Points + Services | Pending |
