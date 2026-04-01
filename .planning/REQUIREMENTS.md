@@ -115,10 +115,10 @@
 
 ### Animations & Effects (ANIM)
 
-- [ ] **ANIM-01**: Scroll reveal via IntersectionObserver em todas as secoes -- fade-in + translateY(30px->0) com stagger 100-150ms entre siblings
-- [ ] **ANIM-02**: Pulse animation continua no botao CTA principal (scale 1->1.03->1 a cada 2s)
-- [ ] **ANIM-03**: Gradient blobs com movimento muito lento (60s+ de duracao) ou estaticos
-- [ ] **ANIM-04**: Hover nos cards: border ciano + translate-y(-4px) + glow shadow (0.3s ease)
+- [x] **ANIM-01**: Scroll reveal via IntersectionObserver em todas as secoes -- fade-in + translateY(30px->0) com stagger 100-150ms entre siblings
+- [x] **ANIM-02**: Pulse animation continua no botao CTA principal (scale 1->1.03->1 a cada 2s)
+- [x] **ANIM-03**: Gradient blobs com movimento muito lento (60s+ de duracao) ou estaticos
+- [x] **ANIM-04**: Hover nos cards: border ciano + translate-y(-4px) + glow shadow (0.3s ease)
 - [x] **ANIM-05**: Counter animation nos numeros de mercado ao entrar na viewport
 
 ### Responsiveness (RESP)
@@ -240,10 +240,10 @@
 | CTA-03 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
 | FOOT-01 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
 | FOOT-02 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
-| ANIM-01 | Phase 7: Polish & QA | Pending |
-| ANIM-02 | Phase 7: Polish & QA | Pending |
-| ANIM-03 | Phase 7: Polish & QA | Pending |
-| ANIM-04 | Phase 7: Polish & QA | Pending |
+| ANIM-01 | Phase 7: Polish & QA | Complete |
+| ANIM-02 | Phase 7: Polish & QA | Complete |
+| ANIM-03 | Phase 7: Polish & QA | Complete |
+| ANIM-04 | Phase 7: Polish & QA | Complete |
 | RESP-01 | Phase 7: Polish & QA | Pending |
 | RESP-02 | Phase 7: Polish & QA | Pending |
 | RESP-03 | Phase 7: Polish & QA | Pending |
