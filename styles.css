@@ -879,3 +879,203 @@ section[id] {
     display: none;
   }
 }
+
+
+/* ============================================
+   MARKET DATA SECTION — "Por que IA?" (MARKET-01 through MARKET-07, ANIM-05)
+   ============================================ */
+
+/* --- Section badge (matches hero badge style) --- */
+
+.section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-cyan);
+  background: rgba(0, 200, 255, 0.08);
+  border: 1px solid rgba(0, 200, 255, 0.15);
+  padding: 6px 14px;
+  border-radius: 100px;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+/* --- Section title and subtitle (MARKET-01) --- */
+
+.section-why-ai {
+  text-align: center;
+}
+
+.section-why-ai .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-ai-title {
+  font-family: var(--font-headline);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  max-width: 700px;
+}
+
+.why-ai-subtitle {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.3vw, 1.1rem);
+  color: var(--color-text-secondary);
+  max-width: 640px;
+  line-height: 1.7;
+  margin-bottom: 48px;
+}
+
+/* --- Stats grid (MARKET-02, MARKET-07) --- */
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 56px;
+}
+
+/* --- Individual stat card (MARKET-02) --- */
+
+.stat-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  transition: border-color var(--transition-default), box-shadow var(--transition-default), transform var(--transition-default);
+}
+
+.stat-card:hover {
+  border-color: rgba(0, 200, 255, 0.2);
+  box-shadow: 0 0 30px rgba(0, 200, 255, 0.08);
+  transform: translateY(-4px);
+}
+
+/* --- Stat number: large cyan JetBrains Mono (MARKET-02) --- */
+
+.stat-number {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  color: var(--color-cyan);
+  line-height: 1.1;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+
+/* --- Stat description --- */
+
+.stat-desc {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+/* --- Stat source: discrete citation (MARKET-02) --- */
+
+.stat-source {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  letter-spacing: 0.01em;
+}
+
+/* --- Transition phrase + CTA (MARKET-05, MARKET-06) --- */
+
+.market-transition {
+  text-align: center;
+  max-width: 700px;
+}
+
+.transition-phrase {
+  font-family: var(--font-headline);
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-weight: 700;
+  color: var(--color-cyan);
+  line-height: 1.4;
+  margin-bottom: 28px;
+  letter-spacing: -0.01em;
+}
+
+.btn-cta-market {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  background: var(--color-cyan);
+  color: var(--color-primary);
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 0 30px rgba(0, 200, 255, 0.3), 0 0 60px rgba(0, 200, 255, 0.1);
+  transition: box-shadow var(--transition-default), transform 0.2s ease;
+}
+
+.btn-cta-market:hover {
+  color: var(--color-primary);
+  box-shadow: 0 0 50px rgba(0, 200, 255, 0.5), 0 0 100px rgba(0, 200, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* --- Responsive: tablet 768px (2-column grid) --- */
+
+@media (max-width: 1024px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+/* --- Responsive: mobile (single column stack) --- */
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 400px;
+  }
+
+  .stat-card {
+    padding: 24px 20px;
+  }
+
+  .why-ai-subtitle {
+    margin-bottom: 32px;
+  }
+
+  .market-transition {
+    max-width: 100%;
+  }
+
+  .btn-cta-market {
+    width: 100%;
+    max-width: 320px;
+    padding: 18px 32px;
+  }
+}
+
+@media (max-width: 375px) {
+  .stat-number {
+    font-size: 2.2rem;
+  }
+}
