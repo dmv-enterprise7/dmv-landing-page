@@ -27,15 +27,15 @@
 
 ### Hero Section (HERO)
 
-- [ ] **HERO-01**: Layout assimetrico desktop -- texto a esquerda (60%) / logo com efeito a direita (40%)
-- [ ] **HERO-02**: Badge/tag acima da headline: "Agencia de Automacao com IA" -- font-mono, cor ciano, fundo glass pill
-- [ ] **HERO-03**: Headline principal enorme e bold: "Seu negocio no piloto automatico com Inteligencia Artificial" -- `font-size: clamp(2.5rem, 5vw, 4.5rem)`, `font-weight: 800`
-- [ ] **HERO-04**: Sub-headline de suporte 1-2 frases explicando o servico em PT e EN
-- [ ] **HERO-05**: Botao CTA primario com glow ciano + pulse animation -> WhatsApp
-- [ ] **HERO-06**: Link CTA secundario "Ver como funciona" com scroll suave para secao How It Works
-- [ ] **HERO-07**: Logo DMV exibida a direita com efeito de glow atmosferico (box-shadow radial ciano) integrada ao background como se navegasse no espaco
-- [ ] **HERO-08**: Selo inferior "Demonstracao 100% gratuita - Sem compromisso - Resposta imediata" com icone de check
-- [ ] **HERO-09**: Layout responsivo -- empilhado em mobile (full-width, logo centralizada abaixo do texto)
+- [x] **HERO-01**: Layout assimetrico desktop -- texto a esquerda (60%) / logo com efeito a direita (40%)
+- [x] **HERO-02**: Badge/tag acima da headline: "Agencia de Automacao com IA" -- font-mono, cor ciano, fundo glass pill
+- [x] **HERO-03**: Headline principal enorme e bold: "Seu negocio no piloto automatico com Inteligencia Artificial" -- `font-size: clamp(2.5rem, 5vw, 4.5rem)`, `font-weight: 800`
+- [x] **HERO-04**: Sub-headline de suporte 1-2 frases explicando o servico em PT e EN
+- [x] **HERO-05**: Botao CTA primario com glow ciano + pulse animation -> WhatsApp
+- [x] **HERO-06**: Link CTA secundario "Ver como funciona" com scroll suave para secao How It Works
+- [x] **HERO-07**: Logo DMV exibida a direita com efeito de glow atmosferico (box-shadow radial ciano) integrada ao background como se navegasse no espaco
+- [x] **HERO-08**: Selo inferior "Demonstracao 100% gratuita - Sem compromisso - Resposta imediata" com icone de check
+- [x] **HERO-09**: Layout responsivo -- empilhado em mobile (full-width, logo centralizada abaixo do texto)
 
 ### Market Data Section (MARKET)
 
@@ -99,7 +99,7 @@
 - [ ] **CTA-03**: Badges de reforco abaixo do botao: "Sem compromisso - 100% gratuito - Resposta imediata"
 - [ ] **CTA-04**: Floating WhatsApp button fixo no canto inferior direito -- icone SVG oficial verde, circular, pulse animation, z-index 9999
 - [ ] **CTA-05**: Tooltip "Fale conosco" no hover do floating button
-- [ ] **CTA-06**: Todos os CTAs da pagina apontam para `https://wa.me/5522981113794`
+- [x] **CTA-06**: Todos os CTAs da pagina apontam para `https://wa.me/5522981113794`
 
 ### Footer (FOOT)
 
@@ -188,18 +188,18 @@
 | I18N-02 | Phase 1: Foundation | Complete |
 | I18N-03 | Phase 1: Foundation | Complete |
 | I18N-04 | Phase 1: Foundation | Complete |
-| HERO-01 | Phase 2: Hero + Floating CTA | Pending |
-| HERO-02 | Phase 2: Hero + Floating CTA | Pending |
-| HERO-03 | Phase 2: Hero + Floating CTA | Pending |
-| HERO-04 | Phase 2: Hero + Floating CTA | Pending |
-| HERO-05 | Phase 2: Hero + Floating CTA | Pending |
-| HERO-06 | Phase 2: Hero + Floating CTA | Pending |
-| HERO-07 | Phase 2: Hero + Floating CTA | Pending |
-| HERO-08 | Phase 2: Hero + Floating CTA | Pending |
-| HERO-09 | Phase 2: Hero + Floating CTA | Pending |
+| HERO-01 | Phase 2: Hero + Floating CTA | Complete |
+| HERO-02 | Phase 2: Hero + Floating CTA | Complete |
+| HERO-03 | Phase 2: Hero + Floating CTA | Complete |
+| HERO-04 | Phase 2: Hero + Floating CTA | Complete |
+| HERO-05 | Phase 2: Hero + Floating CTA | Complete |
+| HERO-06 | Phase 2: Hero + Floating CTA | Complete |
+| HERO-07 | Phase 2: Hero + Floating CTA | Complete |
+| HERO-08 | Phase 2: Hero + Floating CTA | Complete |
+| HERO-09 | Phase 2: Hero + Floating CTA | Complete |
 | CTA-04 | Phase 2: Hero + Floating CTA | Pending |
 | CTA-05 | Phase 2: Hero + Floating CTA | Pending |
-| CTA-06 | Phase 2: Hero + Floating CTA | Pending |
+| CTA-06 | Phase 2: Hero + Floating CTA | Complete |
 | MARKET-01 | Phase 3: Market Data | Pending |
 | MARKET-02 | Phase 3: Market Data | Pending |
 | MARKET-03 | Phase 3: Market Data | Pending |

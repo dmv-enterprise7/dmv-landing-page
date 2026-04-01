@@ -52,7 +52,7 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 02-01-PLAN.md — Hero section HTML + CSS (asymmetric layout, badge, headline, CTAs, logo glow, seal, responsive, i18n keys)
+- [x] 02-01-PLAN.md — Hero section HTML + CSS (asymmetric layout, badge, headline, CTAs, logo glow, seal, responsive, i18n keys)
 - [ ] 02-02-PLAN.md — Floating WhatsApp button (fixed positioning, pulse animation, hover tooltip, i18n tooltip key)
 
 ### Phase 3: Market Data
@@ -141,7 +141,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-04-01 |
-| 2. Hero + Floating CTA | 0/2 | Planned | - |
+| 2. Hero + Floating CTA | 1/2 | In Progress|  |
 | 3. Market Data | 0/1 | Not started | - |
 | 4. Pain Points + Services | 0/2 | Not started | - |
 | 5. Process + Differentials | 0/2 | Not started | - |

@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: verifying
-stopped_at: Completed 01-02-PLAN.md (Navbar + i18n + Mobile Drawer)
-last_updated: "2026-04-01T04:52:59.953Z"
+stopped_at: Completed 02-01-PLAN.md (Hero Section)
+last_updated: "2026-04-01T05:14:38.852Z"
 last_activity: 2026-04-01
 progress:
   total_phases: 7
   completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
+  total_plans: 4
+  completed_plans: 3
   percent: 0
 ---
 
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-01)
 
 **Core value:** Todo CTA apontando para `https://wa.me/5522981113794` e visivel em todos os dispositivos — se o visitante chegar ao WhatsApp, a pagina cumpriu seu proposito.
-**Current focus:** Phase 1 — foundation
+**Current focus:** Phase 2 — Hero + Floating CTA
 
 ## Current Position
 
-Phase: 1 of 7 (Foundation)
-Plan: 2 of 2 in current phase (Wave 2 pending)
-Status: Phase complete — ready for verification
+Phase: 2 of 7 (Hero + Floating CTA)
+Plan: 1 of 2 in current phase
+Status: In progress
 Last activity: 2026-04-01
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [████████░░] 75%
 
 ## Performance Metrics
 
@@ -54,6 +54,7 @@ Progress: [░░░░░░░░░░] 0%
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 3min | 2 tasks | 3 files |
 | Phase 01-foundation P02 | 3min | 3 tasks | 2 files |
+| Phase 02-hero-floating-cta P01 | 2min | 3 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,10 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: i18n uses var for broadest browser compat on vanilla project
 - [Phase 01-foundation]: Mobile CTA hidden below 768px; floating WhatsApp FAB serves mobile CTA
 - [Phase 01-foundation]: Hero section min-height:100vh ensures scroll distance for glassmorphism testing
+- [Phase 02-hero-floating-cta]: Hero grid uses 1fr 0.65fr for 60/40 split
+- [Phase 02-hero-floating-cta]: Logo glow uses ::before pseudo-element with radial-gradient + blur(30px)
+- [Phase 02-hero-floating-cta]: CTA pulse animation uses scale(1.03) at 2.5s interval
+- [Phase 02-hero-floating-cta]: Inline SVG checkmarks in seal items for zero dependencies
 
 ### Pending Todos
 
@@ -84,6 +89,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T04:52:59.950Z
-Stopped at: Completed 01-02-PLAN.md (Navbar + i18n + Mobile Drawer)
+Last session: 2026-04-01T05:14:38.844Z
+Stopped at: Completed 02-01-PLAN.md (Hero Section)
 Resume file: None
