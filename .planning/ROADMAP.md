@@ -32,12 +32,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Navbar transitions from transparent to glassmorphism (backdrop-blur + shadow) when user scrolls down
   4. Language toggle in the header switches all page text between PT and EN instantly without reload, with the active language visually highlighted
   5. On mobile (375px), hamburger icon opens a slide-in drawer with nav links that close the drawer on tap
-**Plans**: TBD
+**Plans**: 2 plans
 **UI hint**: yes
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md — HTML structure + CSS foundation (design tokens, gradient blobs, starfield, Google Fonts)
+- [ ] 01-02-PLAN.md — Navbar with glassmorphism + mobile drawer + i18n system (PT/EN toggle)
 
 ### Phase 2: Hero + Floating CTA
 **Goal**: Visitor lands on a visually dominant hero section that communicates the value proposition and makes it effortless to reach WhatsApp from anywhere on the page
@@ -140,7 +140,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/2 | Not started | - |
+| 1. Foundation | 0/2 | Planned | - |
 | 2. Hero + Floating CTA | 0/2 | Not started | - |
 | 3. Market Data | 0/1 | Not started | - |
 | 4. Pain Points + Services | 0/2 | Not started | - |
