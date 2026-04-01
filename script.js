@@ -431,3 +431,80 @@ function setLanguage(lang) {
     });
   });
 })();
+
+
+/* === Part 8: Scroll Reveal (ANIM-01) === */
+
+(function() {
+  // Selectors for standalone reveal elements (observed individually)
+  var standaloneSelectors = [
+    'section h2',
+    '.why-ai-subtitle',
+    '.services-subtitle',
+    '.how-subtitle',
+    '.diff-subtitle',
+    '.faq-subtitle',
+    '.cta-final-sub',
+    '.cta-final-headline',
+    '.hero-badge',
+    '.section-badge',
+    '.about-inner',
+    '.market-transition',
+    '.pain-transition',
+    '.how-cta',
+    '.cta-badges'
+  ];
+
+  // Selectors for grid/flex siblings (CSS nth-child stagger applies)
+  var siblingSelectors = [
+    '.stats-grid > .stat-card',
+    '.pain-points-grid > .pain-card',
+    '.services-bento > .service-card',
+    '.how-it-works-steps > .step-card',
+    '.diff-grid > .diff-card',
+    '.faq-list > .faq-item',
+    '.cta-badges > .cta-badge-item'
+  ];
+
+  // Add .reveal class to all target elements
+  standaloneSelectors.forEach(function(sel) {
+    document.querySelectorAll(sel).forEach(function(el) {
+      el.classList.add('reveal');
+    });
+  });
+
+  siblingSelectors.forEach(function(sel) {
+    document.querySelectorAll(sel).forEach(function(el) {
+      el.classList.add('reveal');
+    });
+  });
+
+  // Observe each .reveal element — reveal it once and disconnect
+  var revealElements = document.querySelectorAll('.reveal');
+  if (revealElements.length === 0) return;
+
+  // Check for reduced-motion preference — skip animation entirely
+  var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReduced) {
+    revealElements.forEach(function(el) {
+      el.classList.add('revealed');
+    });
+    return;
+  }
+
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        observer.unobserve(entry.target); // disconnect per element for performance
+      }
+    });
+  }, {
+    threshold: 0.15,
+    rootMargin: '0px 0px -40px 0px'
+  });
+
+  revealElements.forEach(function(el) {
+    observer.observe(el);
+  });
+})();
