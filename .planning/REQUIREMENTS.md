@@ -56,11 +56,11 @@
 
 ### Services (SERV)
 
-- [ ] **SERV-01**: Secao "Solucoes sob medida para o seu negocio" com subtitulo
-- [ ] **SERV-02**: 6 cards de servico em bento-grid ou layout assimetrico (NAO grid 3x2 generico)
-- [ ] **SERV-03**: Servicos reais: Assistentes Virtuais com IA / Automacao de Processos / Fluxos Inteligentes de WhatsApp / Web Apps Customizadas / Qualificacao Automatica de Leads / Gestao Inteligente de Agenda
-- [ ] **SERV-04**: Cada card: glassmorphism (rgba(255,255,255,0.04) + backdrop-blur) + icone + titulo bold + descricao 2 linhas
-- [ ] **SERV-05**: Hover nos cards: border-color ciano + translate-y(-4px) + box-shadow glow (0.3s ease)
+- [x] **SERV-01**: Secao "Solucoes sob medida para o seu negocio" com subtitulo
+- [x] **SERV-02**: 6 cards de servico em bento-grid ou layout assimetrico (NAO grid 3x2 generico)
+- [x] **SERV-03**: Servicos reais: Assistentes Virtuais com IA / Automacao de Processos / Fluxos Inteligentes de WhatsApp / Web Apps Customizadas / Qualificacao Automatica de Leads / Gestao Inteligente de Agenda
+- [x] **SERV-04**: Cada card: glassmorphism (rgba(255,255,255,0.04) + backdrop-blur) + icone + titulo bold + descricao 2 linhas
+- [x] **SERV-05**: Hover nos cards: border-color ciano + translate-y(-4px) + box-shadow glow (0.3s ease)
 
 ### How It Works (PROC)
 
@@ -212,11 +212,11 @@
 | PAIN-02 | Phase 4: Pain Points + Services | Complete |
 | PAIN-03 | Phase 4: Pain Points + Services | Complete |
 | PAIN-04 | Phase 4: Pain Points + Services | Complete |
-| SERV-01 | Phase 4: Pain Points + Services | Pending |
-| SERV-02 | Phase 4: Pain Points + Services | Pending |
-| SERV-03 | Phase 4: Pain Points + Services | Pending |
-| SERV-04 | Phase 4: Pain Points + Services | Pending |
-| SERV-05 | Phase 4: Pain Points + Services | Pending |
+| SERV-01 | Phase 4: Pain Points + Services | Complete |
+| SERV-02 | Phase 4: Pain Points + Services | Complete |
+| SERV-03 | Phase 4: Pain Points + Services | Complete |
+| SERV-04 | Phase 4: Pain Points + Services | Complete |
+| SERV-05 | Phase 4: Pain Points + Services | Complete |
 | PROC-01 | Phase 5: Process + Differentials | Pending |
 | PROC-02 | Phase 5: Process + Differentials | Pending |
 | PROC-03 | Phase 5: Process + Differentials | Pending |

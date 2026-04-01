@@ -84,7 +84,7 @@ Plans:
 
 Plans:
 - [x] 04-01-PLAN.md — Pain Points section (2x2 grid, SVG icons, gradient shift background, transition phrase, i18n)
-- [ ] 04-02-PLAN.md — Services section (bento-grid layout, 6 glassmorphism cards, hover glow, i18n)
+- [x] 04-02-PLAN.md — Services section (bento-grid layout, 6 glassmorphism cards, hover glow, i18n)
 
 ### Phase 5: Process + Differentials
 **Goal**: Visitor understands exactly how to get started (3 simple steps) and why DMV is the right choice — reducing friction and building confidence
