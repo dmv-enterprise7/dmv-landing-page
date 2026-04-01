@@ -1227,3 +1227,162 @@ section[id] {
     font-size: 0.88rem;
   }
 }
+
+/* ============================================
+   SERVICES SECTION — "Solucoes sob medida" (SERV-01 through SERV-05)
+   ============================================ */
+
+.section-services {
+  text-align: center;
+}
+
+.section-services .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- Section title (SERV-01) --- */
+
+.section-services h2 {
+  font-family: var(--font-headline);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.services-subtitle {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.3vw, 1.1rem);
+  color: var(--color-text-secondary);
+  max-width: 640px;
+  line-height: 1.7;
+  margin: 0 0 48px 0;
+}
+
+/* --- Bento grid: asymmetric layout (SERV-02) ---
+   4-column grid. Cards 1-2 (service-card-lg) span 2 cols each = full row.
+   Cards 3-6 each span 1 col = second row of 4 items.
+   This avoids the generic 3x2 grid per user decision. */
+
+.services-bento {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.service-card-lg {
+  grid-column: span 2;
+}
+
+/* --- Service card: glassmorphism (SERV-04) --- */
+
+.service-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border-radius: 20px;
+  padding: 32px 28px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: border-color var(--transition-default),
+              box-shadow var(--transition-default),
+              transform var(--transition-default);
+}
+
+/* --- Hover: cyan border + translate-y + glow (SERV-05) --- */
+
+.service-card:hover {
+  border-color: rgba(0, 200, 255, 0.25);
+  box-shadow: 0 0 30px rgba(0, 200, 255, 0.1), 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+/* --- Service icon --- */
+
+.service-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: rgba(0, 200, 255, 0.08);
+  border-radius: 14px;
+  color: var(--color-cyan);
+  flex-shrink: 0;
+}
+
+.service-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* --- Service title --- */
+
+.service-title {
+  font-family: var(--font-headline);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+  line-height: 1.3;
+}
+
+/* --- Service description --- */
+
+.service-desc {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* --- Responsive: tablet — 2 columns (SERV-02) --- */
+
+@media (max-width: 1024px) {
+  .services-bento {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .service-card-lg {
+    grid-column: span 1;
+  }
+}
+
+/* --- Responsive: mobile — single column --- */
+
+@media (max-width: 768px) {
+  .services-bento {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 400px;
+  }
+
+  .services-subtitle {
+    margin-bottom: 32px;
+  }
+
+  .service-card {
+    padding: 24px 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .service-title {
+    font-size: 1rem;
+  }
+
+  .service-desc {
+    font-size: 0.85rem;
+  }
+}
