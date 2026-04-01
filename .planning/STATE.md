@@ -21,13 +21,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-01)
 
 **Core value:** Todo CTA apontando para `https://wa.me/5522981113794` e visivel em todos os dispositivos — se o visitante chegar ao WhatsApp, a pagina cumpriu seu proposito.
-**Current focus:** Phase 1 - Foundation
+**Current focus:** Phase 1 — foundation
 
 ## Current Position
 
 Phase: 1 of 7 (Foundation)
-Plan: 1 of 2 in current phase
-Status: Ready to execute
+Plan: 2 of 2 in current phase (Wave 2 pending)
+Status: Executing
 Last activity: 2026-04-01
 
 Progress: [░░░░░░░░░░] 0%
