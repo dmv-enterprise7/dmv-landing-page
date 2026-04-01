@@ -130,8 +130,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 07-01: TBD
-- [ ] 07-02: TBD
+- [ ] 07-01-PLAN.md — Animations (scroll reveal CSS+JS, verify CTA pulse and card hovers)
+- [ ] 07-02-PLAN.md — Responsive + Accessibility audit and fixes
 
 ## Progress
 
