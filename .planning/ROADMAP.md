@@ -98,8 +98,8 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md — "Simples assim" How It Works section (3 steps, horizontal layout, connector line, numbered steps, CTA)
+- [ ] 05-02-PLAN.md — "Por que a DMV?" Differentials section (2x2 glassmorphism grid, 4 differentials, icon+title+desc)
 
 ### Phase 6: About + FAQ + Final CTA + Footer
 **Goal**: Visitor meets the team behind DMV, gets every objection answered in the FAQ, faces one last high-impact conversion moment, and sees a professional footer — the page is content-complete
