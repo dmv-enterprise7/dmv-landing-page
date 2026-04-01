@@ -518,3 +518,12 @@ section[id] {
     display: none;
   }
 }
+
+
+/* === Hero Section (scroll-test height) === */
+
+.section-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
