@@ -108,7 +108,13 @@ var translations = {
     'faq.q6': 'Voces dao suporte depois?',
     'faq.a6': 'Sim. Oferecemos suporte continuo e acompanhamento de resultados apos a implementacao.',
 
-    'cta.title': 'Pronto para colocar seu negocio no piloto automatico?',
+    // Final CTA section — Phase 06 (CTA-01 through CTA-03)
+    'cta.headline': 'Pronto para colocar seu negocio no piloto automatico?',
+    'cta.subheadline': 'Comece com uma conversa gratuita. Sem compromisso, sem tecnicidade.',
+    'cta.button': 'Falar com um especialista agora',
+    'cta.badge1': 'Sem compromisso',
+    'cta.badge2': '100% gratuito',
+    'cta.badge3': 'Resposta imediata',
 
     // Footer
     'footer.copy': '\u00A9 2025 DMV Enterprise. Todos os direitos reservados.',
@@ -216,7 +222,13 @@ var translations = {
     'faq.q6': 'Do you provide support afterwards?',
     'faq.a6': 'Yes. We offer ongoing support and performance tracking after implementation.',
 
-    'cta.title': 'Ready to put your business on autopilot?',
+    // Final CTA section — Phase 06 (CTA-01 through CTA-03)
+    'cta.headline': 'Ready to put your business on autopilot?',
+    'cta.subheadline': 'Start with a free conversation. No commitment, no technical jargon.',
+    'cta.button': 'Talk to a specialist now',
+    'cta.badge1': 'No commitment',
+    'cta.badge2': '100% free',
+    'cta.badge3': 'Immediate response',
 
     // Footer
     'footer.copy': '\u00A9 2025 DMV Enterprise. All rights reserved.',

@@ -1992,3 +1992,316 @@ section[id] {
     font-size: 0.95rem;
   }
 }
+
+/* ============================================================
+   FINAL CTA SECTION (CTA-01 through CTA-03)
+   ============================================================ */
+
+.section-cta-final {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* --- Dramatic cyan background blob (CTA-02) --- */
+
+.cta-final-blob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(0, 200, 255, 0.22) 0%, rgba(0, 200, 255, 0.08) 40%, transparent 70%);
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+  border-radius: 50%;
+}
+
+.cta-final-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+/* --- Large headline (CTA-01) --- */
+
+.cta-final-headline {
+  font-family: var(--font-headline);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 800;
+  color: var(--color-text);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  max-width: 720px;
+  margin: 0;
+}
+
+.cta-final-sub {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  color: var(--color-text-secondary);
+  max-width: 500px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* --- Oversized WhatsApp button with max glow (CTA-01) --- */
+/* NOTE: larger than btn-cta-hero (16px/32px); cta-pulse keyframes already defined */
+
+.btn-cta-final {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 52px;
+  background: var(--color-cyan);
+  color: var(--color-primary);
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: clamp(1.1rem, 1.8vw, 1.35rem);
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  min-width: 320px;
+  box-shadow:
+    0 0 40px rgba(0, 200, 255, 0.5),
+    0 0 80px rgba(0, 200, 255, 0.25),
+    0 0 160px rgba(0, 200, 255, 0.1);
+  transition: box-shadow var(--transition-default), transform var(--transition-fast);
+  animation: cta-pulse 2.5s ease-in-out infinite;
+}
+
+.btn-cta-final:hover {
+  color: var(--color-primary);
+  box-shadow:
+    0 0 60px rgba(0, 200, 255, 0.65),
+    0 0 120px rgba(0, 200, 255, 0.35),
+    0 0 200px rgba(0, 200, 255, 0.15);
+  transform: translateY(-3px) scale(1.02);
+}
+
+/* --- Reinforcement badges (CTA-03) --- */
+
+.cta-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.cta-badge-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.cta-badge-item svg {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .cta-final-blob {
+    width: 500px;
+    height: 500px;
+  }
+  .btn-cta-final {
+    padding: 18px 36px;
+    min-width: 0;
+    width: 100%;
+    max-width: 380px;
+    font-size: 1.1rem;
+  }
+  .cta-badges {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cta-final-headline {
+    font-size: 1.75rem;
+  }
+  .cta-badge-item {
+    font-size: 0.85rem;
+  }
+}
+
+
+/* ============================================================
+   FOOTER (FOOT-01, FOOT-02)
+   ============================================================ */
+
+.footer {
+  padding: 56px 0 0;
+  border-top: 1px solid var(--color-border);
+  position: relative;
+  z-index: 1;
+}
+
+/* --- 3-column desktop grid (FOOT-01) --- */
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: start;
+  gap: 40px;
+  padding-bottom: 48px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-logo-link {
+  display: inline-block;
+  width: fit-content;
+}
+
+.footer-logo-img {
+  width: 90px;
+  height: auto;
+  opacity: 0.9;
+  border-radius: 6px;
+}
+
+.footer-tagline-brand {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 220px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-nav a {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+  white-space: nowrap;
+}
+
+.footer-nav a:hover {
+  color: var(--color-cyan);
+}
+
+.footer-whatsapp {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.footer-wa-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  background: rgba(37, 211, 102, 0.12);
+  border: 1px solid rgba(37, 211, 102, 0.2);
+  border-radius: 50%;
+  transition: background var(--transition-default), box-shadow var(--transition-default), transform var(--transition-fast);
+}
+
+.footer-wa-link:hover {
+  background: rgba(37, 211, 102, 0.2);
+  box-shadow: 0 0 20px rgba(37, 211, 102, 0.25);
+  transform: scale(1.08);
+}
+
+/* --- Bottom bar: copyright (FOOT-02) --- */
+
+.footer-bottom {
+  border-top: 1px solid var(--color-border);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-copy {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* --- Responsive: tablet --- */
+
+@media (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .footer-whatsapp {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .footer-nav {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 28px;
+  }
+}
+
+/* --- Responsive: mobile — single column (FOOT-01) --- */
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 48px 0 0;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: unset;
+    text-align: center;
+    gap: 32px;
+  }
+  .footer-brand {
+    align-items: center;
+  }
+  .footer-logo-link {
+    margin: 0 auto;
+  }
+  .footer-tagline-brand {
+    max-width: 280px;
+    text-align: center;
+  }
+  .footer-nav {
+    grid-column: unset;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .footer-whatsapp {
+    grid-column: unset;
+    grid-row: unset;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer-copy {
+    font-size: 0.78rem;
+  }
+}
