@@ -13,7 +13,7 @@ This roadmap delivers a high-conversion bilingual landing page for DMV Enterpris
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Foundation** - HTML structure, CSS system, fonts, background visuals, navbar, and i18n toggle
-- [x] **Phase 2: Hero + Floating CTA** - Hero section with all elements and the ever-present WhatsApp floating button (completed 2026-04-01)
+- [x] **Phase 2: Hero + Floating CTA** - Hero section with all elements and the ever-present WhatsApp floating button (completed 2026-04-01)
 - [x] **Phase 3: Market Data** - "Por que IA?" section with real statistics, counter animation, and transition CTA (completed 2026-04-01)
 - [ ] **Phase 4: Pain Points + Services** - Problem identification section and bento-grid service cards
 - [x] **Phase 5: Process + Differentials** - 3-step "How It Works" timeline and "Why DMV" arguments (completed 2026-04-01)
@@ -114,8 +114,8 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 06-01: TBD
-- [ ] 06-02: TBD
+- [ ] 06-01-PLAN.md — About section (founders mission + bold names + decorative logo glow + badge) + FAQ accordion (6 questions, max-height, icon rotation, aria-expanded)
+- [ ] 06-02-PLAN.md — Final CTA section (dramatic cyan blob, oversized glow button, 3 badges) + Footer (3-column layout, logo, nav links, WhatsApp icon, copyright)
 
 ### Phase 7: Polish & QA
 **Goal**: The complete page is polished, performant, fully responsive, accessible, and bilingual — ready for production deployment
