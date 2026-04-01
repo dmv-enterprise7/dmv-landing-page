@@ -64,12 +64,12 @@
 
 ### How It Works (PROC)
 
-- [ ] **PROC-01**: Secao "Simples assim" com 3 passos em linha horizontal no desktop
-- [ ] **PROC-02**: Linha/path conectando os 3 passos visualmente
-- [ ] **PROC-03**: Numeros grandes estilizados (01, 02, 03) em ciano, JetBrains Mono
-- [ ] **PROC-04**: 3 passos reais: "Conversa Inicial" / "Solucao Sob Medida" / "Resultados na Pratica" -- cada um com icone e descricao
-- [ ] **PROC-05**: Layout vertical com timeline em mobile
-- [ ] **PROC-06**: CTA "Comecar agora -- e 100% gratuito" -> WhatsApp
+- [x] **PROC-01**: Secao "Simples assim" com 3 passos em linha horizontal no desktop
+- [x] **PROC-02**: Linha/path conectando os 3 passos visualmente
+- [x] **PROC-03**: Numeros grandes estilizados (01, 02, 03) em ciano, JetBrains Mono
+- [x] **PROC-04**: 3 passos reais: "Conversa Inicial" / "Solucao Sob Medida" / "Resultados na Pratica" -- cada um com icone e descricao
+- [x] **PROC-05**: Layout vertical com timeline em mobile
+- [x] **PROC-06**: CTA "Comecar agora -- e 100% gratuito" -> WhatsApp
 
 ### Differentials (DIFF)
 
@@ -217,12 +217,12 @@
 | SERV-03 | Phase 4: Pain Points + Services | Complete |
 | SERV-04 | Phase 4: Pain Points + Services | Complete |
 | SERV-05 | Phase 4: Pain Points + Services | Complete |
-| PROC-01 | Phase 5: Process + Differentials | Pending |
-| PROC-02 | Phase 5: Process + Differentials | Pending |
-| PROC-03 | Phase 5: Process + Differentials | Pending |
-| PROC-04 | Phase 5: Process + Differentials | Pending |
-| PROC-05 | Phase 5: Process + Differentials | Pending |
-| PROC-06 | Phase 5: Process + Differentials | Pending |
+| PROC-01 | Phase 5: Process + Differentials | Complete |
+| PROC-02 | Phase 5: Process + Differentials | Complete |
+| PROC-03 | Phase 5: Process + Differentials | Complete |
+| PROC-04 | Phase 5: Process + Differentials | Complete |
+| PROC-05 | Phase 5: Process + Differentials | Complete |
+| PROC-06 | Phase 5: Process + Differentials | Complete |
 | DIFF-01 | Phase 5: Process + Differentials | Pending |
 | DIFF-02 | Phase 5: Process + Differentials | Pending |
 | DIFF-03 | Phase 5: Process + Differentials | Pending |

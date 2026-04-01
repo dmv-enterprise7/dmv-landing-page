@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: verifying
-stopped_at: Completed 04-02-PLAN.md
-last_updated: "2026-04-01T05:50:23.590Z"
+stopped_at: Completed 05-process-differentials-01-PLAN.md
+last_updated: "2026-04-01T06:02:02.930Z"
 last_activity: 2026-04-01
 progress:
   total_phases: 7
   completed_phases: 4
-  total_plans: 7
-  completed_plans: 7
+  total_plans: 9
+  completed_plans: 8
   percent: 80
 ---
 
@@ -59,6 +59,7 @@ Progress: [████████░░] 80%
 | Phase 03-market-data P01 | 4min | 2 tasks | 3 files |
 | Phase 04-pain-points-services P01 | 8min | 2 tasks | 3 files |
 | Phase 04-pain-points-services P02 | 6min | 2 tasks | 3 files |
+| Phase 05-process-differentials P01 | 10 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -88,6 +89,9 @@ Recent decisions affecting current work:
 - [Phase 03-market-data]: Counter animation uses easeOutCubic over 2s with IntersectionObserver threshold 0.3
 - [Phase 03-market-data]: data-i18n-number=true flag prevents language toggle from overwriting animated values
 - [Phase 03-market-data]: Observer disconnects after first trigger for performance
+- [Phase 05-process-differentials]: Connector line uses ::after on .step-card:not(:last-child) at top:72px to align with icon row
+- [Phase 05-process-differentials]: Mobile timeline uses ::before vertical connector replacing ::after horizontal line at 768px breakpoint
+- [Phase 05-process-differentials]: CTA reuses btn-cta-hero class and existing cta-pulse animation — no new keyframes
 
 ### Pending Todos
 
@@ -99,6 +103,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T05:50:23.586Z
-Stopped at: Completed 04-02-PLAN.md
+Last session: 2026-04-01T06:02:02.927Z
+Stopped at: Completed 05-process-differentials-01-PLAN.md
 Resume file: None

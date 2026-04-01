@@ -98,7 +98,7 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 05-01-PLAN.md — "Simples assim" How It Works section (3 steps, horizontal layout, connector line, numbered steps, CTA)
+- [x] 05-01-PLAN.md — "Simples assim" How It Works section (3 steps, horizontal layout, connector line, numbered steps, CTA)
 - [ ] 05-02-PLAN.md — "Por que a DMV?" Differentials section (2x2 glassmorphism grid, 4 differentials, icon+title+desc)
 
 ### Phase 6: About + FAQ + Final CTA + Footer
@@ -144,6 +144,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 | 2. Hero + Floating CTA | 2/2 | Complete   | 2026-04-01 |
 | 3. Market Data | 1/1 | Complete | 2026-04-01 |
 | 4. Pain Points + Services | 0/2 | Not started | - |
-| 5. Process + Differentials | 0/2 | Not started | - |
+| 5. Process + Differentials | 1/2 | In Progress|  |
 | 6. About + FAQ + Final CTA + Footer | 0/2 | Not started | - |
 | 7. Polish & QA | 0/2 | Not started | - |
