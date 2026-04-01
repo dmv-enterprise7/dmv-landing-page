@@ -79,12 +79,12 @@ Plans:
   2. Cyan transition phrase below pain points connects to the services section
   3. Services section displays 6 real service cards in a bento-grid or asymmetric layout (not a generic 3x2 grid), each with glassmorphism styling, icon, bold title, and 2-line description
   4. Service cards respond to hover with cyan border, upward translate, and glow shadow effect
-**Plans**: TBD
+**Plans**: 2 plans
 **UI hint**: yes
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
+- [ ] 04-01-PLAN.md — Pain Points section (2x2 grid, SVG icons, gradient shift background, transition phrase, i18n)
+- [ ] 04-02-PLAN.md — Services section (bento-grid layout, 6 glassmorphism cards, hover glow, i18n)
 
 ### Phase 5: Process + Differentials
 **Goal**: Visitor understands exactly how to get started (3 simple steps) and why DMV is the right choice — reducing friction and building confidence
@@ -94,7 +94,7 @@ Plans:
   1. "Simples assim" section shows 3 steps in a horizontal layout on desktop with a visual path/line connecting them, and switches to a vertical timeline on mobile
   2. Each step displays a styled number (01, 02, 03) in cyan JetBrains Mono, an icon, a title, and a description, followed by a CTA button linking to WhatsApp
   3. "Por que a DMV?" section presents 4 real differentials in a 2x2 grid or elegant list, each with icon, bold title, and description — no fabricated testimonials or metrics
-**Plans**: TBD
+**Plans**: 2 plans
 **UI hint**: yes
 
 Plans:
@@ -110,7 +110,7 @@ Plans:
   2. FAQ section shows 6 real questions in an accordion that opens/closes with smooth max-height transition, "+" icon rotates 45 degrees to "x" on expand, and aria-expanded attributes are present
   3. Final CTA section has a dramatic background (intense cyan blob), enormous glowing WhatsApp button with pulse animation, and reinforcement badges below
   4. Footer displays DMV logo, repeated navigation links, WhatsApp icon, copyright, and tagline
-**Plans**: TBD
+**Plans**: 2 plans
 **UI hint**: yes
 
 Plans:
@@ -127,7 +127,7 @@ Plans:
   3. Touch targets are at least 44px on mobile, text is legible without zoom at 375px, and all animations use only GPU-friendly properties (transform, opacity)
   4. Focus states are visible (cyan outline) on all interactive elements, alt text exists on all images, WCAG AA contrast is met on all text, and no placeholder/Lorem Ipsum content remains
   5. Language toggle switches every text element on the page correctly in both PT and EN, and English translations read naturally (not literal)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
 - [ ] 07-01: TBD
