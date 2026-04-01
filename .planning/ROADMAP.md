@@ -64,11 +64,11 @@ Plans:
   2. Numbers animate from 0 to their final value when the section scrolls into the viewport (counter animation via IntersectionObserver)
   3. Section includes a compelling transition phrase and a CTA linking to WhatsApp below the data cards
   4. Data cards display in a horizontal row on desktop and stack vertically on mobile
-**Plans**: TBD
+**Plans**: 1 plan
 **UI hint**: yes
 
 Plans:
-- [ ] 03-01: TBD
+- [ ] 03-01-PLAN.md -- Market data HTML + CSS + counter animation JS + i18n (6 data cards, transition CTA)
 
 ### Phase 4: Pain Points + Services
 **Goal**: Visitor recognizes their own business frustrations in the pain points and immediately sees DMV's tailored solutions — building desire for the service
