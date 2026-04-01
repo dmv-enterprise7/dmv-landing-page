@@ -15,8 +15,17 @@ var translations = {
     'nav.faq': 'FAQ',
     'nav.cta': 'Agendar Demo Gratis',
 
+    // Hero section
+    'hero.badge': '\u2726 Agencia de Automacao com IA',
+    'hero.headline': 'Seu negocio no piloto automatico com Inteligencia Artificial',
+    'hero.subheadline': 'Criamos assistentes virtuais e automacoes sob medida que atendem seus clientes 24h, organizam seus processos e liberam seu tempo para o que realmente importa.',
+    'hero.cta-primary': 'Agendar Demonstracao Gratuita',
+    'hero.cta-secondary': 'Ver como funciona \u2193',
+    'hero.seal-1': 'Demonstracao 100% gratuita',
+    'hero.seal-2': 'Sem compromisso',
+    'hero.seal-3': 'Resposta imediata',
+
     // Section titles (placeholders for future phases)
-    'hero.title': 'Seu negocio no piloto automatico com Inteligencia Artificial',
     'why-ai.title': 'Por que IA?',
     'pain.title': 'Isso e familiar?',
     'services.title': 'Solucoes sob medida para o seu negocio',
@@ -39,8 +48,17 @@ var translations = {
     'nav.faq': 'FAQ',
     'nav.cta': 'Schedule Free Demo',
 
+    // Hero section
+    'hero.badge': '\u2726 AI Automation Agency',
+    'hero.headline': 'Your business on autopilot with Artificial Intelligence',
+    'hero.subheadline': 'We build custom virtual assistants and automations that serve your customers 24/7, streamline your operations, and free your time for what truly matters.',
+    'hero.cta-primary': 'Schedule Free Demo',
+    'hero.cta-secondary': 'See how it works \u2193',
+    'hero.seal-1': 'Free demo, no strings attached',
+    'hero.seal-2': 'No commitment required',
+    'hero.seal-3': 'Immediate response',
+
     // Section titles (natural English — NOT literal translations per I18N-04)
-    'hero.title': 'Your business on autopilot with Artificial Intelligence',
     'why-ai.title': 'Why AI?',
     'pain.title': 'Does this sound familiar?',
     'services.title': 'Custom-built solutions for your business',
