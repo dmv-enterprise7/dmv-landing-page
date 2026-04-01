@@ -79,18 +79,18 @@
 
 ### About (ABOUT)
 
-- [ ] **ABOUT-01**: Secao "Quem esta por tras da DMV" com texto apresentando os 3 fundadores em bold: Mariel Junior, Vitor Pellegrino, Daniel Jachelli
-- [ ] **ABOUT-02**: Texto real da missao da empresa
-- [ ] **ABOUT-03**: Badge/selo "Driven Mind Vanguard -- Vanguarda da Mente Direcionada"
-- [ ] **ABOUT-04**: Sem fotos -- apenas nomes em bold no texto + elemento decorativo sutil (logo com glow baixo)
+- [x] **ABOUT-01**: Secao "Quem esta por tras da DMV" com texto apresentando os 3 fundadores em bold: Mariel Junior, Vitor Pellegrino, Daniel Jachelli
+- [x] **ABOUT-02**: Texto real da missao da empresa
+- [x] **ABOUT-03**: Badge/selo "Driven Mind Vanguard -- Vanguarda da Mente Direcionada"
+- [x] **ABOUT-04**: Sem fotos -- apenas nomes em bold no texto + elemento decorativo sutil (logo com glow baixo)
 
 ### FAQ (FAQ)
 
-- [ ] **FAQ-01**: Secao "Perguntas Frequentes" com accordion/collapse -- 6 perguntas
-- [ ] **FAQ-02**: 6 perguntas reais: Quanto custa? / Preciso entender de tecnologia? / Funciona para o meu negocio? / Quanto tempo leva? / E se eu nao gostar? / Voces dao suporte?
-- [ ] **FAQ-03**: Animacao de abertura/fechamento via `max-height` transition suave
-- [ ] **FAQ-04**: Icone "+" que rota 45 graus para "x" ao expandir
-- [ ] **FAQ-05**: `aria-expanded` nos accordions para acessibilidade
+- [x] **FAQ-01**: Secao "Perguntas Frequentes" com accordion/collapse -- 6 perguntas
+- [x] **FAQ-02**: 6 perguntas reais: Quanto custa? / Preciso entender de tecnologia? / Funciona para o meu negocio? / Quanto tempo leva? / E se eu nao gostar? / Voces dao suporte?
+- [x] **FAQ-03**: Animacao de abertura/fechamento via `max-height` transition suave
+- [x] **FAQ-04**: Icone "+" que rota 45 graus para "x" ao expandir
+- [x] **FAQ-05**: `aria-expanded` nos accordions para acessibilidade
 
 ### CTAs & Conversion (CTA)
 
@@ -226,15 +226,15 @@
 | DIFF-01 | Phase 5: Process + Differentials | Complete |
 | DIFF-02 | Phase 5: Process + Differentials | Complete |
 | DIFF-03 | Phase 5: Process + Differentials | Complete |
-| ABOUT-01 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
-| ABOUT-02 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
-| ABOUT-03 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
-| ABOUT-04 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
-| FAQ-01 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
-| FAQ-02 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
-| FAQ-03 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
-| FAQ-04 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
-| FAQ-05 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
+| ABOUT-01 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
+| ABOUT-02 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
+| ABOUT-03 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
+| ABOUT-04 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
+| FAQ-01 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
+| FAQ-02 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
+| FAQ-03 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
+| FAQ-04 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
+| FAQ-05 | Phase 6: About + FAQ + Final CTA + Footer | Complete |
 | CTA-01 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
 | CTA-02 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
 | CTA-03 | Phase 6: About + FAQ + Final CTA + Footer | Pending |

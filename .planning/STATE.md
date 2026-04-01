@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: verifying
-stopped_at: Completed 05-process-differentials-02-PLAN.md
-last_updated: "2026-04-01T06:05:52.785Z"
+stopped_at: Completed 06-about-faq-cta-footer-01-PLAN.md
+last_updated: "2026-04-01T06:28:51.312Z"
 last_activity: 2026-04-01
 progress:
   total_phases: 7
   completed_phases: 5
-  total_plans: 9
-  completed_plans: 9
+  total_plans: 11
+  completed_plans: 10
   percent: 80
 ---
 
@@ -61,6 +61,7 @@ Progress: [████████░░] 80%
 | Phase 04-pain-points-services P02 | 6min | 2 tasks | 3 files |
 | Phase 05-process-differentials P01 | 10 | 2 tasks | 3 files |
 | Phase 05-process-differentials P02 | 8min | 2 tasks | 3 files |
+| Phase 06 P01 | 8min | 3 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -95,6 +96,9 @@ Recent decisions affecting current work:
 - [Phase 05-process-differentials]: CTA reuses btn-cta-hero class and existing cta-pulse animation — no new keyframes
 - [Phase 05-process-differentials]: diff-grid max-width 900px (wider than pain-points 800px) to accommodate icon-left flex layout without text wrapping
 - [Phase 05-process-differentials]: diff-card uses flex row (icon left) vs service-card flex-column (icon top) — visual variety while reusing same glassmorphism tokens
+- [Phase 06]: About mission text split into prefix/suffix i18n keys so setLanguage() textContent replacement does not erase strong tags around founder names
+- [Phase 06]: FAQ accordion uses max-height:400px (not auto) so CSS transition animates correctly — auto is not transitionable
+- [Phase 06]: FAQ single-open: closes all other panels before toggling target to prevent multiple answers visible simultaneously
 
 ### Pending Todos
 
@@ -106,6 +110,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T06:05:52.781Z
-Stopped at: Completed 05-process-differentials-02-PLAN.md
+Last session: 2026-04-01T06:28:51.308Z
+Stopped at: Completed 06-about-faq-cta-footer-01-PLAN.md
 Resume file: None

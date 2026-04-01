@@ -114,7 +114,7 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 06-01-PLAN.md — About section (founders mission + bold names + decorative logo glow + badge) + FAQ accordion (6 questions, max-height, icon rotation, aria-expanded)
+- [x] 06-01-PLAN.md — About section (founders mission + bold names + decorative logo glow + badge) + FAQ accordion (6 questions, max-height, icon rotation, aria-expanded)
 - [ ] 06-02-PLAN.md — Final CTA section (dramatic cyan blob, oversized glow button, 3 badges) + Footer (3-column layout, logo, nav links, WhatsApp icon, copyright)
 
 ### Phase 7: Polish & QA
@@ -145,5 +145,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 | 3. Market Data | 1/1 | Complete | 2026-04-01 |
 | 4. Pain Points + Services | 0/2 | Not started | - |
 | 5. Process + Differentials | 2/2 | Complete   | 2026-04-01 |
-| 6. About + FAQ + Final CTA + Footer | 0/2 | Not started | - |
+| 6. About + FAQ + Final CTA + Footer | 1/2 | In Progress|  |
 | 7. Polish & QA | 0/2 | Not started | - |
