@@ -73,9 +73,9 @@
 
 ### Differentials (DIFF)
 
-- [ ] **DIFF-01**: Secao "Por que a DMV?" com 4 argumentos reais em grid 2x2 ou lista elegante
-- [ ] **DIFF-02**: 4 diferenciais: "100% Personalizado" / "Atendimento Humano e Proximo" / "Foco em Resultado Pratico" / "Funciona 24 horas, 7 dias"
-- [ ] **DIFF-03**: Cada diferencial com icone a esquerda + titulo bold + descricao -- sem inventar dados ou depoimentos
+- [x] **DIFF-01**: Secao "Por que a DMV?" com 4 argumentos reais em grid 2x2 ou lista elegante
+- [x] **DIFF-02**: 4 diferenciais: "100% Personalizado" / "Atendimento Humano e Proximo" / "Foco em Resultado Pratico" / "Funciona 24 horas, 7 dias"
+- [x] **DIFF-03**: Cada diferencial com icone a esquerda + titulo bold + descricao -- sem inventar dados ou depoimentos
 
 ### About (ABOUT)
 
@@ -223,9 +223,9 @@
 | PROC-04 | Phase 5: Process + Differentials | Complete |
 | PROC-05 | Phase 5: Process + Differentials | Complete |
 | PROC-06 | Phase 5: Process + Differentials | Complete |
-| DIFF-01 | Phase 5: Process + Differentials | Pending |
-| DIFF-02 | Phase 5: Process + Differentials | Pending |
-| DIFF-03 | Phase 5: Process + Differentials | Pending |
+| DIFF-01 | Phase 5: Process + Differentials | Complete |
+| DIFF-02 | Phase 5: Process + Differentials | Complete |
+| DIFF-03 | Phase 5: Process + Differentials | Complete |
 | ABOUT-01 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
 | ABOUT-02 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
 | ABOUT-03 | Phase 6: About + FAQ + Final CTA + Footer | Pending |
