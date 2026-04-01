@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: verifying
-stopped_at: Completed 02-01-PLAN.md (Hero Section)
-last_updated: "2026-04-01T05:14:38.852Z"
+status: executing
+stopped_at: Completed 02-02-PLAN.md (Floating WhatsApp Button)
+last_updated: "2026-04-01T05:20:04.102Z"
 last_activity: 2026-04-01
 progress:
   total_phases: 7
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 4
-  completed_plans: 3
-  percent: 0
+  completed_plans: 4
+  percent: 75
 ---
 
 # Project State
@@ -26,8 +26,8 @@ See: .planning/PROJECT.md (updated 2026-04-01)
 ## Current Position
 
 Phase: 2 of 7 (Hero + Floating CTA)
-Plan: 1 of 2 in current phase
-Status: In progress
+Plan: 2 of 2 in current phase
+Status: Ready to execute
 Last activity: 2026-04-01
 
 Progress: [████████░░] 75%
@@ -55,6 +55,7 @@ Progress: [████████░░] 75%
 | Phase 01-foundation P01 | 3min | 2 tasks | 3 files |
 | Phase 01-foundation P02 | 3min | 3 tasks | 2 files |
 | Phase 02-hero-floating-cta P01 | 2min | 3 tasks | 3 files |
+| Phase 02-hero-floating-cta P02 | 2min | 3 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -78,6 +79,8 @@ Recent decisions affecting current work:
 - [Phase 02-hero-floating-cta]: Logo glow uses ::before pseudo-element with radial-gradient + blur(30px)
 - [Phase 02-hero-floating-cta]: CTA pulse animation uses scale(1.03) at 2.5s interval
 - [Phase 02-hero-floating-cta]: Inline SVG checkmarks in seal items for zero dependencies
+- [Phase 02-hero-floating-cta]: whatsapp-pulse uses ring shadow expanding (not scale) to avoid conflict with cta-pulse
+- [Phase 02-hero-floating-cta]: Tooltip hidden on mobile (display:none at 768px) - touch devices lack hover
 
 ### Pending Todos
 
@@ -89,6 +92,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T05:14:38.844Z
-Stopped at: Completed 02-01-PLAN.md (Hero Section)
+Last session: 2026-04-01T05:20:04.097Z
+Stopped at: Completed 02-02-PLAN.md (Floating WhatsApp Button)
 Resume file: None

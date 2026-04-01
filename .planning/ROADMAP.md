@@ -13,7 +13,7 @@ This roadmap delivers a high-conversion bilingual landing page for DMV Enterpris
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Foundation** - HTML structure, CSS system, fonts, background visuals, navbar, and i18n toggle
-- [ ] **Phase 2: Hero + Floating CTA** - Hero section with all elements and the ever-present WhatsApp floating button
+- [x] **Phase 2: Hero + Floating CTA** - Hero section with all elements and the ever-present WhatsApp floating button (completed 2026-04-01)
 - [ ] **Phase 3: Market Data** - "Por que IA?" section with real statistics, counter animation, and transition CTA
 - [ ] **Phase 4: Pain Points + Services** - Problem identification section and bento-grid service cards
 - [ ] **Phase 5: Process + Differentials** - 3-step "How It Works" timeline and "Why DMV" arguments
@@ -53,7 +53,7 @@ Plans:
 
 Plans:
 - [x] 02-01-PLAN.md — Hero section HTML + CSS (asymmetric layout, badge, headline, CTAs, logo glow, seal, responsive, i18n keys)
-- [ ] 02-02-PLAN.md — Floating WhatsApp button (fixed positioning, pulse animation, hover tooltip, i18n tooltip key)
+- [x] 02-02-PLAN.md — Floating WhatsApp button (fixed positioning, pulse animation, hover tooltip, i18n tooltip key)
 
 ### Phase 3: Market Data
 **Goal**: Visitor sees real market statistics that build urgency and credibility for AI adoption, replacing traditional social proof the company doesn't yet have
@@ -141,7 +141,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-04-01 |
-| 2. Hero + Floating CTA | 1/2 | In Progress|  |
+| 2. Hero + Floating CTA | 2/2 | Complete   | 2026-04-01 |
 | 3. Market Data | 0/1 | Not started | - |
 | 4. Pain Points + Services | 0/2 | Not started | - |
 | 5. Process + Differentials | 0/2 | Not started | - |

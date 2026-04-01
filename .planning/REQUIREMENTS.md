@@ -97,8 +97,8 @@
 - [ ] **CTA-01**: CTA final com headline "Pronto para colocar seu negocio no piloto automatico?" e botao ENORME com glow maximo -> WhatsApp
 - [ ] **CTA-02**: Fundo dramatico na secao CTA final -- blob de luz ciano mais intenso
 - [ ] **CTA-03**: Badges de reforco abaixo do botao: "Sem compromisso - 100% gratuito - Resposta imediata"
-- [ ] **CTA-04**: Floating WhatsApp button fixo no canto inferior direito -- icone SVG oficial verde, circular, pulse animation, z-index 9999
-- [ ] **CTA-05**: Tooltip "Fale conosco" no hover do floating button
+- [x] **CTA-04**: Floating WhatsApp button fixo no canto inferior direito -- icone SVG oficial verde, circular, pulse animation, z-index 9999
+- [x] **CTA-05**: Tooltip "Fale conosco" no hover do floating button
 - [x] **CTA-06**: Todos os CTAs da pagina apontam para `https://wa.me/5522981113794`
 
 ### Footer (FOOT)
@@ -197,8 +197,8 @@
 | HERO-07 | Phase 2: Hero + Floating CTA | Complete |
 | HERO-08 | Phase 2: Hero + Floating CTA | Complete |
 | HERO-09 | Phase 2: Hero + Floating CTA | Complete |
-| CTA-04 | Phase 2: Hero + Floating CTA | Pending |
-| CTA-05 | Phase 2: Hero + Floating CTA | Pending |
+| CTA-04 | Phase 2: Hero + Floating CTA | Complete |
+| CTA-05 | Phase 2: Hero + Floating CTA | Complete |
 | CTA-06 | Phase 2: Hero + Floating CTA | Complete |
 | MARKET-01 | Phase 3: Market Data | Pending |
 | MARKET-02 | Phase 3: Market Data | Pending |
