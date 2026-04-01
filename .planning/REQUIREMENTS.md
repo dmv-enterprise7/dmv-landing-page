@@ -18,12 +18,12 @@
 
 ### Navigation (NAV)
 
-- [ ] **NAV-01**: Navbar fixa no topo com logo DMV (`Logo_dmv.jpg`) a esquerda e links de navegacao centrais
-- [ ] **NAV-02**: Links de navegacao: Servicos | Como Funciona | Por que IA? | Sobre Nos | FAQ -- scroll suave para secao
-- [ ] **NAV-03**: Toggle PT | EN no header -- pequeno, discreto, funcional
-- [ ] **NAV-04**: Botao CTA "Agendar Demo Gratis" a direita -> WhatsApp
-- [ ] **NAV-05**: Navbar transparente no topo -> glassmorphism (backdrop-filter: blur) ao scrollar com sombra sutil
-- [ ] **NAV-06**: Menu mobile: icone hamburger -> drawer lateral com animacao slide-in e fechamento ao clicar em link
+- [x] **NAV-01**: Navbar fixa no topo com logo DMV (`Logo_dmv.jpg`) a esquerda e links de navegacao centrais
+- [x] **NAV-02**: Links de navegacao: Servicos | Como Funciona | Por que IA? | Sobre Nos | FAQ -- scroll suave para secao
+- [x] **NAV-03**: Toggle PT | EN no header -- pequeno, discreto, funcional
+- [x] **NAV-04**: Botao CTA "Agendar Demo Gratis" a direita -> WhatsApp
+- [x] **NAV-05**: Navbar transparente no topo -> glassmorphism (backdrop-filter: blur) ao scrollar com sombra sutil
+- [x] **NAV-06**: Menu mobile: icone hamburger -> drawer lateral com animacao slide-in e fechamento ao clicar em link
 
 ### Hero Section (HERO)
 
@@ -108,10 +108,10 @@
 
 ### Internationalization (I18N)
 
-- [ ] **I18N-01**: Objeto JS com todas as traducoes PT e EN para cada elemento `data-i18n`
-- [ ] **I18N-02**: Toggle PT | EN no header troca todos os textos instantaneamente sem reload
-- [ ] **I18N-03**: Estado visual do toggle: idioma ativo em destaque
-- [ ] **I18N-04**: Traducao EN soa natural (nao literal) em todos os textos
+- [x] **I18N-01**: Objeto JS com todas as traducoes PT e EN para cada elemento `data-i18n`
+- [x] **I18N-02**: Toggle PT | EN no header troca todos os textos instantaneamente sem reload
+- [x] **I18N-03**: Estado visual do toggle: idioma ativo em destaque
+- [x] **I18N-04**: Traducao EN soa natural (nao literal) em todos os textos
 
 ### Animations & Effects (ANIM)
 
@@ -178,16 +178,16 @@
 | INFRA-04 | Phase 1: Foundation | Complete |
 | INFRA-05 | Phase 1: Foundation | Complete |
 | INFRA-06 | Phase 1: Foundation | Complete |
-| NAV-01 | Phase 1: Foundation | Pending |
-| NAV-02 | Phase 1: Foundation | Pending |
-| NAV-03 | Phase 1: Foundation | Pending |
-| NAV-04 | Phase 1: Foundation | Pending |
-| NAV-05 | Phase 1: Foundation | Pending |
-| NAV-06 | Phase 1: Foundation | Pending |
-| I18N-01 | Phase 1: Foundation | Pending |
-| I18N-02 | Phase 1: Foundation | Pending |
-| I18N-03 | Phase 1: Foundation | Pending |
-| I18N-04 | Phase 1: Foundation | Pending |
+| NAV-01 | Phase 1: Foundation | Complete |
+| NAV-02 | Phase 1: Foundation | Complete |
+| NAV-03 | Phase 1: Foundation | Complete |
+| NAV-04 | Phase 1: Foundation | Complete |
+| NAV-05 | Phase 1: Foundation | Complete |
+| NAV-06 | Phase 1: Foundation | Complete |
+| I18N-01 | Phase 1: Foundation | Complete |
+| I18N-02 | Phase 1: Foundation | Complete |
+| I18N-03 | Phase 1: Foundation | Complete |
+| I18N-04 | Phase 1: Foundation | Complete |
 | HERO-01 | Phase 2: Hero + Floating CTA | Pending |
 | HERO-02 | Phase 2: Hero + Floating CTA | Pending |
 | HERO-03 | Phase 2: Hero + Floating CTA | Pending |

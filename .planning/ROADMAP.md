@@ -37,7 +37,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md — HTML structure + CSS foundation (design tokens, gradient blobs, starfield, Google Fonts)
-- [ ] 01-02-PLAN.md — Navbar with glassmorphism + mobile drawer + i18n system (PT/EN toggle)
+- [x] 01-02-PLAN.md — Navbar with glassmorphism + mobile drawer + i18n system (PT/EN toggle)
 
 ### Phase 2: Hero + Floating CTA
 **Goal**: Visitor lands on a visually dominant hero section that communicates the value proposition and makes it effortless to reach WhatsApp from anywhere on the page
