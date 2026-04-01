@@ -123,18 +123,18 @@
 
 ### Responsiveness (RESP)
 
-- [ ] **RESP-01**: Layout correto nos 4 breakpoints: 375px / 768px / 1024px / 1440px
-- [ ] **RESP-02**: Zero overflow horizontal em qualquer breakpoint
-- [ ] **RESP-03**: Botoes e areas de toque >= 44px em mobile
-- [ ] **RESP-04**: Texto legivel sem zoom em 375px
+- [x] **RESP-01**: Layout correto nos 4 breakpoints: 375px / 768px / 1024px / 1440px
+- [x] **RESP-02**: Zero overflow horizontal em qualquer breakpoint
+- [x] **RESP-03**: Botoes e areas de toque >= 44px em mobile
+- [x] **RESP-04**: Texto legivel sem zoom em 375px
 
 ### Performance & Accessibility (PERF)
 
-- [ ] **PERF-01**: Animacoes apenas em propriedades GPU-friendly (transform, opacity)
-- [ ] **PERF-02**: Alt text descritivo na logo e demais imagens
-- [ ] **PERF-03**: Focus states visiveis (outline ciano) em botoes e links para navegacao por Tab
-- [ ] **PERF-04**: Contraste WCAG AA em todos os textos sobre fundo escuro
-- [ ] **PERF-05**: Nenhum Lorem Ipsum, placeholder ou dado fabricado na versao final
+- [x] **PERF-01**: Animacoes apenas em propriedades GPU-friendly (transform, opacity)
+- [x] **PERF-02**: Alt text descritivo na logo e demais imagens
+- [x] **PERF-03**: Focus states visiveis (outline ciano) em botoes e links para navegacao por Tab
+- [x] **PERF-04**: Contraste WCAG AA em todos os textos sobre fundo escuro
+- [x] **PERF-05**: Nenhum Lorem Ipsum, placeholder ou dado fabricado na versao final
 
 ---
 
@@ -244,15 +244,15 @@
 | ANIM-02 | Phase 7: Polish & QA | Complete |
 | ANIM-03 | Phase 7: Polish & QA | Complete |
 | ANIM-04 | Phase 7: Polish & QA | Complete |
-| RESP-01 | Phase 7: Polish & QA | Pending |
-| RESP-02 | Phase 7: Polish & QA | Pending |
-| RESP-03 | Phase 7: Polish & QA | Pending |
-| RESP-04 | Phase 7: Polish & QA | Pending |
-| PERF-01 | Phase 7: Polish & QA | Pending |
-| PERF-02 | Phase 7: Polish & QA | Pending |
-| PERF-03 | Phase 7: Polish & QA | Pending |
-| PERF-04 | Phase 7: Polish & QA | Pending |
-| PERF-05 | Phase 7: Polish & QA | Pending |
+| RESP-01 | Phase 7: Polish & QA | Complete |
+| RESP-02 | Phase 7: Polish & QA | Complete |
+| RESP-03 | Phase 7: Polish & QA | Complete |
+| RESP-04 | Phase 7: Polish & QA | Complete |
+| PERF-01 | Phase 7: Polish & QA | Complete |
+| PERF-02 | Phase 7: Polish & QA | Complete |
+| PERF-03 | Phase 7: Polish & QA | Complete |
+| PERF-04 | Phase 7: Polish & QA | Complete |
+| PERF-05 | Phase 7: Polish & QA | Complete |
 
 **Coverage:**
 - v1 requirements: 81 total

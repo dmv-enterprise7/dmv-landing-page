@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: verifying
-stopped_at: Completed 07-01-PLAN.md
-last_updated: "2026-04-01T06:47:04.801Z"
+stopped_at: Completed 07-polish-qa-02-PLAN.md
+last_updated: "2026-04-01T06:52:37.480Z"
 last_activity: 2026-04-01
 progress:
   total_phases: 7
-  completed_phases: 6
+  completed_phases: 7
   total_plans: 13
-  completed_plans: 12
+  completed_plans: 13
   percent: 80
 ---
 
@@ -64,6 +64,7 @@ Progress: [████████░░] 80%
 | Phase 06 P01 | 8min | 3 tasks | 3 files |
 | Phase 06-about-faq-cta-footer P02 | 2min | 2 tasks | 3 files |
 | Phase 07-polish-qa P01 | 1min | 2 tasks | 2 files |
+| Phase 07-polish-qa P02 | 2min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -103,6 +104,8 @@ Recent decisions affecting current work:
 - [Phase 06]: FAQ single-open: closes all other panels before toggling target to prevent multiple answers visible simultaneously
 - [Phase 06-about-faq-cta-footer]: btn-cta-final references existing cta-pulse keyframes (not redefined) — avoids CSS duplication, maintains consistent pulse rhythm
 - [Phase 07-polish-qa]: Used observer.unobserve per element instead of disconnect for individual card reveals — Matches Part 6 counter animation pattern; each element reveals independently as scrolled into view
+- [Phase 07-polish-qa]: Explicit element-level focus-visible (a, button, .faq-btn, .lang-btn) with outline-offset:3px instead of generic :focus-visible
+- [Phase 07-polish-qa]: whatsapp-pulse now uses transform:scale(1/1.06) as primary GPU-friendly animated property, replacing box-shadow expansion ripple
 
 ### Pending Todos
 
@@ -114,6 +117,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T06:47:04.798Z
-Stopped at: Completed 07-01-PLAN.md
+Last session: 2026-04-01T06:52:16.610Z
+Stopped at: Completed 07-polish-qa-02-PLAN.md
 Resume file: None
