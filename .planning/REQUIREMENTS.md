@@ -9,12 +9,12 @@
 
 ### Foundation (INFRA)
 
-- [ ] **INFRA-01**: Estrutura HTML semantica com 12 secoes identificadas por IDs de navegacao
-- [ ] **INFRA-02**: Variaveis CSS completas para paleta (#040810, #00c8ff, #1a4fd4, #6b3fa0, #e8ecf4, #8a95a8, #5a6578, #1a2440), tipografia e espacamentos
-- [ ] **INFRA-03**: Google Fonts carregando Sora (headlines), DM Sans (body) e JetBrains Mono (numeros) com `preconnect` e `display=swap`
-- [ ] **INFRA-04**: Background base com gradient blobs desfocados (cyan + azul + roxo) usando `filter: blur(80-120px)` -- nunca fundo flat/solido
-- [ ] **INFRA-05**: Starfield estatico via CSS pseudo-elementos (pontos pequenos simulando estrelas)
-- [ ] **INFRA-06**: Sistema de i18n via objeto JS com todas as chaves PT/EN e atributos `data-i18n` em todos os elementos de texto
+- [x] **INFRA-01**: Estrutura HTML semantica com 12 secoes identificadas por IDs de navegacao
+- [x] **INFRA-02**: Variaveis CSS completas para paleta (#040810, #00c8ff, #1a4fd4, #6b3fa0, #e8ecf4, #8a95a8, #5a6578, #1a2440), tipografia e espacamentos
+- [x] **INFRA-03**: Google Fonts carregando Sora (headlines), DM Sans (body) e JetBrains Mono (numeros) com `preconnect` e `display=swap`
+- [x] **INFRA-04**: Background base com gradient blobs desfocados (cyan + azul + roxo) usando `filter: blur(80-120px)` -- nunca fundo flat/solido
+- [x] **INFRA-05**: Starfield estatico via CSS pseudo-elementos (pontos pequenos simulando estrelas)
+- [x] **INFRA-06**: Sistema de i18n via objeto JS com todas as chaves PT/EN e atributos `data-i18n` em todos os elementos de texto
 
 ### Navigation (NAV)
 
@@ -172,12 +172,12 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 | Phase 1: Foundation | Pending |
-| INFRA-02 | Phase 1: Foundation | Pending |
-| INFRA-03 | Phase 1: Foundation | Pending |
-| INFRA-04 | Phase 1: Foundation | Pending |
-| INFRA-05 | Phase 1: Foundation | Pending |
-| INFRA-06 | Phase 1: Foundation | Pending |
+| INFRA-01 | Phase 1: Foundation | Complete |
+| INFRA-02 | Phase 1: Foundation | Complete |
+| INFRA-03 | Phase 1: Foundation | Complete |
+| INFRA-04 | Phase 1: Foundation | Complete |
+| INFRA-05 | Phase 1: Foundation | Complete |
+| INFRA-06 | Phase 1: Foundation | Complete |
 | NAV-01 | Phase 1: Foundation | Pending |
 | NAV-02 | Phase 1: Foundation | Pending |
 | NAV-03 | Phase 1: Foundation | Pending |

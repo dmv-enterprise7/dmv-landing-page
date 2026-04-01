@@ -36,7 +36,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **UI hint**: yes
 
 Plans:
-- [ ] 01-01-PLAN.md — HTML structure + CSS foundation (design tokens, gradient blobs, starfield, Google Fonts)
+- [x] 01-01-PLAN.md — HTML structure + CSS foundation (design tokens, gradient blobs, starfield, Google Fonts)
 - [ ] 01-02-PLAN.md — Navbar with glassmorphism + mobile drawer + i18n system (PT/EN toggle)
 
 ### Phase 2: Hero + Floating CTA
