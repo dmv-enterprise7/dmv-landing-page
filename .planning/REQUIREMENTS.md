@@ -39,13 +39,13 @@
 
 ### Market Data Section (MARKET)
 
-- [ ] **MARKET-01**: Secao "Por que IA?" com titulo e subtitulo impactantes
-- [ ] **MARKET-02**: 4-6 cards/blocos de dados com numero grande em ciano (JetBrains Mono, 48-64px) + descricao em cinza + fonte do dado em texto muted (11-12px)
-- [ ] **MARKET-03**: Dados reais usados: 78% (McKinsey), 4.8x (IBM), 62% (Tidio), 70% (Zendesk), ~46% (MDPI), 24/7 (Fullview), 67% (Sales So) -- escolher 4-6 mais impactantes
-- [ ] **MARKET-04**: Counter animation via IntersectionObserver -- numeros contam de 0 ao valor final ao entrar na viewport
-- [ ] **MARKET-05**: Frase de transicao em destaque apos os dados
-- [ ] **MARKET-06**: CTA de transicao "Descubra o que a IA pode fazer pelo seu negocio -- e gratis" -> WhatsApp
-- [ ] **MARKET-07**: Layout 3-4 blocos em linha no desktop, stack em mobile com separadores sutis
+- [x] **MARKET-01**: Secao "Por que IA?" com titulo e subtitulo impactantes
+- [x] **MARKET-02**: 4-6 cards/blocos de dados com numero grande em ciano (JetBrains Mono, 48-64px) + descricao em cinza + fonte do dado em texto muted (11-12px)
+- [x] **MARKET-03**: Dados reais usados: 78% (McKinsey), 4.8x (IBM), 62% (Tidio), 70% (Zendesk), ~46% (MDPI), 24/7 (Fullview), 67% (Sales So) -- escolher 4-6 mais impactantes
+- [x] **MARKET-04**: Counter animation via IntersectionObserver -- numeros contam de 0 ao valor final ao entrar na viewport
+- [x] **MARKET-05**: Frase de transicao em destaque apos os dados
+- [x] **MARKET-06**: CTA de transicao "Descubra o que a IA pode fazer pelo seu negocio -- e gratis" -> WhatsApp
+- [x] **MARKET-07**: Layout 3-4 blocos em linha no desktop, stack em mobile com separadores sutis
 
 ### Pain Points (PAIN)
 
@@ -119,7 +119,7 @@
 - [ ] **ANIM-02**: Pulse animation continua no botao CTA principal (scale 1->1.03->1 a cada 2s)
 - [ ] **ANIM-03**: Gradient blobs com movimento muito lento (60s+ de duracao) ou estaticos
 - [ ] **ANIM-04**: Hover nos cards: border ciano + translate-y(-4px) + glow shadow (0.3s ease)
-- [ ] **ANIM-05**: Counter animation nos numeros de mercado ao entrar na viewport
+- [x] **ANIM-05**: Counter animation nos numeros de mercado ao entrar na viewport
 
 ### Responsiveness (RESP)
 
@@ -200,14 +200,14 @@
 | CTA-04 | Phase 2: Hero + Floating CTA | Complete |
 | CTA-05 | Phase 2: Hero + Floating CTA | Complete |
 | CTA-06 | Phase 2: Hero + Floating CTA | Complete |
-| MARKET-01 | Phase 3: Market Data | Pending |
-| MARKET-02 | Phase 3: Market Data | Pending |
-| MARKET-03 | Phase 3: Market Data | Pending |
-| MARKET-04 | Phase 3: Market Data | Pending |
-| MARKET-05 | Phase 3: Market Data | Pending |
-| MARKET-06 | Phase 3: Market Data | Pending |
-| MARKET-07 | Phase 3: Market Data | Pending |
-| ANIM-05 | Phase 3: Market Data | Pending |
+| MARKET-01 | Phase 3: Market Data | Complete |
+| MARKET-02 | Phase 3: Market Data | Complete |
+| MARKET-03 | Phase 3: Market Data | Complete |
+| MARKET-04 | Phase 3: Market Data | Complete |
+| MARKET-05 | Phase 3: Market Data | Complete |
+| MARKET-06 | Phase 3: Market Data | Complete |
+| MARKET-07 | Phase 3: Market Data | Complete |
+| ANIM-05 | Phase 3: Market Data | Complete |
 | PAIN-01 | Phase 4: Pain Points + Services | Pending |
 | PAIN-02 | Phase 4: Pain Points + Services | Pending |
 | PAIN-03 | Phase 4: Pain Points + Services | Pending |
