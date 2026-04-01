@@ -48,12 +48,12 @@ Plans:
   2. Hero headline is the visually largest element on the page, with badge above it, sub-headline below, primary CTA button with glow pointing to WhatsApp, secondary scroll link, and guarantee seal at the bottom
   3. Floating WhatsApp button is visible in the bottom-right corner on every viewport size, has pulse animation, shows "Fale conosco" tooltip on hover, and links to the correct WhatsApp URL
   4. Every CTA on the page (hero button, navbar button, floating button) resolves to `https://wa.me/5522981113794`
-**Plans**: TBD
+**Plans**: 2 plans
 **UI hint**: yes
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md — Hero section HTML + CSS (asymmetric layout, badge, headline, CTAs, logo glow, seal, responsive, i18n keys)
+- [ ] 02-02-PLAN.md — Floating WhatsApp button (fixed positioning, pulse animation, hover tooltip, i18n tooltip key)
 
 ### Phase 3: Market Data
 **Goal**: Visitor sees real market statistics that build urgency and credibility for AI adoption, replacing traditional social proof the company doesn't yet have
@@ -140,8 +140,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/2 | Planned | - |
-| 2. Hero + Floating CTA | 0/2 | Not started | - |
+| 1. Foundation | 2/2 | Complete | 2026-04-01 |
+| 2. Hero + Floating CTA | 0/2 | Planned | - |
 | 3. Market Data | 0/1 | Not started | - |
 | 4. Pain Points + Services | 0/2 | Not started | - |
 | 5. Process + Differentials | 0/2 | Not started | - |
