@@ -1,0 +1,279 @@
+/* ============================================================
+   DMV Enterprise Landing Page — styles.css
+   CSS Design Tokens + Base Styles + Background Effects
+   ============================================================ */
+
+/* === Section 1: CSS Custom Properties (Design Tokens) === */
+
+:root {
+  /* === Colors === */
+  --color-primary: #040810;
+  --color-bg-end: #0a1020;
+  --color-cyan: #00c8ff;
+  --color-blue: #1a4fd4;
+  --color-purple: #6b3fa0;
+  --color-text: #e8ecf4;
+  --color-text-secondary: #8a95a8;
+  --color-text-muted: #5a6578;
+  --color-border: #1a2440;
+
+  /* Glass */
+  --glass-bg: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: 16px;
+
+  /* Glow */
+  --glow-cyan: 0 0 40px rgba(0, 200, 255, 0.25), 0 0 80px rgba(0, 200, 255, 0.1);
+
+  /* === Typography === */
+  --font-headline: 'Sora', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* === Spacing === */
+  --section-padding: clamp(60px, 10vw, 140px);
+  --container-max: 1200px;
+  --container-padding: clamp(16px, 4vw, 40px);
+
+  /* === Navbar === */
+  --navbar-height: 72px;
+
+  /* === Transitions === */
+  --transition-fast: 0.2s ease;
+  --transition-default: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+
+/* === Section 2: CSS Reset and Base Styles === */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-bg-end) 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-cyan);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-text);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+/* === Section 3: Container and Section Layout === */
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.section {
+  padding: var(--section-padding) 0;
+  position: relative;
+  z-index: 1;
+}
+
+section[id] {
+  scroll-margin-top: calc(var(--navbar-height) + 20px);
+}
+
+
+/* === Section 4: Background Effects (Gradient Blobs) === */
+
+.background-effects {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.blob-cyan {
+  position: absolute;
+  top: -10%;
+  left: -5%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0, 200, 255, 0.15) 0%, transparent 70%);
+  filter: blur(100px);
+  border-radius: 50%;
+}
+
+.blob-blue {
+  position: absolute;
+  top: 30%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(26, 79, 212, 0.12) 0%, transparent 70%);
+  filter: blur(120px);
+  border-radius: 50%;
+}
+
+.blob-purple {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(107, 63, 160, 0.1) 0%, transparent 70%);
+  filter: blur(80px);
+  border-radius: 50%;
+}
+
+
+/* === Section 5: Starfield === */
+
+/* Layer 1: ~40 small stars (1px dots) */
+.background-effects::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(1px 1px at 3% 7%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 8% 42%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 12% 68%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 15% 23%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 19% 85%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 22% 14%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 26% 53%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 29% 91%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 33% 36%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 37% 72%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 41% 5%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 44% 48%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 47% 79%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 51% 17%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 54% 62%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 57% 94%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 60% 31%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 64% 56%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 67% 83%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 71% 11%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 74% 44%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 77% 76%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 80% 27%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 83% 59%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 86% 88%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 89% 15%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 92% 47%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 95% 73%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 98% 34%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 6% 97%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 17% 55%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 24% 3%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 35% 89%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 43% 21%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 52% 67%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 63% 9%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 72% 38%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 81% 95%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 91% 61%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 48% 2%, rgba(255,255,255,0.5), transparent);
+  background-size: 250px 250px;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+/* Layer 2: ~25 slightly larger stars (1.5px dots) */
+.background-effects::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(1.5px 1.5px at 5% 18%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1.5px 1.5px at 11% 52%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 16% 81%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1.5px 1.5px at 21% 33%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1.5px 1.5px at 27% 67%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1.5px 1.5px at 32% 12%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 38% 45%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1.5px 1.5px at 43% 78%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1.5px 1.5px at 49% 24%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1.5px 1.5px at 55% 56%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 61% 89%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1.5px 1.5px at 66% 8%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1.5px 1.5px at 72% 41%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1.5px 1.5px at 78% 73%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 83% 19%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1.5px 1.5px at 88% 54%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1.5px 1.5px at 93% 86%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1.5px 1.5px at 97% 37%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1.5px 1.5px at 9% 93%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 25% 4%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1.5px 1.5px at 36% 62%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1.5px 1.5px at 53% 95%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1.5px 1.5px at 68% 29%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 85% 71%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1.5px 1.5px at 46% 48%, rgba(255,255,255,0.4), transparent);
+  background-size: 350px 350px;
+  opacity: 0.35;
+  z-index: 0;
+}
+
+
+/* === Section 6: Section Title Placeholder Styles === */
+
+.section h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+/* === Section 7: Accessibility Focus States === */
+
+:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 2px;
+}
