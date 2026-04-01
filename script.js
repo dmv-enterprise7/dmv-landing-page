@@ -85,8 +85,29 @@ var translations = {
     'diff.item3.desc': 'Nao vendemos tecnologia por tecnologia. Cada sistema tem um ROI claro.',
     'diff.item4.title': 'Funciona 24 horas, 7 dias',
     'diff.item4.desc': 'Seus assistentes nunca dormem. Atendimento e automacao rodando sempre.',
-    'about.title': 'Quem esta por tras da DMV',
+    // About section — Phase 06 (ABOUT-01 through ABOUT-04)
+    'about.badge': '\u2666 Quem Somos',
+    'about.title': 'Quem esta por tras da DMV?',
+    'about.mission-prefix': 'A DMV nasceu da crenca de que tecnologia de ponta nao e exclusividade de grandes corporacoes. Somos ',
+    'about.mission-suffix': ' \u2014 uma equipe de especialistas em IA e automacao comprometidos a entregar sistemas inteligentes que realmente funcionam: no seu negocio, do jeito que voce precisa.',
+    'about.seal': 'Driven Mind Vanguard \u2014 Vanguarda da Mente Direcionada',
+
+    // FAQ section — Phase 06 (FAQ-01 through FAQ-05)
     'faq.title': 'Perguntas Frequentes',
+    'faq.subtitle': 'Tire suas duvidas antes de comecar.',
+    'faq.q1': 'Quanto custa?',
+    'faq.a1': 'Cada projeto e orcado individualmente. Oferecemos uma demonstracao 100% gratuita \u2014 sem compromisso.',
+    'faq.q2': 'Preciso entender de tecnologia?',
+    'faq.a2': 'Nao. Cuidamos de tudo tecnico. Voce so precisa nos contar sobre o seu negocio.',
+    'faq.q3': 'Funciona para o meu segmento?',
+    'faq.a3': 'Sim. Ja implementamos solucoes para clinicas, e-commerces, prestadores de servico, escritorios e mais. Se o seu negocio atende clientes, a IA pode ajudar.',
+    'faq.q4': 'Quanto tempo leva para implementar?',
+    'faq.a4': 'Depende da complexidade, mas a maioria das solucoes fica pronta em 7 a 21 dias.',
+    'faq.q5': 'E se eu nao gostar do resultado?',
+    'faq.a5': 'Trabalhamos em ciclos de ajuste ate voce estar 100% satisfeito. Sua satisfacao e nossa entrega.',
+    'faq.q6': 'Voces dao suporte depois?',
+    'faq.a6': 'Sim. Oferecemos suporte continuo e acompanhamento de resultados apos a implementacao.',
+
     'cta.title': 'Pronto para colocar seu negocio no piloto automatico?',
 
     // Footer
@@ -172,8 +193,29 @@ var translations = {
     'diff.item3.desc': 'We don\'t sell technology for technology\'s sake. Every system has a clear ROI.',
     'diff.item4.title': 'Works 24 Hours, 7 Days',
     'diff.item4.desc': 'Your assistants never sleep. Service and automation running at all times.',
-    'about.title': 'The people behind DMV',
+    // About section — Phase 06 (ABOUT-01 through ABOUT-04)
+    'about.badge': '\u2666 Who We Are',
+    'about.title': 'Who is behind DMV?',
+    'about.mission-prefix': 'DMV was born from the belief that cutting-edge technology is not exclusive to large corporations. We are ',
+    'about.mission-suffix': ' \u2014 a team of AI and automation specialists committed to delivering intelligent systems that truly work: for your business, the way you need it.',
+    'about.seal': 'Driven Mind Vanguard \u2014 Vanguard of the Driven Mind',
+
+    // FAQ section — Phase 06 (FAQ-01 through FAQ-05)
     'faq.title': 'Frequently Asked Questions',
+    'faq.subtitle': 'Get your questions answered before you start.',
+    'faq.q1': 'How much does it cost?',
+    'faq.a1': 'Each project is quoted individually. We offer a 100% free demo \u2014 no commitment.',
+    'faq.q2': 'Do I need to understand technology?',
+    'faq.a2': 'No. We handle all the technical side. You just need to tell us about your business.',
+    'faq.q3': 'Does it work for my industry?',
+    'faq.a3': "Yes. We've deployed solutions for clinics, e-commerce stores, service providers, law firms, and more. If your business serves customers, AI can help.",
+    'faq.q4': 'How long does implementation take?',
+    'faq.a4': 'It depends on complexity, but most solutions are ready within 7 to 21 days.',
+    'faq.q5': "What if I don't like the result?",
+    'faq.a5': 'We work in adjustment cycles until you are 100% satisfied. Your satisfaction is our deliverable.',
+    'faq.q6': 'Do you provide support afterwards?',
+    'faq.a6': 'Yes. We offer ongoing support and performance tracking after implementation.',
+
     'cta.title': 'Ready to put your business on autopilot?',
 
     // Footer
@@ -340,4 +382,40 @@ function setLanguage(lang) {
 
   // Observe the first stat-number as trigger for all
   observer.observe(statNumbers[0]);
+})();
+
+/* === Part 7: FAQ Accordion Toggle (FAQ-01, FAQ-03, FAQ-04, FAQ-05) === */
+
+(function() {
+  var faqBtns = document.querySelectorAll('.faq-btn');
+  if (faqBtns.length === 0) return;
+
+  faqBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var isExpanded = btn.getAttribute('aria-expanded') === 'true';
+      var answerId = btn.getAttribute('aria-controls');
+      var answerPanel = document.getElementById(answerId);
+
+      // Close all other open items first
+      faqBtns.forEach(function(otherBtn) {
+        if (otherBtn !== btn) {
+          otherBtn.setAttribute('aria-expanded', 'false');
+          var otherId = otherBtn.getAttribute('aria-controls');
+          var otherPanel = document.getElementById(otherId);
+          if (otherPanel) {
+            otherPanel.classList.remove('open');
+          }
+        }
+      });
+
+      // Toggle the clicked item
+      if (isExpanded) {
+        btn.setAttribute('aria-expanded', 'false');
+        if (answerPanel) answerPanel.classList.remove('open');
+      } else {
+        btn.setAttribute('aria-expanded', 'true');
+        if (answerPanel) answerPanel.classList.add('open');
+      }
+    });
+  });
 })();
