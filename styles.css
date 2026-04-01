@@ -1598,3 +1598,162 @@ section[id] {
     font-size: 38px;
   }
 }
+
+/* ============================================
+   DIFFERENTIALS SECTION — "Por que a DMV?" (DIFF-01 through DIFF-03)
+   ============================================ */
+
+/* --- Section wrapper --- */
+
+.section-differentials {
+  position: relative;
+  text-align: center;
+}
+
+/* --- Section header --- */
+
+.diff-header {
+  margin-bottom: 56px;
+}
+
+.section-differentials h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.diff-subtitle {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  color: var(--color-text-secondary);
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* --- 2x2 differentials grid (DIFF-01) --- */
+
+.diff-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* --- Individual differential card: glassmorphism (DIFF-03) --- */
+
+.diff-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border-radius: 20px;
+  padding: 32px 28px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+  transition: border-color var(--transition-default),
+              box-shadow var(--transition-default),
+              transform var(--transition-default);
+}
+
+.diff-card:hover {
+  border-color: rgba(0, 200, 255, 0.25);
+  box-shadow: 0 0 30px rgba(0, 200, 255, 0.1), 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+/* --- Icon container: 48px left-aligned (DIFF-03) --- */
+
+.diff-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: rgba(0, 200, 255, 0.08);
+  border: 1px solid rgba(0, 200, 255, 0.12);
+  border-radius: 14px;
+  color: var(--color-cyan);
+}
+
+/* --- Text body --- */
+
+.diff-body {
+  flex: 1;
+  min-width: 0;
+}
+
+/* --- Differential title: bold (DIFF-03) --- */
+
+.diff-title {
+  font-family: var(--font-headline);
+  font-size: clamp(1rem, 1.4vw, 1.1rem);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+/* --- Differential description: ~2 lines --- */
+
+.diff-desc {
+  font-family: var(--font-body);
+  font-size: clamp(0.88rem, 1.1vw, 0.93rem);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* --- Responsive: tablet — 2x2 still works, tighter padding --- */
+
+@media (max-width: 1024px) {
+  .diff-grid {
+    max-width: 720px;
+  }
+
+  .diff-card {
+    padding: 24px 22px;
+  }
+}
+
+/* --- Responsive: mobile — single column stack (DIFF-01) --- */
+
+@media (max-width: 768px) {
+  .diff-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 440px;
+  }
+
+  .diff-header {
+    margin-bottom: 40px;
+  }
+
+  .diff-card {
+    padding: 22px 18px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .diff-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+  }
+
+  .diff-title {
+    font-size: 0.95rem;
+  }
+
+  .diff-desc {
+    font-size: 0.85rem;
+  }
+}
