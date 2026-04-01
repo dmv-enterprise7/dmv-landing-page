@@ -115,7 +115,7 @@ Plans:
 
 Plans:
 - [x] 06-01-PLAN.md — About section (founders mission + bold names + decorative logo glow + badge) + FAQ accordion (6 questions, max-height, icon rotation, aria-expanded)
-- [ ] 06-02-PLAN.md — Final CTA section (dramatic cyan blob, oversized glow button, 3 badges) + Footer (3-column layout, logo, nav links, WhatsApp icon, copyright)
+- [x] 06-02-PLAN.md — Final CTA section (dramatic cyan blob, oversized glow button, 3 badges) + Footer (3-column layout, logo, nav links, WhatsApp icon, copyright)
 
 ### Phase 7: Polish & QA
 **Goal**: The complete page is polished, performant, fully responsive, accessible, and bilingual — ready for production deployment
