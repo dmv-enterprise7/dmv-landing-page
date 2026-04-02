@@ -496,12 +496,12 @@ function setLanguage(lang) {
     entries.forEach(function(entry) {
       if (entry.isIntersecting) {
         entry.target.classList.add('revealed');
-        observer.unobserve(entry.target); // disconnect per element for performance
+        observer.unobserve(entry.target);
       }
     });
   }, {
-    threshold: 0.15,
-    rootMargin: '0px 0px -40px 0px'
+    threshold: 0.01,
+    rootMargin: '0px 0px 50px 0px'
   });
 
   revealElements.forEach(function(el) {

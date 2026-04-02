@@ -2375,7 +2375,7 @@ button:focus-visible,
 
 .reveal {
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(20px);
 }
 
 /* --- Revealed state: triggered by JS adding .revealed class --- */
@@ -2383,7 +2383,7 @@ button:focus-visible,
 .reveal.revealed {
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transition: opacity 0.35s ease, transform 0.35s ease;
 }
 
 /* --- Stagger delays: 100ms per sibling index (nth-child) --- */
