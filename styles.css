@@ -313,9 +313,23 @@ button:focus-visible,
   gap: 24px;
 }
 
-.navbar-logo img {
-  height: 36px;
-  width: auto;
+.navbar-logo-text {
+  font-family: var(--font-headline);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-text);
+  letter-spacing: 0.04em;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-logo-sub {
+  font-size: 0.55em;
+  font-weight: 500;
+  color: var(--color-cyan);
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
 }
 
 .nav-links {
@@ -1774,7 +1788,7 @@ button:focus-visible,
   display: flex;
   align-items: center;
   gap: clamp(40px, 6vw, 80px);
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -1824,27 +1838,48 @@ button:focus-visible,
   white-space: nowrap;
 }
 
-.about-logo-wrap {
+.about-founders-wrap {
   flex-shrink: 0;
   display: flex;
-  align-items: center;
+  gap: 24px;
+  align-items: flex-start;
   justify-content: center;
 }
 
-.about-logo-glow {
+.founder-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.founder-photo-glow {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  box-shadow: 0 0 60px rgba(0, 200, 255, 0.15), 0 0 120px rgba(0, 200, 255, 0.07);
+  box-shadow: 0 0 40px rgba(0, 200, 255, 0.15), 0 0 80px rgba(0, 200, 255, 0.07);
 }
 
-.about-logo-img {
+.founder-photo {
   display: block;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center top;
   opacity: 0.9;
+  border: 2px solid rgba(0, 200, 255, 0.2);
+}
+
+.founder-name {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-cyan);
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* About — Responsive */
@@ -1859,9 +1894,13 @@ button:focus-visible,
     justify-content: center;
   }
 
-  .about-logo-img {
-    width: 140px;
-    height: 140px;
+  .about-founders-wrap {
+    gap: 16px;
+  }
+
+  .founder-photo {
+    width: 90px;
+    height: 90px;
   }
 }
 
@@ -2174,11 +2213,23 @@ button:focus-visible,
   width: fit-content;
 }
 
-.footer-logo-img {
-  width: 90px;
-  height: auto;
-  opacity: 0.9;
-  border-radius: 6px;
+.footer-logo-text {
+  font-family: var(--font-headline);
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--color-text);
+  letter-spacing: 0.04em;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo-sub {
+  font-size: 0.55em;
+  font-weight: 500;
+  color: var(--color-cyan);
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
 }
 
 .footer-tagline-brand {
