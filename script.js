@@ -9,6 +9,7 @@ var translations = {
   pt: {
     // Navbar
     'nav.services': 'Serviços',
+    'nav.sectors': 'Setores',
     'nav.how': 'Como Funciona',
     'nav.why': 'Por que IA?',
     'nav.about': 'Sobre Nós',
@@ -66,6 +67,17 @@ var translations = {
     'services.card5.desc': 'IA que filtra e classifica seus leads, entregando apenas os mais quentes para sua equipe.',
     'services.card6.title': 'Gestão Inteligente de Agenda',
     'services.card6.desc': 'Agendamentos automáticos sem conflitos, sem troca infinita de mensagens.',
+
+    // Sectors section — Phase 11
+    'sectors.title': 'Setores que já transformamos com IA',
+    'sectors.s1.label': 'Clínicas e Consultórios',
+    'sectors.s2.label': 'E-commerces',
+    'sectors.s3.label': 'Escritórios e Consultorias',
+    'sectors.s4.label': 'Prestadores de Serviço',
+    'sectors.s5.label': 'Educação e Cursos',
+    'sectors.s6.label': 'Imobiliárias',
+    'sectors.closing': 'Se o seu negócio atende clientes, a IA pode ajudar. Agende o diagnóstico e descubra como.',
+
     'how.title': 'Consultoria primeiro. Tecnologia depois.',
     'how.subtitle': 'Nosso processo existe para garantir que cada solução resolve o problema certo.',
     'how.step1.title': 'Raio-X do Negócio',
@@ -129,6 +141,7 @@ var translations = {
     'nav.why': 'Why AI?',
     'nav.about': 'About Us',
     'nav.faq': 'FAQ',
+    'nav.sectors': 'Sectors',
     'nav.cta': 'Schedule a Meeting',
 
     // Hero section
@@ -182,6 +195,17 @@ var translations = {
     'services.card5.desc': 'AI that filters and ranks your leads, delivering only the hottest ones to your team.',
     'services.card6.title': 'Smart Scheduling',
     'services.card6.desc': 'Automatic bookings with zero conflicts and no endless back-and-forth messages.',
+
+    // Sectors section — Phase 11
+    'sectors.title': 'Sectors we\u0027ve already transformed with AI',
+    'sectors.s1.label': 'Clinics & Medical Offices',
+    'sectors.s2.label': 'E-commerces',
+    'sectors.s3.label': 'Offices & Consulting Firms',
+    'sectors.s4.label': 'Service Providers',
+    'sectors.s5.label': 'Education & Courses',
+    'sectors.s6.label': 'Real Estate',
+    'sectors.closing': 'If your business serves clients, AI can help. Schedule your diagnosis and find out how.',
+
     'how.title': 'Consulting first. Technology after.',
     'how.subtitle': 'Our process exists to ensure each solution fixes the right problem.',
     'how.step1.title': 'Business X-Ray',
