@@ -360,23 +360,53 @@
 
 | REQ-ID | Phase | Status |
 |--------|-------|--------|
-| HERO-V2-01 → HERO-V2-05 | (TBD by roadmap) | Pending |
-| PROV-01 → PROV-03 | (TBD by roadmap) | Pending |
-| PROC-V2-01 → PROC-V2-05 | (TBD by roadmap) | Pending |
-| MARK-V2-01 → MARK-V2-03 | (TBD by roadmap) | Pending |
-| SOL-V2-01 → SOL-V2-02 | (TBD by roadmap) | Pending |
-| SECT-01 → SECT-07 | (TBD by roadmap) | Pending |
-| DIFF-V2-01 → DIFF-V2-02 | (TBD by roadmap) | Pending |
-| ABOUT-V2-01 → ABOUT-V2-05 | (TBD by roadmap) | Pending |
-| FAQ-V2-01 → FAQ-V2-02 | (TBD by roadmap) | Pending |
-| CTA-V2-01 → CTA-V2-03 | (TBD by roadmap) | Pending |
-| META-01 → META-04 | (TBD by roadmap) | Pending |
+| HERO-V2-01 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| HERO-V2-02 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| HERO-V2-03 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| HERO-V2-04 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| HERO-V2-05 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| CTA-V2-01 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| CTA-V2-02 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| CTA-V2-03 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| PROV-01 | Phase 9: Provocação + Dados de Mercado | Pending |
+| PROV-02 | Phase 9: Provocação + Dados de Mercado | Pending |
+| PROV-03 | Phase 9: Provocação + Dados de Mercado | Pending |
+| MARK-V2-01 | Phase 9: Provocação + Dados de Mercado | Pending |
+| MARK-V2-02 | Phase 9: Provocação + Dados de Mercado | Pending |
+| MARK-V2-03 | Phase 9: Provocação + Dados de Mercado | Pending |
+| PROC-V2-01 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| PROC-V2-02 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| PROC-V2-03 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| PROC-V2-04 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| PROC-V2-05 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| SOL-V2-01 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| SOL-V2-02 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| SECT-01 | Phase 11: Setores Atendidos (nova seção) | Pending |
+| SECT-02 | Phase 11: Setores Atendidos (nova seção) | Pending |
+| SECT-03 | Phase 11: Setores Atendidos (nova seção) | Pending |
+| SECT-04 | Phase 11: Setores Atendidos (nova seção) | Pending |
+| SECT-05 | Phase 11: Setores Atendidos (nova seção) | Pending |
+| SECT-06 | Phase 11: Setores Atendidos (nova seção) | Pending |
+| SECT-07 | Phase 11: Setores Atendidos (nova seção) | Pending |
+| DIFF-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| DIFF-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| ABOUT-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| ABOUT-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| ABOUT-V2-03 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| ABOUT-V2-04 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| ABOUT-V2-05 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| FAQ-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| FAQ-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| META-01 | Phase 13: Meta + WhatsApp Global Audit | Pending |
+| META-02 | Phase 13: Meta + WhatsApp Global Audit | Pending |
+| META-03 | Phase 13: Meta + WhatsApp Global Audit | Pending |
+| META-04 | Phase 13: Meta + WhatsApp Global Audit | Pending |
 
 **Coverage (v2.0):**
-- v2 requirements: 42 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 42
+- v2 requirements: 41 total
+- Mapped to phases: 41
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-01 (v1), 2026-04-14 (v2)*
-*Last updated: 2026-04-14 — v2 requirements added for milestone Repositioning Consultivo*
+*Last updated: 2026-04-14 — v2 traceability table filled, all 41 requirements mapped to phases 8-13*

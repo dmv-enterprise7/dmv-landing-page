@@ -2,9 +2,13 @@
 
 ## Overview
 
-This roadmap delivers a high-conversion bilingual landing page for DMV Enterprise in 7 phases, progressing from foundation infrastructure through section-by-section content delivery to final polish. Each phase delivers a coherent, verifiable capability — starting with the scaffolding and navigation shell, building the critical hero conversion point, then layering persuasion sections (market data, pain points, services, process, differentials), closing content (about, FAQ, final CTA, footer), and finishing with cross-cutting polish for animations, responsiveness, and performance. Every phase produces something visible and testable.
+This roadmap delivers a high-conversion bilingual landing page for DMV Enterprise across multiple milestones. **v1.0** delivered the full landing in 7 phases (Foundation → Polish & QA). **v2.0 Repositioning Consultivo** continues in phases 8-13, transforming the copy/positioning from "AI execution agency" to "consulting + execution with diagnosis first" while preserving all visual design. The v2.0 changes are primarily content rewrites with one structural addition (Setores section) and one stepper expansion (3 → 4 steps).
 
-## Phases
+---
+
+# Milestone v1.0 — Initial Landing (Complete)
+
+## Phases (v1.0)
 
 **Phase Numbering:**
 - Integer phases (1, 2, 3): Planned milestone work
@@ -20,7 +24,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 6: About + FAQ + Final CTA + Footer** - Closing content sections that destroy objections and drive final conversion (completed 2026-04-01)
 - [x] **Phase 7: Polish & QA** - Cross-cutting animations, responsive validation, performance, and accessibility (completed 2026-04-01)
 
-## Phase Details
+## Phase Details (v1.0)
 
 ### Phase 1: Foundation
 **Goal**: Visitor sees a professional dark cinematic page shell with working navbar, language toggle, and atmospheric background — the canvas is ready for content
@@ -133,7 +137,7 @@ Plans:
 - [x] 07-01-PLAN.md — Animations (scroll reveal CSS+JS, verify CTA pulse and card hovers)
 - [x] 07-02-PLAN.md — Responsive + Accessibility audit and fixes
 
-## Progress
+## Progress (v1.0)
 
 **Execution Order:**
 Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
@@ -147,3 +151,113 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 | 5. Process + Differentials | 2/2 | Complete | 2026-04-01 |
 | 6. About + FAQ + Final CTA + Footer | 2/2 | Complete | 2026-04-01 |
 | 7. Polish & QA | 2/2 | Complete | 2026-04-01 |
+
+---
+
+# Milestone v2.0 — Repositioning Consultivo
+
+## Overview (v2.0)
+
+Reposition the landing page from "AI execution agency" to "consulting + execution with diagnosis first." This is a **brownfield copy/content repositioning** — visual design (colors, fonts, layout base, animations) is preserved. Changes cluster into 6 phases covering: hero + final CTA rewrites (conversion bookends), mid-funnel copy swaps (provocation + market data), structural stepper expansion (3→4 steps) + solutions copy, a brand new "Setores Atendidos" section (the single biggest structural change), closing content revamp (differentials + founders with photos + FAQ), and a final meta/WhatsApp global audit pass.
+
+## Phases (v2.0)
+
+- [ ] **Phase 8: Hero + Final CTA Rewrite** - New consultative headlines and CTAs at the top and bottom conversion moments
+- [ ] **Phase 9: Provocação + Dados de Mercado** - "Isso é familiar?" becomes provocative questions; market section title and closing phrase realigned
+- [ ] **Phase 10: Processo 4 Passos + Soluções** - Expand stepper from 3 to 4 steps (Raio-X → Mapa → Construção → Acompanhamento) and rewrite solutions header
+- [ ] **Phase 11: Setores Atendidos (nova seção)** - New sector grid section between Soluções and Diferenciais with navigation entries
+- [ ] **Phase 12: Diferenciais + Quem Somos + FAQ** - Consultative differentials, founder mini-bios with photos, and diagnosis-oriented FAQ
+- [ ] **Phase 13: Meta + WhatsApp Global Audit** - Meta tags refresh and full audit of every WhatsApp link across HTML/JS
+
+## Phase Details (v2.0)
+
+### Phase 8: Hero + Final CTA Rewrite
+**Goal**: First-time visitor lands on a hero that communicates the consultative positioning ("diagnosis first, then technology") and reaches a matching final CTA at the bottom — both sections speak the same new language and funnel to the diagnostic WhatsApp
+**Depends on**: Phase 7 (v1.0 complete)
+**Requirements**: HERO-V2-01, HERO-V2-02, HERO-V2-03, HERO-V2-04, HERO-V2-05, CTA-V2-01, CTA-V2-02, CTA-V2-03
+**Success Criteria** (what must be TRUE):
+  1. Hero headline reads "Antes de automatizar, a gente entende onde seu negócio trava" (PT) / English equivalent, with consultative sub-headline explaining diagnosis-first approach
+  2. Hero primary CTA reads "Agende seu Diagnóstico Gratuito" and secondary CTA "Veja como funciona ↓" anchors to the process section
+  3. Hero badges reworded to "Diagnóstico 100% gratuito · Sem compromisso · Resposta imediata"
+  4. Final CTA section title reads "Pronto para descobrir onde seu negócio pode ir mais longe?" with diagnostic-framed subtitle and button "Falar com um especialista agora"
+  5. Every hero and final-CTA WhatsApp link resolves to `https://wa.me/5521973495805` (no stale numbers remain in these sections)
+**Plans**: TBD
+**UI hint**: yes
+
+### Phase 9: Provocação + Dados de Mercado
+**Goal**: Visitor moves through the mid-funnel and encounters provocative diagnostic questions instead of pain statements, then sees market data framed as urgency for diagnosis ("who starts right, starts with diagnosis")
+**Depends on**: Phase 8
+**Requirements**: PROV-01, PROV-02, PROV-03, MARK-V2-01, MARK-V2-02, MARK-V2-03
+**Success Criteria** (what must be TRUE):
+  1. The former "Isso é familiar?" section now titled "Você sabe onde está perdendo dinheiro?" with 4 provocative question cards (leads frios, etapas manuais, tempo em tarefas IA-resolvíveis, qualidade dependente de plantão)
+  2. Provocação section closes with "A maioria das empresas não sabe responder essas perguntas. Nosso trabalho começa exatamente aí."
+  3. Market data section title reads "O mercado já se moveu. E o seu negócio?" with closing phrase reframed around diagnosis timing
+  4. All market statistics and cited sources (McKinsey, IBM, Tidio, Zendesk, MDPI, Sales So) are preserved — only titles and framing change
+  5. All new copy has PT + EN translations via `data-i18n` keys and reads naturally in both languages
+**Plans**: TBD
+**UI hint**: yes
+
+### Phase 10: Processo 4 Passos + Soluções
+**Goal**: Visitor understands the full 4-step consultative process (Raio-X do Negócio → Mapa de Oportunidades → Construção Sob Medida → Acompanhamento e Otimização) and immediately after sees that solutions emerge from the diagnosis, not from a catalog
+**Depends on**: Phase 9
+**Requirements**: PROC-V2-01, PROC-V2-02, PROC-V2-03, PROC-V2-04, PROC-V2-05, SOL-V2-01, SOL-V2-02
+**Success Criteria** (what must be TRUE):
+  1. Process section now titled "Consultoria primeiro. Tecnologia depois." with subtitle "Nosso processo existe para garantir que cada solução resolve o problema certo."
+  2. Stepper shows 4 steps (Raio-X, Mapa de Oportunidades, Construção Sob Medida, Acompanhamento e Otimização) each with numbered badge, icon, title, description, in PT + EN
+  3. Visual connector (line/gradient) between steps is adapted for 4 items on desktop and flows as vertical timeline on mobile without overflow
+  4. Process section closing CTA reads "Comece pelo diagnóstico — é gratuito" and links to `https://wa.me/5521973495805`
+  5. Solutions section title reads "Soluções que nascem do diagnóstico" with new subtitle; the 6 existing service cards retain their internal copy
+**Plans**: TBD
+**UI hint**: yes
+
+### Phase 11: Setores Atendidos (nova seção)
+**Goal**: Visitor sees the 6 real sectors DMV serves (Clínicas, E-commerces, Escritórios, Prestadores de Serviço, Educação, Imobiliárias) as a new grid section between Soluções and Diferenciais, and the site navigation reflects this new anchor
+**Depends on**: Phase 10
+**Requirements**: SECT-01, SECT-02, SECT-03, SECT-04, SECT-05, SECT-06, SECT-07
+**Success Criteria** (what must be TRUE):
+  1. A new "Setores que já transformamos com IA" section exists in the DOM between the Soluções and Diferenciais sections with a semantic ID anchor
+  2. Grid displays 6 sector cards (Clínicas e Consultórios, E-commerces, Escritórios e Consultorias, Prestadores de Serviço, Educação e Cursos, Imobiliárias), each with a consistent SVG/FontAwesome icon and label
+  3. Section closes with "Se o seu negócio atende clientes, a IA pode ajudar. Agende o diagnóstico e descubra como."
+  4. Navbar and footer navigation include a new link that scrolls to the Setores section
+  5. Grid is responsive (3 columns desktop / 2 tablet / 1 mobile) with no horizontal overflow and visual style (glassmorphism, paleta, tipografia) consistent with existing sections
+  6. All new copy has complete PT/EN `data-i18n` keys and toggling language updates every text element in the new section
+**Plans**: TBD
+**UI hint**: yes
+
+### Phase 12: Diferenciais + Quem Somos + FAQ
+**Goal**: Visitor finishes the persuasion arc with consultative differentials, meets the 3 founders with real photos and specialties, and has all diagnosis-oriented objections answered in the FAQ
+**Depends on**: Phase 11
+**Requirements**: DIFF-V2-01, DIFF-V2-02, ABOUT-V2-01, ABOUT-V2-02, ABOUT-V2-03, ABOUT-V2-04, ABOUT-V2-05, FAQ-V2-01, FAQ-V2-02
+**Success Criteria** (what must be TRUE):
+  1. Diferenciais section titled "Por que a DMV?" with subtitle "Não somos mais uma agência. Somos parceiros de diagnóstico e resultado." and 4 new cards (Diagnóstico antes de tudo, Visão de processo não de ferramenta, Honestidade técnica, Parceria de longo prazo) in PT + EN
+  2. "Quem Somos" section displays 3 founder mini-bios using `foto-vitor.jpg`, `foto-mariel.jpg`, `foto-daniel.jpg`, each with photo + name + specialty (Vitor Pellegrino — Estratégia & Automação; Mariel Junior — IA & Desenvolvimento; Daniel Jachelli — Análise de Dados & Otimização)
+  3. Founder cards are visually consistent with existing design (glassmorphism, paleta, fotos em formato circular ou card) and responsive across breakpoints
+  4. FAQ section shows 6 rewritten diagnosis-oriented questions (custo / tecnologia / segmento / tempo / reunião / suporte) in PT + EN, preserving the existing accordion behavior (max-height transition, single-open, icon rotation, aria-expanded)
+  5. Language toggle updates every new text element in these three sections without erasing layout or photos
+**Plans**: TBD
+**UI hint**: yes
+
+### Phase 13: Meta + WhatsApp Global Audit
+**Goal**: Search engines, social previews, and every single CTA on the page reflect the new consultative positioning and the correct WhatsApp number — no stale copy or stale links remain anywhere
+**Depends on**: Phase 12
+**Requirements**: META-01, META-02, META-03, META-04
+**Success Criteria** (what must be TRUE):
+  1. `<meta name="description">` reads "Consultoria e automação com IA sob medida. Diagnosticamos seus processos, identificamos gargalos e implementamos soluções inteligentes para o seu negócio."
+  2. `<title>` and any OG/Twitter meta variants reflect the consultative positioning
+  3. Full-file audit confirms every WhatsApp link in `index.html` and `script.js` resolves to `https://wa.me/5521973495805` — zero stale numbers remain
+  4. Footer navigation links are synchronized with v2.0 sections (includes Setores entry) and scroll correctly to every anchor on the page
+**Plans**: TBD
+
+## Progress (v2.0)
+
+**Execution Order:**
+Phases execute in numeric order: 8 -> 9 -> 10 -> 11 -> 12 -> 13
+
+| Phase | Plans Complete | Status | Completed |
+|-------|----------------|--------|-----------|
+| 8. Hero + Final CTA Rewrite | 0/- | Not started | - |
+| 9. Provocação + Dados de Mercado | 0/- | Not started | - |
+| 10. Processo 4 Passos + Soluções | 0/- | Not started | - |
+| 11. Setores Atendidos (nova seção) | 0/- | Not started | - |
+| 12. Diferenciais + Quem Somos + FAQ | 0/- | Not started | - |
+| 13. Meta + WhatsApp Global Audit | 0/- | Not started | - |

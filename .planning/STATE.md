@@ -2,12 +2,12 @@
 gsd_state_version: 1.0
 milestone: v2.0
 milestone_name: repositioning-consultivo
-status: defining-requirements
-stopped_at: Milestone v2.0 started — defining requirements
+status: ready-to-plan
+stopped_at: Roadmap v2.0 created — Phase 8 ready to discuss/plan
 last_updated: "2026-04-14T00:00:00Z"
 last_activity: 2026-04-14
 progress:
-  total_phases: 0
+  total_phases: 6
   completed_phases: 0
   total_plans: 0
   completed_plans: 0
@@ -21,22 +21,22 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-14)
 
 **Core value:** Todo CTA apontando para `https://wa.me/5521973495805` e visível em todos os dispositivos — se o visitante chegar ao WhatsApp para agendar diagnóstico, a página cumpriu seu propósito.
-**Current focus:** Milestone v2.0 Repositioning Consultivo — defining requirements
+**Current focus:** Milestone v2.0 Repositioning Consultivo — Phase 8 (Hero + Final CTA Rewrite) ready to discuss/plan
 
 ## Current Position
 
-Phase: Not started (defining requirements)
+Phase: 8 — Hero + Final CTA Rewrite
 Plan: —
-Status: Defining requirements
-Last activity: 2026-04-14 — Milestone v2.0 started
+Status: Ready to discuss/plan
+Last activity: 2026-04-14 — Roadmap v2.0 created (6 phases, 41 requirements mapped)
 
-Progress: [          ] 0%
+Progress: [          ] 0% (0/6 phases)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 0
+- Total plans completed: 0 (v2.0)
 - Average duration: -
 - Total execution time: 0 hours
 
@@ -46,12 +46,8 @@ Progress: [          ] 0%
 |-------|-------|-------|----------|
 | - | - | - | - |
 
-**Recent Trend:**
+**Recent Trend (v1.0 history):**
 
-- Last 5 plans: -
-- Trend: -
-
-*Updated after each plan completion*
 | Phase 01-foundation P01 | 3min | 2 tasks | 3 files |
 | Phase 01-foundation P02 | 3min | 3 tasks | 2 files |
 | Phase 02-hero-floating-cta P01 | 2min | 3 tasks | 3 files |
@@ -106,10 +102,12 @@ Recent decisions affecting current work:
 - [Phase 07-polish-qa]: Used observer.unobserve per element instead of disconnect for individual card reveals — Matches Part 6 counter animation pattern; each element reveals independently as scrolled into view
 - [Phase 07-polish-qa]: Explicit element-level focus-visible (a, button, .faq-btn, .lang-btn) with outline-offset:3px instead of generic :focus-visible
 - [Phase 07-polish-qa]: whatsapp-pulse now uses transform:scale(1/1.06) as primary GPU-friendly animated property, replacing box-shadow expansion ripple
+- [Roadmap v2.0]: 6-phase structure (8-13) derived from 41 v2 requirements — conversion bookends first (Hero + Final CTA), mid-funnel copy, structural stepper + solutions, new Setores section, closing content (differentials/bios/FAQ), final meta audit
+- [Roadmap v2.0]: Meta audit deferred to final phase because META-04 (footer nav with Setores) depends on SECT section already existing
 
 ### Pending Todos
 
-None yet.
+None yet (v2.0 planning starts at Phase 8).
 
 ### Blockers/Concerns
 
@@ -117,6 +115,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T06:52:16.610Z
-Stopped at: Completed 07-polish-qa-02-PLAN.md
-Resume file: None
+Last session: 2026-04-14
+Stopped at: Roadmap v2.0 created — ready for Phase 8 discuss/plan
+Resume file: .planning/ROADMAP.md (v2.0 section)
