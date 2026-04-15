@@ -165,7 +165,7 @@ Reposition the landing page from "AI execution agency" to "consulting + executio
 - [ ] **Phase 8: Hero + Final CTA Rewrite** - New consultative headlines and CTAs at the top and bottom conversion moments
 - [ ] **Phase 9: Provocação + Dados de Mercado** - "Isso é familiar?" becomes provocative questions; market section title and closing phrase realigned
 - [x] **Phase 10: Processo 4 Passos + Soluções** - Expand stepper from 3 to 4 steps (Raio-X → Mapa → Construção → Acompanhamento) and rewrite solutions header (completed 2026-04-15)
-- [ ] **Phase 11: Setores Atendidos (nova seção)** - New sector grid section between Soluções and Diferenciais with navigation entries
+- [x] **Phase 11: Setores Atendidos (nova seção)** - New sector grid section between Soluções and Diferenciais with navigation entries (completed 2026-04-15)
 - [ ] **Phase 12: Diferenciais + Quem Somos + FAQ** - Consultative differentials, founder mini-bios with photos, and diagnosis-oriented FAQ
 - [ ] **Phase 13: Meta + WhatsApp Global Audit** - Meta tags refresh and full audit of every WhatsApp link across HTML/JS
 
@@ -270,6 +270,6 @@ Phases execute in numeric order: 8 -> 9 -> 10 -> 11 -> 12 -> 13
 | 8. Hero + Final CTA Rewrite | 0/- | Not started | - |
 | 9. Provocação + Dados de Mercado | 0/2 | Not started | - |
 | 10. Processo 4 Passos + Soluções | 2/2 | Complete   | 2026-04-15 |
-| 11. Setores Atendidos (nova seção) | 1/2 | In Progress|  |
+| 11. Setores Atendidos (nova seção) | 2/2 | Complete   | 2026-04-15 |
 | 12. Diferenciais + Quem Somos + FAQ | 0/- | Not started | - |
 | 13. Meta + WhatsApp Global Audit | 0/- | Not started | - |

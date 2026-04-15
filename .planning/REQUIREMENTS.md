@@ -306,8 +306,8 @@
 - [x] **SECT-02**: Grid com 6 setores (Clínicas e Consultórios, E-commerces, Escritórios e Consultorias, Prestadores de Serviço, Educação e Cursos, Imobiliárias) + ícone por setor
 - [x] **SECT-03**: Frase de fechamento "Se o seu negócio atende clientes, a IA pode ajudar. Agende o diagnóstico e descubra como."
 - [x] **SECT-04**: Link da nova seção adicionado à navegação (navbar + footer)
-- [ ] **SECT-05**: Ícones SVG inline ou FontAwesome consistentes com design existente
-- [ ] **SECT-06**: Layout responsivo (grid adapta em 3/2/1 colunas conforme breakpoint)
+- [x] **SECT-05**: Ícones SVG inline ou FontAwesome consistentes com design existente
+- [x] **SECT-06**: Layout responsivo (grid adapta em 3/2/1 colunas conforme breakpoint)
 - [x] **SECT-07**: i18n PT/EN completo com `data-i18n` keys novas
 
 ### Diferenciais Reescritos (DIFF-V2)
@@ -385,8 +385,8 @@
 | SECT-02 | Phase 11: Setores Atendidos (nova seção) | Complete |
 | SECT-03 | Phase 11: Setores Atendidos (nova seção) | Complete |
 | SECT-04 | Phase 11: Setores Atendidos (nova seção) | Complete |
-| SECT-05 | Phase 11: Setores Atendidos (nova seção) | Pending |
-| SECT-06 | Phase 11: Setores Atendidos (nova seção) | Pending |
+| SECT-05 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| SECT-06 | Phase 11: Setores Atendidos (nova seção) | Complete |
 | SECT-07 | Phase 11: Setores Atendidos (nova seção) | Complete |
 | DIFF-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
 | DIFF-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
