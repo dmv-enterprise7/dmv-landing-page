@@ -2436,3 +2436,129 @@ button:focus-visible,
     padding: 0 16px;
   }
 }
+
+/* ============================================================
+   Phase 11: Setores Atendidos (SECT-05, SECT-06)
+   Responsive 3/2/1 grid with glassmorphism cards and cyan icons
+   ============================================================ */
+
+.section-sectors {
+  /* inherits .section padding */
+}
+
+.sectors-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.sectors-header h2 {
+  margin: 0;
+}
+
+/* --- Desktop: 3 columns (SECT-06) --- */
+.sectors-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* --- Card: glassmorphism matching .diff-card tokens --- */
+.sector-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border-radius: 20px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  text-align: center;
+  transition: border-color var(--transition-default),
+              box-shadow var(--transition-default),
+              transform var(--transition-default);
+}
+
+.sector-card:hover {
+  border-color: rgba(0, 200, 255, 0.25);
+  box-shadow: 0 0 30px rgba(0, 200, 255, 0.1), 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+/* --- Icon container: cyan-tinted square, matches .diff-icon --- */
+.sector-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: rgba(0, 200, 255, 0.08);
+  border: 1px solid rgba(0, 200, 255, 0.12);
+  border-radius: 14px;
+  color: var(--color-cyan);
+}
+
+/* --- Sector label: bold, headline font --- */
+.sector-label {
+  font-family: var(--font-headline);
+  font-size: clamp(0.95rem, 1.3vw, 1.05rem);
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+/* --- Closing line: centered, muted, spaced below grid --- */
+.sectors-closing {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.2vw, 1.05rem);
+  color: var(--color-text-secondary);
+  text-align: center;
+  max-width: 680px;
+  margin: 48px auto 0;
+  line-height: 1.6;
+}
+
+/* --- Tablet: 2 columns (SECT-06) --- */
+@media (max-width: 1024px) {
+  .sectors-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 720px;
+    gap: 20px;
+  }
+  .sector-card {
+    padding: 28px 22px;
+  }
+}
+
+/* --- Mobile: 1 column (SECT-06) --- */
+@media (max-width: 768px) {
+  .sectors-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 440px;
+  }
+  .sectors-header {
+    margin-bottom: 36px;
+  }
+  .sector-card {
+    padding: 24px 20px;
+  }
+  .sectors-closing {
+    margin-top: 36px;
+  }
+}
+
+@media (max-width: 375px) {
+  .sector-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+  }
+}
