@@ -17,11 +17,11 @@ var translations = {
 
     // Hero section
     'hero.badge': '\u2726 Agência de Automação com IA',
-    'hero.headline': 'Seu negócio no piloto automático com Inteligência Artificial',
-    'hero.subheadline': 'Criamos assistentes virtuais e automações sob medida que atendem seus clientes 24h, organizam seus processos e liberam seu tempo para o que realmente importa.',
-    'hero.cta-primary': 'Agende uma Reunião',
-    'hero.cta-secondary': 'Ver como funciona \u2193',
-    'hero.seal-1': 'Reunião 100% gratuita',
+    'hero.headline': 'Antes de automatizar, a gente entende onde seu negócio trava',
+    'hero.subheadline': 'Fazemos o diagnóstico dos seus processos, identificamos gargalos e só então desenhamos a IA sob medida que seu negócio realmente precisa.',
+    'hero.cta-primary': 'Agende seu Diagnóstico Gratuito',
+    'hero.cta-secondary': 'Veja como funciona \u2193',
+    'hero.seal-1': 'Diagnóstico 100% gratuito',
     'hero.seal-2': 'Sem compromisso',
     'hero.seal-3': 'Resposta imediata',
 
@@ -131,12 +131,12 @@ var translations = {
 
     // Hero section
     'hero.badge': '\u2726 AI Automation Agency',
-    'hero.headline': 'Your business on autopilot with Artificial Intelligence',
-    'hero.subheadline': 'We build custom virtual assistants and automations that serve your customers 24/7, streamline your operations, and free your time for what truly matters.',
-    'hero.cta-primary': 'Schedule a Meeting',
+    'hero.headline': 'Before automating, we understand where your business gets stuck',
+    'hero.subheadline': 'We diagnose your processes, identify bottlenecks, and only then design the tailor-made AI your business really needs.',
+    'hero.cta-primary': 'Schedule Your Free Diagnosis',
     'hero.cta-secondary': 'See how it works \u2193',
-    'hero.seal-1': 'Free meeting, no strings attached',
-    'hero.seal-2': 'No commitment required',
+    'hero.seal-1': '100% free diagnosis',
+    'hero.seal-2': 'No commitment',
     'hero.seal-3': 'Immediate response',
 
     // Floating WhatsApp button
