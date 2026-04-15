@@ -44,7 +44,7 @@ var translations = {
     'why-ai.stat5.source': 'MDPI Academic Study, 2025',
     'why-ai.stat6.desc': 'de aumento médio em vendas após implementação de chatbots',
     'why-ai.stat6.source': 'Sales So / Industry Data',
-    'why-ai.transition': 'A pergunta não é SE você vai usar IA. É QUANDO. E quem começa antes, sai na frente.',
+    'why-ai.transition': 'A pergunta não é SE você vai usar IA. É QUANDO. E quem começa com diagnóstico, começa certo.',
     'why-ai.cta': 'Descubra o que a IA pode fazer pelo seu negócio \u2014 agende uma reunião',
     'pain.title': 'Você sabe onde está perdendo dinheiro?',
     'pain.item1': 'Quantos leads esfriaram porque ninguém respondeu em 5 minutos?',
@@ -144,7 +144,7 @@ var translations = {
 
     // Market Data section — Phase 03
     'why-ai.badge': '\u2666 Real Market Data',
-    'why-ai.title': 'The market has already moved. Has your business?',
+    'why-ai.title': 'The market has already moved. What about your business?',
     'why-ai.subtitle': 'Companies adopting AI are growing faster, spending less, and serving better. These are the real numbers:',
     'why-ai.stat1.desc': 'of companies already use AI in at least one business function',
     'why-ai.stat1.source': 'McKinsey, State of AI 2025',
@@ -158,7 +158,7 @@ var translations = {
     'why-ai.stat5.source': 'MDPI Academic Study, 2025',
     'why-ai.stat6.desc': 'average increase in sales after chatbot implementation',
     'why-ai.stat6.source': 'Sales So / Industry Data',
-    'why-ai.transition': 'The question isn\'t IF you\'ll use AI. It\'s WHEN. And those who start first, lead the race.',
+    'why-ai.transition': 'The question isn\'t IF you\'ll use AI. It\'s WHEN. And those who start with diagnosis start right.',
     'why-ai.cta': 'Discover what AI can do for your business \u2014 schedule a meeting',
     'pain.title': 'Do you know where you\'re losing money?',
     'pain.item1': 'How many leads went cold because no one responded within 5 minutes?',
