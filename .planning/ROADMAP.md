@@ -181,8 +181,12 @@ Reposition the landing page from "AI execution agency" to "consulting + executio
   3. Hero badges reworded to "Diagnóstico 100% gratuito · Sem compromisso · Resposta imediata"
   4. Final CTA section title reads "Pronto para descobrir onde seu negócio pode ir mais longe?" with diagnostic-framed subtitle and button "Falar com um especialista agora"
   5. Every hero and final-CTA WhatsApp link resolves to `https://wa.me/5521973495805` (no stale numbers remain in these sections)
-**Plans**: TBD
+**Plans**: 2 plans
 **UI hint**: yes
+
+Plans:
+- [ ] 08-01-PLAN.md — Hero section rewrite (headline, sub-headline, CTAs, badges) in index.html + script.js PT/EN
+- [ ] 08-02-PLAN.md — Final CTA section rewrite (title, subtitle, button, badges) in index.html + script.js PT/EN
 
 ### Phase 9: Provocação + Dados de Mercado
 **Goal**: Visitor moves through the mid-funnel and encounters provocative diagnostic questions instead of pain statements, then sees market data framed as urgency for diagnosis ("who starts right, starts with diagnosis")
