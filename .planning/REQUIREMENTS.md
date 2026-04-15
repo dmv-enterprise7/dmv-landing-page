@@ -291,9 +291,9 @@
 
 ### Dados de Mercado (MARK-V2)
 
-- [ ] **MARK-V2-01**: Título alterado para "O mercado já se moveu. E o seu negócio?" (PT + EN)
-- [ ] **MARK-V2-02**: Frase de fechamento substituída por "A pergunta não é SE você vai usar IA. É QUANDO. E quem começa com diagnóstico, começa certo."
-- [ ] **MARK-V2-03**: Números e fontes estatísticas mantidos (McKinsey, IBM, Tidio, Zendesk, MDPI, Sales So)
+- [x] **MARK-V2-01**: Título alterado para "O mercado já se moveu. E o seu negócio?" (PT + EN)
+- [x] **MARK-V2-02**: Frase de fechamento substituída por "A pergunta não é SE você vai usar IA. É QUANDO. E quem começa com diagnóstico, começa certo."
+- [x] **MARK-V2-03**: Números e fontes estatísticas mantidos (McKinsey, IBM, Tidio, Zendesk, MDPI, Sales So)
 
 ### Soluções (SOL-V2)
 
@@ -371,9 +371,9 @@
 | PROV-01 | Phase 9: Provocação + Dados de Mercado | Complete |
 | PROV-02 | Phase 9: Provocação + Dados de Mercado | Complete |
 | PROV-03 | Phase 9: Provocação + Dados de Mercado | Complete |
-| MARK-V2-01 | Phase 9: Provocação + Dados de Mercado | Pending |
-| MARK-V2-02 | Phase 9: Provocação + Dados de Mercado | Pending |
-| MARK-V2-03 | Phase 9: Provocação + Dados de Mercado | Pending |
+| MARK-V2-01 | Phase 9: Provocação + Dados de Mercado | Complete |
+| MARK-V2-02 | Phase 9: Provocação + Dados de Mercado | Complete |
+| MARK-V2-03 | Phase 9: Provocação + Dados de Mercado | Complete |
 | PROC-V2-01 | Phase 10: Processo 4 Passos + Soluções | Pending |
 | PROC-V2-02 | Phase 10: Processo 4 Passos + Soluções | Pending |
 | PROC-V2-03 | Phase 10: Processo 4 Passos + Soluções | Pending |
