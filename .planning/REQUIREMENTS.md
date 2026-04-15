@@ -325,8 +325,8 @@
 
 ### FAQ Reescrito (FAQ-V2)
 
-- [ ] **FAQ-V2-01**: 6 perguntas reescritas conforme briefing (custo/tecnologia/segmento/tempo/reunião/suporte) em PT + EN
-- [ ] **FAQ-V2-02**: Accordion existente preservado (max-height transition, single-open, rotate ícone)
+- [x] **FAQ-V2-01**: 6 perguntas reescritas conforme briefing (custo/tecnologia/segmento/tempo/reunião/suporte) em PT + EN
+- [x] **FAQ-V2-02**: Accordion existente preservado (max-height transition, single-open, rotate ícone)
 
 ### CTA Final (CTA-V2)
 
@@ -395,8 +395,8 @@
 | ABOUT-V2-03 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
 | ABOUT-V2-04 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
 | ABOUT-V2-05 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
-| FAQ-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
-| FAQ-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| FAQ-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| FAQ-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
 | META-01 | Phase 13: Meta + WhatsApp Global Audit | Pending |
 | META-02 | Phase 13: Meta + WhatsApp Global Audit | Pending |
 | META-03 | Phase 13: Meta + WhatsApp Global Audit | Pending |
