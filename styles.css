@@ -1886,6 +1886,16 @@ button:focus-visible,
   text-align: center;
 }
 
+.founder-specialty {
+  display: block;
+  margin-top: 0.25rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.65));
+  text-align: center;
+}
+
 /* About — Responsive */
 @media (max-width: 768px) {
   .about-inner {
