@@ -488,6 +488,7 @@ function setLanguage(lang) {
     '.stats-grid > .stat-card',
     '.pain-points-grid > .pain-card',
     '.services-bento > .service-card',
+    '.sectors-grid > .sector-card',
     '.how-it-works-steps > .step-card',
     '.diff-grid > .diff-card',
     '.faq-list > .faq-item',
