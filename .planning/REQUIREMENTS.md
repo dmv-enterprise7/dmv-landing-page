@@ -269,11 +269,11 @@
 
 ### Hero Reescrito (HERO-V2)
 
-- [ ] **HERO-V2-01**: Headline alterado para "Antes de automatizar, a gente entende onde seu negócio trava" (PT) + equivalente EN
-- [ ] **HERO-V2-02**: Sub-headline alterado para "Fazemos o diagnóstico dos seus processos, identificamos gargalos e só então desenhamos a IA sob medida que seu negócio realmente precisa." (PT + EN)
-- [ ] **HERO-V2-03**: CTA primário com texto "Agende seu Diagnóstico Gratuito" apontando para `https://wa.me/5521973495805`
-- [ ] **HERO-V2-04**: CTA secundário "Veja como funciona ↓" com âncora para seção de processo
-- [ ] **HERO-V2-05**: Badges reescritas: "Diagnóstico 100% gratuito · Sem compromisso · Resposta imediata"
+- [x] **HERO-V2-01**: Headline alterado para "Antes de automatizar, a gente entende onde seu negócio trava" (PT) + equivalente EN
+- [x] **HERO-V2-02**: Sub-headline alterado para "Fazemos o diagnóstico dos seus processos, identificamos gargalos e só então desenhamos a IA sob medida que seu negócio realmente precisa." (PT + EN)
+- [x] **HERO-V2-03**: CTA primário com texto "Agende seu Diagnóstico Gratuito" apontando para `https://wa.me/5521973495805`
+- [x] **HERO-V2-04**: CTA secundário "Veja como funciona ↓" com âncora para seção de processo
+- [x] **HERO-V2-05**: Badges reescritas: "Diagnóstico 100% gratuito · Sem compromisso · Resposta imediata"
 
 ### Provocação (PROV) — substitui Pain Points
 
@@ -283,11 +283,11 @@
 
 ### Processo 4 Passos (PROC-V2) — substitui processo 3 passos
 
-- [ ] **PROC-V2-01**: Stepper com 4 passos (Raio-X do Negócio → Mapa de Oportunidades → Construção Sob Medida → Acompanhamento e Otimização) — adiciona 1 passo e reescreve os demais
-- [ ] **PROC-V2-02**: Título "Consultoria primeiro. Tecnologia depois." + subtítulo "Nosso processo existe para garantir que cada solução resolve o problema certo."
-- [ ] **PROC-V2-03**: Copy de cada passo conforme briefing, em PT + EN, com i18n
-- [ ] **PROC-V2-04**: CTA "Comece pelo diagnóstico — é gratuito" ao final da seção → WhatsApp
-- [ ] **PROC-V2-05**: Conector visual (linha/gradiente) ajustado para 4 passos em desktop e mobile
+- [x] **PROC-V2-01**: Stepper com 4 passos (Raio-X do Negócio → Mapa de Oportunidades → Construção Sob Medida → Acompanhamento e Otimização) — adiciona 1 passo e reescreve os demais
+- [x] **PROC-V2-02**: Título "Consultoria primeiro. Tecnologia depois." + subtítulo "Nosso processo existe para garantir que cada solução resolve o problema certo."
+- [x] **PROC-V2-03**: Copy de cada passo conforme briefing, em PT + EN, com i18n
+- [x] **PROC-V2-04**: CTA "Comece pelo diagnóstico — é gratuito" ao final da seção → WhatsApp
+- [x] **PROC-V2-05**: Conector visual (linha/gradiente) ajustado para 4 passos em desktop e mobile
 
 ### Dados de Mercado (MARK-V2)
 
@@ -330,9 +330,9 @@
 
 ### CTA Final (CTA-V2)
 
-- [ ] **CTA-V2-01**: Título alterado para "Pronto para descobrir onde seu negócio pode ir mais longe?"
-- [ ] **CTA-V2-02**: Subtítulo "Comece com um diagnóstico gratuito. Sem compromisso, sem enrolação." + CTA "Falar com um especialista agora" → WhatsApp
-- [ ] **CTA-V2-03**: Badges "Sem compromisso · 100% gratuito · Resposta imediata"
+- [x] **CTA-V2-01**: Título alterado para "Pronto para descobrir onde seu negócio pode ir mais longe?"
+- [x] **CTA-V2-02**: Subtítulo "Comece com um diagnóstico gratuito. Sem compromisso, sem enrolação." + CTA "Falar com um especialista agora" → WhatsApp
+- [x] **CTA-V2-03**: Badges "Sem compromisso · 100% gratuito · Resposta imediata"
 
 ### Meta + WhatsApp Global (META)
 

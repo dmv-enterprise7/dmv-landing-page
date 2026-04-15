@@ -275,9 +275,11 @@ Phases execute in numeric order: 8 -> 9 -> 10 -> 11 -> 12 -> 13
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 8. Hero + Final CTA Rewrite | 0/- | Not started | - |
-| 9. Provocação + Dados de Mercado | 0/2 | Not started | - |
+| 8. Hero + Final CTA Rewrite | 2/2 | Complete   | 2026-04-15 |
+| 9. Provocação + Dados de Mercado | 2/2 | Complete   | 2026-04-15 |
 | 10. Processo 4 Passos + Soluções | 2/2 | Complete   | 2026-04-15 |
 | 11. Setores Atendidos (nova seção) | 2/2 | Complete   | 2026-04-15 |
 | 12. Diferenciais + Quem Somos + FAQ | 3/3 | Complete   | 2026-04-15 |
 | 13. Meta + WhatsApp Global Audit | 1/1 | Complete   | 2026-04-15 |
+
+**Milestone v2.0 Status: COMPLETE** — 6/6 phases verified; integration audit PASS (41/41 v2.0 requirements wired end-to-end).
