@@ -302,13 +302,13 @@
 
 ### Setores Atendidos (SECT) — nova seção
 
-- [ ] **SECT-01**: Nova seção "Setores que já transformamos com IA" inserida entre Soluções e Diferenciais
-- [ ] **SECT-02**: Grid com 6 setores (Clínicas e Consultórios, E-commerces, Escritórios e Consultorias, Prestadores de Serviço, Educação e Cursos, Imobiliárias) + ícone por setor
-- [ ] **SECT-03**: Frase de fechamento "Se o seu negócio atende clientes, a IA pode ajudar. Agende o diagnóstico e descubra como."
-- [ ] **SECT-04**: Link da nova seção adicionado à navegação (navbar + footer)
+- [x] **SECT-01**: Nova seção "Setores que já transformamos com IA" inserida entre Soluções e Diferenciais
+- [x] **SECT-02**: Grid com 6 setores (Clínicas e Consultórios, E-commerces, Escritórios e Consultorias, Prestadores de Serviço, Educação e Cursos, Imobiliárias) + ícone por setor
+- [x] **SECT-03**: Frase de fechamento "Se o seu negócio atende clientes, a IA pode ajudar. Agende o diagnóstico e descubra como."
+- [x] **SECT-04**: Link da nova seção adicionado à navegação (navbar + footer)
 - [ ] **SECT-05**: Ícones SVG inline ou FontAwesome consistentes com design existente
 - [ ] **SECT-06**: Layout responsivo (grid adapta em 3/2/1 colunas conforme breakpoint)
-- [ ] **SECT-07**: i18n PT/EN completo com `data-i18n` keys novas
+- [x] **SECT-07**: i18n PT/EN completo com `data-i18n` keys novas
 
 ### Diferenciais Reescritos (DIFF-V2)
 
@@ -381,13 +381,13 @@
 | PROC-V2-05 | Phase 10: Processo 4 Passos + Soluções | Pending |
 | SOL-V2-01 | Phase 10: Processo 4 Passos + Soluções | Complete |
 | SOL-V2-02 | Phase 10: Processo 4 Passos + Soluções | Complete |
-| SECT-01 | Phase 11: Setores Atendidos (nova seção) | Pending |
-| SECT-02 | Phase 11: Setores Atendidos (nova seção) | Pending |
-| SECT-03 | Phase 11: Setores Atendidos (nova seção) | Pending |
-| SECT-04 | Phase 11: Setores Atendidos (nova seção) | Pending |
+| SECT-01 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| SECT-02 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| SECT-03 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| SECT-04 | Phase 11: Setores Atendidos (nova seção) | Complete |
 | SECT-05 | Phase 11: Setores Atendidos (nova seção) | Pending |
 | SECT-06 | Phase 11: Setores Atendidos (nova seção) | Pending |
-| SECT-07 | Phase 11: Setores Atendidos (nova seção) | Pending |
+| SECT-07 | Phase 11: Setores Atendidos (nova seção) | Complete |
 | DIFF-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
 | DIFF-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
 | ABOUT-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
