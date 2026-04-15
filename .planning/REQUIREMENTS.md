@@ -277,9 +277,9 @@
 
 ### Provocação (PROV) — substitui Pain Points
 
-- [ ] **PROV-01**: Título alterado para "Você sabe onde está perdendo dinheiro?" (PT + EN)
-- [ ] **PROV-02**: 4 cards em formato de perguntas provocativas: leads frios, etapas manuais, tempo gasto em tarefas IA-resolvíveis, qualidade dependente do plantão (PT + EN)
-- [ ] **PROV-03**: Frase de fechamento "A maioria das empresas não sabe responder essas perguntas. Nosso trabalho começa exatamente aí." (PT + EN)
+- [x] **PROV-01**: Título alterado para "Você sabe onde está perdendo dinheiro?" (PT + EN)
+- [x] **PROV-02**: 4 cards em formato de perguntas provocativas: leads frios, etapas manuais, tempo gasto em tarefas IA-resolvíveis, qualidade dependente do plantão (PT + EN)
+- [x] **PROV-03**: Frase de fechamento "A maioria das empresas não sabe responder essas perguntas. Nosso trabalho começa exatamente aí." (PT + EN)
 
 ### Processo 4 Passos (PROC-V2) — substitui processo 3 passos
 
@@ -368,9 +368,9 @@
 | CTA-V2-01 | Phase 8: Hero + Final CTA Rewrite | Pending |
 | CTA-V2-02 | Phase 8: Hero + Final CTA Rewrite | Pending |
 | CTA-V2-03 | Phase 8: Hero + Final CTA Rewrite | Pending |
-| PROV-01 | Phase 9: Provocação + Dados de Mercado | Pending |
-| PROV-02 | Phase 9: Provocação + Dados de Mercado | Pending |
-| PROV-03 | Phase 9: Provocação + Dados de Mercado | Pending |
+| PROV-01 | Phase 9: Provocação + Dados de Mercado | Complete |
+| PROV-02 | Phase 9: Provocação + Dados de Mercado | Complete |
+| PROV-03 | Phase 9: Provocação + Dados de Mercado | Complete |
 | MARK-V2-01 | Phase 9: Provocação + Dados de Mercado | Pending |
 | MARK-V2-02 | Phase 9: Provocação + Dados de Mercado | Pending |
 | MARK-V2-03 | Phase 9: Provocação + Dados de Mercado | Pending |

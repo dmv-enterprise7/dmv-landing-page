@@ -202,7 +202,7 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 09-01-PLAN.md — Provocação section rewrite (title + 4 diagnostic question cards + closing line, PT/EN in index.html + script.js) → PROV-01, PROV-02, PROV-03
+- [x] 09-01-PLAN.md — Provocação section rewrite (title + 4 diagnostic question cards + closing line, PT/EN in index.html + script.js) → PROV-01, PROV-02, PROV-03
 - [ ] 09-02-PLAN.md — Market Data reframe (why-ai.title EN + why-ai.transition PT/EN; statistics and sources preserved) → MARK-V2-01, MARK-V2-02, MARK-V2-03
 
 ### Phase 10: Processo 4 Passos + Soluções
