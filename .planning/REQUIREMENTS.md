@@ -312,8 +312,8 @@
 
 ### Diferenciais Reescritos (DIFF-V2)
 
-- [ ] **DIFF-V2-01**: Título "Por que a DMV?" + subtítulo "Não somos mais uma agência. Somos parceiros de diagnóstico e resultado."
-- [ ] **DIFF-V2-02**: 4 cards substituem os atuais: Diagnóstico antes de tudo, Visão de processo não de ferramenta, Honestidade técnica, Parceria de longo prazo (PT + EN, copy conforme briefing)
+- [x] **DIFF-V2-01**: Título "Por que a DMV?" + subtítulo "Não somos mais uma agência. Somos parceiros de diagnóstico e resultado."
+- [x] **DIFF-V2-02**: 4 cards substituem os atuais: Diagnóstico antes de tudo, Visão de processo não de ferramenta, Honestidade técnica, Parceria de longo prazo (PT + EN, copy conforme briefing)
 
 ### Quem Somos com Bios (ABOUT-V2)
 
@@ -388,8 +388,8 @@
 | SECT-05 | Phase 11: Setores Atendidos (nova seção) | Complete |
 | SECT-06 | Phase 11: Setores Atendidos (nova seção) | Complete |
 | SECT-07 | Phase 11: Setores Atendidos (nova seção) | Complete |
-| DIFF-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
-| DIFF-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| DIFF-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| DIFF-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
 | ABOUT-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
 | ABOUT-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
 | ABOUT-V2-03 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
