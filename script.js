@@ -102,9 +102,11 @@ var translations = {
     // About section — Phase 06 (ABOUT-01 through ABOUT-04)
     'about.badge': '\u2666 Quem Somos',
     'about.title': 'Quem está por trás da DMV?',
-    'about.mission-prefix': 'A DMV nasceu da crença de que tecnologia de ponta não é exclusividade de grandes corporações. Somos ',
-    'about.mission-suffix': ' \u2014 uma equipe de especialistas em IA e automação comprometidos a entregar sistemas inteligentes que realmente funcionam: no seu negócio, do jeito que você precisa.',
-    'about.seal': 'Driven Mind Vanguard \u2014 Vanguarda da Mente Direcionada',
+    'about.intro': 'Somos três fundadores com formações complementares — estratégia, tecnologia e dados — unidos por uma convicção: IA só entrega valor quando nasce do entendimento profundo do negócio.',
+    'about.tagline': 'Driven Mind Vanguard — Vanguarda da Mente Direcionada.',
+    'about.founder1.specialty': 'Estratégia & Automação',
+    'about.founder2.specialty': 'IA & Desenvolvimento',
+    'about.founder3.specialty': 'Análise de Dados & Otimização',
 
     // FAQ section — Phase 06 (FAQ-01 through FAQ-05)
     'faq.title': 'Perguntas Frequentes',
@@ -229,10 +231,12 @@ var translations = {
     'diff.item4.desc': 'We implement, follow up, and evolve together. Your AI success is a continuous process, not a closed project.',
     // About section — Phase 06 (ABOUT-01 through ABOUT-04)
     'about.badge': '\u2666 Who We Are',
-    'about.title': 'Who is behind DMV?',
-    'about.mission-prefix': 'DMV was born from the belief that cutting-edge technology is not exclusive to large corporations. We are ',
-    'about.mission-suffix': ' \u2014 a team of AI and automation specialists committed to delivering intelligent systems that truly work: for your business, the way you need it.',
-    'about.seal': 'Driven Mind Vanguard \u2014 Vanguard of the Driven Mind',
+    'about.title': 'Who\'s behind DMV?',
+    'about.intro': 'We\'re three founders with complementary backgrounds — strategy, technology, and data — united by one conviction: AI only delivers value when it\'s born from a deep understanding of the business.',
+    'about.tagline': 'Driven Mind Vanguard.',
+    'about.founder1.specialty': 'Strategy & Automation',
+    'about.founder2.specialty': 'AI & Development',
+    'about.founder3.specialty': 'Data Analytics & Optimization',
 
     // FAQ section — Phase 06 (FAQ-01 through FAQ-05)
     'faq.title': 'Frequently Asked Questions',
