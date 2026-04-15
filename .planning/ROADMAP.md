@@ -198,8 +198,12 @@ Plans:
   3. Market data section title reads "O mercado já se moveu. E o seu negócio?" with closing phrase reframed around diagnosis timing
   4. All market statistics and cited sources (McKinsey, IBM, Tidio, Zendesk, MDPI, Sales So) are preserved — only titles and framing change
   5. All new copy has PT + EN translations via `data-i18n` keys and reads naturally in both languages
-**Plans**: TBD
+**Plans**: 2 plans
 **UI hint**: yes
+
+Plans:
+- [ ] 09-01-PLAN.md — Provocação section rewrite (title + 4 diagnostic question cards + closing line, PT/EN in index.html + script.js) → PROV-01, PROV-02, PROV-03
+- [ ] 09-02-PLAN.md — Market Data reframe (why-ai.title EN + why-ai.transition PT/EN; statistics and sources preserved) → MARK-V2-01, MARK-V2-02, MARK-V2-03
 
 ### Phase 10: Processo 4 Passos + Soluções
 **Goal**: Visitor understands the full 4-step consultative process (Raio-X do Negócio → Mapa de Oportunidades → Construção Sob Medida → Acompanhamento e Otimização) and immediately after sees that solutions emerge from the diagnosis, not from a catalog
@@ -260,7 +264,7 @@ Phases execute in numeric order: 8 -> 9 -> 10 -> 11 -> 12 -> 13
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 8. Hero + Final CTA Rewrite | 0/- | Not started | - |
-| 9. Provocação + Dados de Mercado | 0/- | Not started | - |
+| 9. Provocação + Dados de Mercado | 0/2 | Not started | - |
 | 10. Processo 4 Passos + Soluções | 0/- | Not started | - |
 | 11. Setores Atendidos (nova seção) | 0/- | Not started | - |
 | 12. Diferenciais + Quem Somos + FAQ | 0/- | Not started | - |
