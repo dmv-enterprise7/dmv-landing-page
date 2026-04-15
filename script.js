@@ -133,7 +133,7 @@ var translations = {
     'cta.badge3': 'Resposta imediata',
 
     // Footer
-    'footer.copy': '\u00A9 2025 DMV Enterprise. Todos os direitos reservados.',
+    'footer.copy': '\u00A9 2026 DMV Enterprise. Todos os direitos reservados.',
     'footer.tagline': 'Driven Mind Vanguard \u2014 Vanguarda da Mente Direcionada'
   },
   en: {
@@ -263,7 +263,7 @@ var translations = {
     'cta.badge3': 'Immediate response',
 
     // Footer
-    'footer.copy': '\u00A9 2025 DMV Enterprise. All rights reserved.',
+    'footer.copy': '\u00A9 2026 DMV Enterprise. All rights reserved.',
     'footer.tagline': 'Driven Mind Vanguard \u2014 Vanguard of the Driven Mind'
   }
 };
