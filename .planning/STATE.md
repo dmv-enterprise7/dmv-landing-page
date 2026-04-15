@@ -1,16 +1,16 @@
 ---
 gsd_state_version: 1.0
-milestone: v1.0
-milestone_name: milestone
+milestone: v2.0
+milestone_name: Repositioning Consultivo
 status: complete
-stopped_at: Milestone v1.0 complete — all 7 phases, 13 plans delivered
-last_updated: "2026-04-01T07:30:00Z"
-last_activity: 2026-04-01
+stopped_at: Milestone v2.0 complete — integration audit PASS
+last_updated: "2026-04-15T04:30:00.000Z"
+last_activity: 2026-04-15 — Milestone v2.0 complete (all 6 phases verified, integration audit PASS)
 progress:
-  total_phases: 7
-  completed_phases: 7
-  total_plans: 13
-  completed_plans: 13
+  total_phases: 6
+  completed_phases: 6
+  total_plans: 14
+  completed_plans: 14
   percent: 100
 ---
 
@@ -18,25 +18,25 @@ progress:
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-04-01)
+See: .planning/PROJECT.md (updated 2026-04-14)
 
-**Core value:** Todo CTA apontando para `https://wa.me/5522981113794` e visivel em todos os dispositivos — se o visitante chegar ao WhatsApp, a pagina cumpriu seu proposito.
-**Current focus:** COMPLETE — milestone v1.0 delivered
+**Core value:** Todo CTA apontando para `https://wa.me/5521973495805` e visível em todos os dispositivos — se o visitante chegar ao WhatsApp para agendar diagnóstico, a página cumpriu seu propósito.
+**Current focus:** Milestone v2.0 Repositioning Consultivo — COMPLETE. All 6 phases (8-13) verified; integration audit PASS.
 
 ## Current Position
 
-Phase: 7 of 7 (Polish & QA) — COMPLETE
-Plan: 13 of 13 total — all complete
-Status: Milestone complete
-Last activity: 2026-04-01
+Phase: —
+Plan: —
+Status: Milestone v2.0 complete
+Last activity: 2026-04-15 — Phase 13 verified + integration audit PASS (41/41 v2.0 requirements wired)
 
-Progress: [██████████] 100%
+Progress: [██████████] 100% (6/6 phases)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 0
+- Total plans completed: 0 (v2.0)
 - Average duration: -
 - Total execution time: 0 hours
 
@@ -46,12 +46,8 @@ Progress: [██████████] 100%
 |-------|-------|-------|----------|
 | - | - | - | - |
 
-**Recent Trend:**
+**Recent Trend (v1.0 history):**
 
-- Last 5 plans: -
-- Trend: -
-
-*Updated after each plan completion*
 | Phase 01-foundation P01 | 3min | 2 tasks | 3 files |
 | Phase 01-foundation P02 | 3min | 3 tasks | 2 files |
 | Phase 02-hero-floating-cta P01 | 2min | 3 tasks | 3 files |
@@ -65,6 +61,15 @@ Progress: [██████████] 100%
 | Phase 06-about-faq-cta-footer P02 | 2min | 2 tasks | 3 files |
 | Phase 07-polish-qa P01 | 1min | 2 tasks | 2 files |
 | Phase 07-polish-qa P02 | 2min | 2 tasks | 2 files |
+| Phase 09 P01 | 5min | 2 tasks | 2 files |
+| Phase 09 P02 | 3min | 1 tasks | 2 files |
+| Phase 10 P02 | 2min | 2 tasks | 2 files |
+| Phase 11 P01 | 1 min | 2 tasks | 2 files |
+| Phase 11 P02 | 1 min | 2 tasks | 2 files |
+| Phase 12-diferenciais-quem-somos-faq P01 | 1 min | 2 tasks | 2 files |
+| Phase 12 P02 | 1 min | 3 tasks | 3 files |
+| Phase 12 P03 | 2 min | 2 tasks | 2 files |
+| Phase 13 P01 | 1 min | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -106,10 +111,14 @@ Recent decisions affecting current work:
 - [Phase 07-polish-qa]: Used observer.unobserve per element instead of disconnect for individual card reveals — Matches Part 6 counter animation pattern; each element reveals independently as scrolled into view
 - [Phase 07-polish-qa]: Explicit element-level focus-visible (a, button, .faq-btn, .lang-btn) with outline-offset:3px instead of generic :focus-visible
 - [Phase 07-polish-qa]: whatsapp-pulse now uses transform:scale(1/1.06) as primary GPU-friendly animated property, replacing box-shadow expansion ripple
+- [Roadmap v2.0]: 6-phase structure (8-13) derived from 41 v2 requirements — conversion bookends first (Hero + Final CTA), mid-funnel copy, structural stepper + solutions, new Setores section, closing content (differentials/bios/FAQ), final meta audit
+- [Roadmap v2.0]: Meta audit deferred to final phase because META-04 (footer nav with Setores) depends on SECT section already existing
+- [Phase 09]: Preserved all 6 market statistics + sources byte-identical while reframing title/closing
+- [Phase 12]: Replaced about.mission-prefix/suffix/seal keys with single about.intro + about.tagline for cleaner consultative framing
 
 ### Pending Todos
 
-None yet.
+None yet (v2.0 planning starts at Phase 8).
 
 ### Blockers/Concerns
 
@@ -117,6 +126,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-01T06:52:16.610Z
-Stopped at: Completed 07-polish-qa-02-PLAN.md
+Last session: 2026-04-15T04:19:58.339Z
+Stopped at: Completed 13-01-PLAN.md
 Resume file: None

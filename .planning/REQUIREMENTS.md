@@ -260,5 +260,153 @@
 - Unmapped: 0
 
 ---
-*Requirements defined: 2026-04-01*
-*Last updated: 2026-04-01 after roadmap creation*
+
+## v2 Requirements — Repositioning Consultivo
+
+**Defined:** 2026-04-14
+**Goal:** Repaginar a landing para refletir posicionamento "consultoria + execução". Mudança é de copy/conteúdo + 1 seção nova (Setores). Design visual (cores, fontes, layout base) preservado.
+**WhatsApp:** `https://wa.me/5521973495805` (atualizado de `5522981113794`)
+
+### Hero Reescrito (HERO-V2)
+
+- [x] **HERO-V2-01**: Headline alterado para "Antes de automatizar, a gente entende onde seu negócio trava" (PT) + equivalente EN
+- [x] **HERO-V2-02**: Sub-headline alterado para "Fazemos o diagnóstico dos seus processos, identificamos gargalos e só então desenhamos a IA sob medida que seu negócio realmente precisa." (PT + EN)
+- [x] **HERO-V2-03**: CTA primário com texto "Agende seu Diagnóstico Gratuito" apontando para `https://wa.me/5521973495805`
+- [x] **HERO-V2-04**: CTA secundário "Veja como funciona ↓" com âncora para seção de processo
+- [x] **HERO-V2-05**: Badges reescritas: "Diagnóstico 100% gratuito · Sem compromisso · Resposta imediata"
+
+### Provocação (PROV) — substitui Pain Points
+
+- [x] **PROV-01**: Título alterado para "Você sabe onde está perdendo dinheiro?" (PT + EN)
+- [x] **PROV-02**: 4 cards em formato de perguntas provocativas: leads frios, etapas manuais, tempo gasto em tarefas IA-resolvíveis, qualidade dependente do plantão (PT + EN)
+- [x] **PROV-03**: Frase de fechamento "A maioria das empresas não sabe responder essas perguntas. Nosso trabalho começa exatamente aí." (PT + EN)
+
+### Processo 4 Passos (PROC-V2) — substitui processo 3 passos
+
+- [x] **PROC-V2-01**: Stepper com 4 passos (Raio-X do Negócio → Mapa de Oportunidades → Construção Sob Medida → Acompanhamento e Otimização) — adiciona 1 passo e reescreve os demais
+- [x] **PROC-V2-02**: Título "Consultoria primeiro. Tecnologia depois." + subtítulo "Nosso processo existe para garantir que cada solução resolve o problema certo."
+- [x] **PROC-V2-03**: Copy de cada passo conforme briefing, em PT + EN, com i18n
+- [x] **PROC-V2-04**: CTA "Comece pelo diagnóstico — é gratuito" ao final da seção → WhatsApp
+- [x] **PROC-V2-05**: Conector visual (linha/gradiente) ajustado para 4 passos em desktop e mobile
+
+### Dados de Mercado (MARK-V2)
+
+- [x] **MARK-V2-01**: Título alterado para "O mercado já se moveu. E o seu negócio?" (PT + EN)
+- [x] **MARK-V2-02**: Frase de fechamento substituída por "A pergunta não é SE você vai usar IA. É QUANDO. E quem começa com diagnóstico, começa certo."
+- [x] **MARK-V2-03**: Números e fontes estatísticas mantidos (McKinsey, IBM, Tidio, Zendesk, MDPI, Sales So)
+
+### Soluções (SOL-V2)
+
+- [x] **SOL-V2-01**: Título alterado para "Soluções que nascem do diagnóstico" + subtítulo "Cada sistema que criamos é único — porque cada negócio tem gargalos diferentes."
+- [x] **SOL-V2-02**: Os 6 cards de serviços mantidos com copy interno preservado
+
+### Setores Atendidos (SECT) — nova seção
+
+- [x] **SECT-01**: Nova seção "Setores que já transformamos com IA" inserida entre Soluções e Diferenciais
+- [x] **SECT-02**: Grid com 6 setores (Clínicas e Consultórios, E-commerces, Escritórios e Consultorias, Prestadores de Serviço, Educação e Cursos, Imobiliárias) + ícone por setor
+- [x] **SECT-03**: Frase de fechamento "Se o seu negócio atende clientes, a IA pode ajudar. Agende o diagnóstico e descubra como."
+- [x] **SECT-04**: Link da nova seção adicionado à navegação (navbar + footer)
+- [x] **SECT-05**: Ícones SVG inline ou FontAwesome consistentes com design existente
+- [x] **SECT-06**: Layout responsivo (grid adapta em 3/2/1 colunas conforme breakpoint)
+- [x] **SECT-07**: i18n PT/EN completo com `data-i18n` keys novas
+
+### Diferenciais Reescritos (DIFF-V2)
+
+- [x] **DIFF-V2-01**: Título "Por que a DMV?" + subtítulo "Não somos mais uma agência. Somos parceiros de diagnóstico e resultado."
+- [x] **DIFF-V2-02**: 4 cards substituem os atuais: Diagnóstico antes de tudo, Visão de processo não de ferramenta, Honestidade técnica, Parceria de longo prazo (PT + EN, copy conforme briefing)
+
+### Quem Somos com Bios (ABOUT-V2)
+
+- [x] **ABOUT-V2-01**: Título alterado para "Quem está por trás da DMV?" (PT + EN)
+- [x] **ABOUT-V2-02**: Texto intro reescrito + tagline "Driven Mind Vanguard — Vanguarda da Mente Direcionada"
+- [x] **ABOUT-V2-03**: 3 mini-bios com fotos usando `foto-vitor.jpg`, `foto-mariel.jpg`, `foto-daniel.jpg` da raiz
+- [x] **ABOUT-V2-04**: Cada fundador exibido com foto, nome e especialidade (Vitor Pellegrino — Estratégia & Automação; Mariel Junior — IA & Desenvolvimento; Daniel Jachelli — Análise de Dados & Otimização)
+- [x] **ABOUT-V2-05**: Estilo visual consistente (glassmorphism, paleta existente, fotos em formato circular ou card)
+
+### FAQ Reescrito (FAQ-V2)
+
+- [x] **FAQ-V2-01**: 6 perguntas reescritas conforme briefing (custo/tecnologia/segmento/tempo/reunião/suporte) em PT + EN
+- [x] **FAQ-V2-02**: Accordion existente preservado (max-height transition, single-open, rotate ícone)
+
+### CTA Final (CTA-V2)
+
+- [x] **CTA-V2-01**: Título alterado para "Pronto para descobrir onde seu negócio pode ir mais longe?"
+- [x] **CTA-V2-02**: Subtítulo "Comece com um diagnóstico gratuito. Sem compromisso, sem enrolação." + CTA "Falar com um especialista agora" → WhatsApp
+- [x] **CTA-V2-03**: Badges "Sem compromisso · 100% gratuito · Resposta imediata"
+
+### Meta + WhatsApp Global (META)
+
+- [x] **META-01**: Meta description atualizada para "Consultoria e automação com IA sob medida. Diagnosticamos seus processos, identificamos gargalos e implementamos soluções inteligentes para o seu negócio."
+- [x] **META-02**: Meta title verificado/atualizado refletindo posicionamento consultivo
+- [x] **META-03**: Todos os links WhatsApp auditados apontando para `https://wa.me/5521973495805` (HTML + JS)
+- [x] **META-04**: Footer com links de navegação atualizados para novas seções (Setores incluído)
+
+## Future Requirements
+
+(Nenhum identificado — diferido por categoria.)
+
+## Out of Scope (v2.0)
+
+- Redesign visual — cores, fontes, layout base preservados
+- Nova paleta ou tipografia
+- Mudança de stack (mantém vanilla HTML/CSS/JS)
+- Depoimentos/cases com dados fabricados
+- Remoção de seções existentes além do substituído (Pain Points → Provocação; processo 3 passos → 4 passos)
+- Formulários com envio de email, backend, CMS
+- Testimonial carousel
+- Blog ou área de conteúdo
+
+## Traceability (v2.0)
+
+| REQ-ID | Phase | Status |
+|--------|-------|--------|
+| HERO-V2-01 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| HERO-V2-02 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| HERO-V2-03 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| HERO-V2-04 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| HERO-V2-05 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| CTA-V2-01 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| CTA-V2-02 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| CTA-V2-03 | Phase 8: Hero + Final CTA Rewrite | Pending |
+| PROV-01 | Phase 9: Provocação + Dados de Mercado | Complete |
+| PROV-02 | Phase 9: Provocação + Dados de Mercado | Complete |
+| PROV-03 | Phase 9: Provocação + Dados de Mercado | Complete |
+| MARK-V2-01 | Phase 9: Provocação + Dados de Mercado | Complete |
+| MARK-V2-02 | Phase 9: Provocação + Dados de Mercado | Complete |
+| MARK-V2-03 | Phase 9: Provocação + Dados de Mercado | Complete |
+| PROC-V2-01 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| PROC-V2-02 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| PROC-V2-03 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| PROC-V2-04 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| PROC-V2-05 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| SOL-V2-01 | Phase 10: Processo 4 Passos + Soluções | Complete |
+| SOL-V2-02 | Phase 10: Processo 4 Passos + Soluções | Complete |
+| SECT-01 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| SECT-02 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| SECT-03 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| SECT-04 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| SECT-05 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| SECT-06 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| SECT-07 | Phase 11: Setores Atendidos (nova seção) | Complete |
+| DIFF-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| DIFF-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| ABOUT-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| ABOUT-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| ABOUT-V2-03 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| ABOUT-V2-04 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| ABOUT-V2-05 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| FAQ-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| FAQ-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| META-01 | Phase 13: Meta + WhatsApp Global Audit | Complete |
+| META-02 | Phase 13: Meta + WhatsApp Global Audit | Complete |
+| META-03 | Phase 13: Meta + WhatsApp Global Audit | Complete |
+| META-04 | Phase 13: Meta + WhatsApp Global Audit | Complete |
+
+**Coverage (v2.0):**
+- v2 requirements: 41 total
+- Mapped to phases: 41
+- Unmapped: 0
+
+---
+*Requirements defined: 2026-04-01 (v1), 2026-04-14 (v2)*
+*Last updated: 2026-04-14 — v2 traceability table filled, all 41 requirements mapped to phases 8-13*
