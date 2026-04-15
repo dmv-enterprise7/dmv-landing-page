@@ -317,11 +317,11 @@
 
 ### Quem Somos com Bios (ABOUT-V2)
 
-- [ ] **ABOUT-V2-01**: Título alterado para "Quem está por trás da DMV?" (PT + EN)
-- [ ] **ABOUT-V2-02**: Texto intro reescrito + tagline "Driven Mind Vanguard — Vanguarda da Mente Direcionada"
-- [ ] **ABOUT-V2-03**: 3 mini-bios com fotos usando `foto-vitor.jpg`, `foto-mariel.jpg`, `foto-daniel.jpg` da raiz
-- [ ] **ABOUT-V2-04**: Cada fundador exibido com foto, nome e especialidade (Vitor Pellegrino — Estratégia & Automação; Mariel Junior — IA & Desenvolvimento; Daniel Jachelli — Análise de Dados & Otimização)
-- [ ] **ABOUT-V2-05**: Estilo visual consistente (glassmorphism, paleta existente, fotos em formato circular ou card)
+- [x] **ABOUT-V2-01**: Título alterado para "Quem está por trás da DMV?" (PT + EN)
+- [x] **ABOUT-V2-02**: Texto intro reescrito + tagline "Driven Mind Vanguard — Vanguarda da Mente Direcionada"
+- [x] **ABOUT-V2-03**: 3 mini-bios com fotos usando `foto-vitor.jpg`, `foto-mariel.jpg`, `foto-daniel.jpg` da raiz
+- [x] **ABOUT-V2-04**: Cada fundador exibido com foto, nome e especialidade (Vitor Pellegrino — Estratégia & Automação; Mariel Junior — IA & Desenvolvimento; Daniel Jachelli — Análise de Dados & Otimização)
+- [x] **ABOUT-V2-05**: Estilo visual consistente (glassmorphism, paleta existente, fotos em formato circular ou card)
 
 ### FAQ Reescrito (FAQ-V2)
 
@@ -390,11 +390,11 @@
 | SECT-07 | Phase 11: Setores Atendidos (nova seção) | Complete |
 | DIFF-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
 | DIFF-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
-| ABOUT-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
-| ABOUT-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
-| ABOUT-V2-03 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
-| ABOUT-V2-04 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
-| ABOUT-V2-05 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
+| ABOUT-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| ABOUT-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| ABOUT-V2-03 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| ABOUT-V2-04 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
+| ABOUT-V2-05 | Phase 12: Diferenciais + Quem Somos + FAQ | Complete |
 | FAQ-V2-01 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
 | FAQ-V2-02 | Phase 12: Diferenciais + Quem Somos + FAQ | Pending |
 | META-01 | Phase 13: Meta + WhatsApp Global Audit | Pending |

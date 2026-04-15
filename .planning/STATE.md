@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 12-01-PLAN.md
-last_updated: "2026-04-15T04:06:47.671Z"
+stopped_at: Completed 12-02-PLAN.md
+last_updated: "2026-04-15T04:09:52.293Z"
 last_activity: 2026-04-15 — Phase 11 Plan 01 complete (section scaffold + i18n)
 progress:
   total_phases: 7
@@ -67,6 +67,7 @@ Progress: [          ] 0% (0/6 phases)
 | Phase 11 P01 | 1 min | 2 tasks | 2 files |
 | Phase 11 P02 | 1 min | 2 tasks | 2 files |
 | Phase 12-diferenciais-quem-somos-faq P01 | 1 min | 2 tasks | 2 files |
+| Phase 12 P02 | 1 min | 3 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -111,6 +112,7 @@ Recent decisions affecting current work:
 - [Roadmap v2.0]: 6-phase structure (8-13) derived from 41 v2 requirements — conversion bookends first (Hero + Final CTA), mid-funnel copy, structural stepper + solutions, new Setores section, closing content (differentials/bios/FAQ), final meta audit
 - [Roadmap v2.0]: Meta audit deferred to final phase because META-04 (footer nav with Setores) depends on SECT section already existing
 - [Phase 09]: Preserved all 6 market statistics + sources byte-identical while reframing title/closing
+- [Phase 12]: Replaced about.mission-prefix/suffix/seal keys with single about.intro + about.tagline for cleaner consultative framing
 
 ### Pending Todos
 
@@ -122,6 +124,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-15T04:06:47.668Z
-Stopped at: Completed 12-01-PLAN.md
+Last session: 2026-04-15T04:09:44.877Z
+Stopped at: Completed 12-02-PLAN.md
 Resume file: None

@@ -251,7 +251,7 @@ Plans:
 
 Plans:
 - [x] 12-01-PLAN.md — Diferenciais section rewrite (title + subtitle + 4 consultative cards, PT/EN in index.html + script.js) → DIFF-V2-01, DIFF-V2-02
-- [ ] 12-02-PLAN.md — Quem Somos restructure (intro + tagline + 3 founder bios with photo/name/specialty, PT/EN + .founder-specialty CSS) → ABOUT-V2-01..05
+- [x] 12-02-PLAN.md — Quem Somos restructure (intro + tagline + 3 founder bios with photo/name/specialty, PT/EN + .founder-specialty CSS) → ABOUT-V2-01..05
 - [ ] 12-03-PLAN.md — FAQ 6 Q/A rewrite diagnosis-oriented (PT/EN; accordion behavior preserved) → FAQ-V2-01, FAQ-V2-02
 
 ### Phase 13: Meta + WhatsApp Global Audit
@@ -276,5 +276,5 @@ Phases execute in numeric order: 8 -> 9 -> 10 -> 11 -> 12 -> 13
 | 9. Provocação + Dados de Mercado | 0/2 | Not started | - |
 | 10. Processo 4 Passos + Soluções | 2/2 | Complete   | 2026-04-15 |
 | 11. Setores Atendidos (nova seção) | 2/2 | Complete   | 2026-04-15 |
-| 12. Diferenciais + Quem Somos + FAQ | 1/3 | In Progress|  |
+| 12. Diferenciais + Quem Somos + FAQ | 2/3 | In Progress|  |
 | 13. Meta + WhatsApp Global Audit | 0/- | Not started | - |
