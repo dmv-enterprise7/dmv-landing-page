@@ -2572,3 +2572,102 @@ button:focus-visible,
     border-radius: 12px;
   }
 }
+
+/* === Social Proof block (inside #sectors) === */
+.social-proof {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.social-proof-title {
+  font-family: var(--font-headline);
+  font-size: clamp(1.25rem, 2vw, 1.6rem);
+  font-weight: 700;
+  color: var(--color-text);
+  text-align: center;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.social-proof-audio {
+  width: 100%;
+  max-width: 520px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.social-proof-audio audio {
+  width: 100%;
+  max-width: 440px;
+}
+
+.audio-caption {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.social-proof-prints {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.proof-print {
+  margin: 0;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color var(--transition-default),
+              box-shadow var(--transition-default),
+              transform var(--transition-default);
+}
+
+.proof-print:hover {
+  border-color: rgba(0, 200, 255, 0.25);
+  box-shadow: 0 0 30px rgba(0, 200, 255, 0.1), 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+.proof-print img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .social-proof {
+    margin-top: 48px;
+    gap: 24px;
+  }
+  .social-proof-prints {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 440px;
+  }
+  .social-proof-audio {
+    padding: 20px;
+  }
+}

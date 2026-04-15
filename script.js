@@ -77,6 +77,10 @@ var translations = {
     'sectors.s5.label': 'Educação e Cursos',
     'sectors.s6.label': 'Imobiliárias',
     'sectors.closing': 'Se o seu negócio atende clientes, a IA pode ajudar. Agende o diagnóstico e descubra como.',
+    'sectors.proof.title': 'O que clientes dizem sobre a DMV',
+    'sectors.proof.audioCaption': 'Depoimento em áudio de cliente DMV',
+    'sectors.proof.print1Alt': 'Depoimento de cliente DMV sobre os resultados da consultoria',
+    'sectors.proof.print2Alt': 'Depoimento de cliente DMV sobre a experiência com o diagnóstico',
 
     'how.title': 'Consultoria primeiro. Tecnologia depois.',
     'how.subtitle': 'Nosso processo existe para garantir que cada solução resolve o problema certo.',
@@ -207,6 +211,10 @@ var translations = {
     'sectors.s5.label': 'Education & Courses',
     'sectors.s6.label': 'Real Estate',
     'sectors.closing': 'If your business serves clients, AI can help. Schedule your diagnosis and find out how.',
+    'sectors.proof.title': 'What clients say about DMV',
+    'sectors.proof.audioCaption': 'Audio testimonial from a DMV client',
+    'sectors.proof.print1Alt': 'DMV client testimonial about the consulting results',
+    'sectors.proof.print2Alt': 'DMV client testimonial about the diagnosis experience',
 
     'how.title': 'Consulting first. Technology after.',
     'how.subtitle': 'Our process exists to ensure each solution fixes the right problem.',
@@ -281,6 +289,13 @@ function setLanguage(lang) {
     if (el.getAttribute('data-i18n-number') === 'true') return;
     if (translations[lang] && translations[lang][key]) {
       el.textContent = translations[lang][key];
+    }
+  });
+
+  document.querySelectorAll('[data-i18n-alt]').forEach(function(el) {
+    var key = el.getAttribute('data-i18n-alt');
+    if (translations[lang] && translations[lang][key]) {
+      el.setAttribute('alt', translations[lang][key]);
     }
   });
 
