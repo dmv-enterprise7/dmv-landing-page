@@ -1,36 +1,36 @@
 ---
 gsd_state_version: 1.0
-milestone: v1.0
-milestone_name: milestone
-status: complete
-stopped_at: Milestone v1.0 complete — all 7 phases, 13 plans delivered
-last_updated: "2026-04-01T07:30:00Z"
-last_activity: 2026-04-01
+milestone: v2.0
+milestone_name: repositioning-consultivo
+status: defining-requirements
+stopped_at: Milestone v2.0 started — defining requirements
+last_updated: "2026-04-14T00:00:00Z"
+last_activity: 2026-04-14
 progress:
-  total_phases: 7
-  completed_phases: 7
-  total_plans: 13
-  completed_plans: 13
-  percent: 100
+  total_phases: 0
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 0
+  percent: 0
 ---
 
 # Project State
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-04-01)
+See: .planning/PROJECT.md (updated 2026-04-14)
 
-**Core value:** Todo CTA apontando para `https://wa.me/5522981113794` e visivel em todos os dispositivos — se o visitante chegar ao WhatsApp, a pagina cumpriu seu proposito.
-**Current focus:** COMPLETE — milestone v1.0 delivered
+**Core value:** Todo CTA apontando para `https://wa.me/5521973495805` e visível em todos os dispositivos — se o visitante chegar ao WhatsApp para agendar diagnóstico, a página cumpriu seu propósito.
+**Current focus:** Milestone v2.0 Repositioning Consultivo — defining requirements
 
 ## Current Position
 
-Phase: 7 of 7 (Polish & QA) — COMPLETE
-Plan: 13 of 13 total — all complete
-Status: Milestone complete
-Last activity: 2026-04-01
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-04-14 — Milestone v2.0 started
 
-Progress: [██████████] 100%
+Progress: [          ] 0%
 
 ## Performance Metrics
 
