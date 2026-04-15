@@ -1442,11 +1442,11 @@ button:focus-visible,
   line-height: 1.6;
 }
 
-/* --- 3-column horizontal steps layout (PROC-01) --- */
+/* --- 4-column horizontal steps layout (PROC-V2-01) --- */
 
 .how-it-works-steps {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0;
   position: relative;
   margin-bottom: 56px;
@@ -1551,12 +1551,12 @@ button:focus-visible,
 
 @media (max-width: 1024px) {
   .step-card {
-    padding: 0 20px;
+    padding: 0 14px;
   }
 
   .step-card:not(:last-child)::after {
-    right: -12px;
-    width: calc(100% - 36px);
+    right: -8px;
+    width: calc(100% - 28px);
   }
 }
 
