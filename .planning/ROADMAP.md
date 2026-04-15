@@ -263,7 +263,10 @@ Plans:
   2. `<title>` and any OG/Twitter meta variants reflect the consultative positioning
   3. Full-file audit confirms every WhatsApp link in `index.html` and `script.js` resolves to `https://wa.me/5521973495805` — zero stale numbers remain
   4. Footer navigation links are synchronized with v2.0 sections (includes Setores entry) and scroll correctly to every anchor on the page
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [ ] 13-01-PLAN.md — Meta tags rewrite (title, description, OG, Twitter) + WhatsApp/footer audit in index.html → META-01, META-02, META-03, META-04
 
 ## Progress (v2.0)
 
