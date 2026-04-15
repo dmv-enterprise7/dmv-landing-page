@@ -164,7 +164,7 @@ Reposition the landing page from "AI execution agency" to "consulting + executio
 
 - [ ] **Phase 8: Hero + Final CTA Rewrite** - New consultative headlines and CTAs at the top and bottom conversion moments
 - [ ] **Phase 9: Provocação + Dados de Mercado** - "Isso é familiar?" becomes provocative questions; market section title and closing phrase realigned
-- [ ] **Phase 10: Processo 4 Passos + Soluções** - Expand stepper from 3 to 4 steps (Raio-X → Mapa → Construção → Acompanhamento) and rewrite solutions header
+- [x] **Phase 10: Processo 4 Passos + Soluções** - Expand stepper from 3 to 4 steps (Raio-X → Mapa → Construção → Acompanhamento) and rewrite solutions header (completed 2026-04-15)
 - [ ] **Phase 11: Setores Atendidos (nova seção)** - New sector grid section between Soluções and Diferenciais with navigation entries
 - [ ] **Phase 12: Diferenciais + Quem Somos + FAQ** - Consultative differentials, founder mini-bios with photos, and diagnosis-oriented FAQ
 - [ ] **Phase 13: Meta + WhatsApp Global Audit** - Meta tags refresh and full audit of every WhatsApp link across HTML/JS
@@ -215,8 +215,12 @@ Plans:
   3. Visual connector (line/gradient) between steps is adapted for 4 items on desktop and flows as vertical timeline on mobile without overflow
   4. Process section closing CTA reads "Comece pelo diagnóstico — é gratuito" and links to `https://wa.me/5521973495805`
   5. Solutions section title reads "Soluções que nascem do diagnóstico" with new subtitle; the 6 existing service cards retain their internal copy
-**Plans**: TBD
+**Plans**: 2 plans
 **UI hint**: yes
+
+Plans:
+- [x] 10-01-PLAN.md — Process stepper 3→4 (HTML + copy + CSS grid + i18n PT/EN) → PROC-V2-01..05
+- [x] 10-02-PLAN.md — Solutions section title/subtitle reframe (PT/EN) → SOL-V2-01, SOL-V2-02
 
 ### Phase 11: Setores Atendidos (nova seção)
 **Goal**: Visitor sees the 6 real sectors DMV serves (Clínicas, E-commerces, Escritórios, Prestadores de Serviço, Educação, Imobiliárias) as a new grid section between Soluções and Diferenciais, and the site navigation reflects this new anchor
@@ -265,7 +269,7 @@ Phases execute in numeric order: 8 -> 9 -> 10 -> 11 -> 12 -> 13
 |-------|----------------|--------|-----------|
 | 8. Hero + Final CTA Rewrite | 0/- | Not started | - |
 | 9. Provocação + Dados de Mercado | 0/2 | Not started | - |
-| 10. Processo 4 Passos + Soluções | 0/- | Not started | - |
+| 10. Processo 4 Passos + Soluções | 2/2 | Complete   | 2026-04-15 |
 | 11. Setores Atendidos (nova seção) | 0/- | Not started | - |
 | 12. Diferenciais + Quem Somos + FAQ | 0/- | Not started | - |
 | 13. Meta + WhatsApp Global Audit | 0/- | Not started | - |

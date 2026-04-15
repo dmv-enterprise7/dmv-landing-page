@@ -297,8 +297,8 @@
 
 ### Soluções (SOL-V2)
 
-- [ ] **SOL-V2-01**: Título alterado para "Soluções que nascem do diagnóstico" + subtítulo "Cada sistema que criamos é único — porque cada negócio tem gargalos diferentes."
-- [ ] **SOL-V2-02**: Os 6 cards de serviços mantidos com copy interno preservado
+- [x] **SOL-V2-01**: Título alterado para "Soluções que nascem do diagnóstico" + subtítulo "Cada sistema que criamos é único — porque cada negócio tem gargalos diferentes."
+- [x] **SOL-V2-02**: Os 6 cards de serviços mantidos com copy interno preservado
 
 ### Setores Atendidos (SECT) — nova seção
 
@@ -379,8 +379,8 @@
 | PROC-V2-03 | Phase 10: Processo 4 Passos + Soluções | Pending |
 | PROC-V2-04 | Phase 10: Processo 4 Passos + Soluções | Pending |
 | PROC-V2-05 | Phase 10: Processo 4 Passos + Soluções | Pending |
-| SOL-V2-01 | Phase 10: Processo 4 Passos + Soluções | Pending |
-| SOL-V2-02 | Phase 10: Processo 4 Passos + Soluções | Pending |
+| SOL-V2-01 | Phase 10: Processo 4 Passos + Soluções | Complete |
+| SOL-V2-02 | Phase 10: Processo 4 Passos + Soluções | Complete |
 | SECT-01 | Phase 11: Setores Atendidos (nova seção) | Pending |
 | SECT-02 | Phase 11: Setores Atendidos (nova seção) | Pending |
 | SECT-03 | Phase 11: Setores Atendidos (nova seção) | Pending |
