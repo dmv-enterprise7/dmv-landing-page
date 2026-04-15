@@ -109,8 +109,8 @@ var translations = {
     'faq.a6': 'Sim. Oferecemos suporte contínuo e acompanhamento de resultados após a implementação.',
 
     // Final CTA section — Phase 06 (CTA-01 through CTA-03)
-    'cta.headline': 'Pronto para colocar seu negócio no piloto automático?',
-    'cta.subheadline': 'Comece com uma conversa gratuita. Sem compromisso, sem tecnicidade.',
+    'cta.headline': 'Pronto para descobrir onde seu negócio pode ir mais longe?',
+    'cta.subheadline': 'Comece com um diagnóstico gratuito. Sem compromisso, sem enrolação.',
     'cta.button': 'Falar com um especialista agora',
     'cta.badge1': 'Sem compromisso',
     'cta.badge2': '100% gratuito',
@@ -223,8 +223,8 @@ var translations = {
     'faq.a6': 'Yes. We offer ongoing support and performance tracking after implementation.',
 
     // Final CTA section — Phase 06 (CTA-01 through CTA-03)
-    'cta.headline': 'Ready to put your business on autopilot?',
-    'cta.subheadline': 'Start with a free conversation. No commitment, no technical jargon.',
+    'cta.headline': 'Ready to discover how far your business can go?',
+    'cta.subheadline': 'Start with a free diagnosis. No commitment, no runaround.',
     'cta.button': 'Talk to a specialist now',
     'cta.badge1': 'No commitment',
     'cta.badge2': '100% free',
