@@ -2595,21 +2595,110 @@ button:focus-visible,
 .social-proof-audio {
   width: 100%;
   max-width: 520px;
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-  -webkit-backdrop-filter: blur(var(--glass-blur));
-  backdrop-filter: blur(var(--glass-blur));
-  border-radius: 20px;
-  padding: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
 }
 
-.social-proof-audio audio {
+.custom-audio {
   width: 100%;
-  max-width: 440px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border-radius: 999px;
+  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: border-color var(--transition-default),
+              box-shadow var(--transition-default);
+}
+
+.custom-audio:hover {
+  border-color: rgba(0, 200, 255, 0.25);
+  box-shadow: 0 0 24px rgba(0, 200, 255, 0.08);
+}
+
+.audio-play-btn {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-cyan);
+  color: #001018;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition-default), background var(--transition-default);
+}
+
+.audio-play-btn:hover {
+  transform: scale(1.06);
+  background: #3ad4ff;
+}
+
+.audio-play-btn:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 3px;
+}
+
+.audio-play-btn .icon-pause { display: none; }
+.custom-audio.is-playing .audio-play-btn .icon-play { display: none; }
+.custom-audio.is-playing .audio-play-btn .icon-pause { display: inline-block; }
+
+.audio-play-btn .icon-play {
+  margin-left: 2px;
+}
+
+.audio-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.audio-progress {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--color-cyan), #3ad4ff);
+  border-radius: 999px;
+  transition: width 0.1s linear;
+}
+
+.audio-time {
+  flex-shrink: 0;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-secondary);
+  min-width: 72px;
+  text-align: right;
+}
+
+.custom-audio audio {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .custom-audio {
+    padding: 8px 12px;
+    gap: 10px;
+  }
+  .audio-play-btn {
+    width: 36px;
+    height: 36px;
+  }
+  .audio-time {
+    font-size: 0.75rem;
+    min-width: 64px;
+  }
 }
 
 .audio-caption {

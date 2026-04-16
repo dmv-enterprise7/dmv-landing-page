@@ -318,10 +318,20 @@
           <h3 class="social-proof-title" data-i18n="sectors.proof.title">O que clientes dizem sobre a DMV</h3>
 
           <div class="social-proof-audio">
-            <audio controls preload="none">
-              <source src="prova_social_wellington.ogg" type="audio/ogg">
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
+            <div class="custom-audio" data-audio-player>
+              <button class="audio-play-btn" type="button" aria-label="Reproduzir áudio" data-audio-toggle>
+                <svg class="icon-play" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>
+              </button>
+              <div class="audio-bar" data-audio-bar>
+                <div class="audio-progress" data-audio-progress></div>
+              </div>
+              <span class="audio-time" data-audio-time>0:00 / 0:00</span>
+              <audio preload="metadata" data-audio-el>
+                <source src="prova_social_wellington.ogg" type="audio/ogg">
+                Seu navegador não suporta o elemento de áudio.
+              </audio>
+            </div>
             <p class="audio-caption" data-i18n="sectors.proof.audioCaption">Depoimento em áudio de cliente DMV</p>
           </div>
 

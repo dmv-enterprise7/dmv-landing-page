@@ -560,3 +560,71 @@ function setLanguage(lang) {
     observer.observe(el);
   });
 })();
+
+
+/* === Custom audio player === */
+
+(function() {
+  function formatTime(seconds) {
+    if (!isFinite(seconds) || seconds < 0) return '0:00';
+    var m = Math.floor(seconds / 60);
+    var s = Math.floor(seconds % 60);
+    return m + ':' + (s < 10 ? '0' + s : s);
+  }
+
+  document.querySelectorAll('[data-audio-player]').forEach(function(player) {
+    var audio = player.querySelector('[data-audio-el]');
+    var toggle = player.querySelector('[data-audio-toggle]');
+    var bar = player.querySelector('[data-audio-bar]');
+    var progress = player.querySelector('[data-audio-progress]');
+    var timeLabel = player.querySelector('[data-audio-time]');
+    if (!audio || !toggle || !bar || !progress || !timeLabel) return;
+
+    function updateTime() {
+      var cur = audio.currentTime || 0;
+      var dur = audio.duration || 0;
+      timeLabel.textContent = formatTime(cur) + ' / ' + formatTime(dur);
+      if (dur > 0) {
+        progress.style.width = ((cur / dur) * 100) + '%';
+      }
+    }
+
+    toggle.addEventListener('click', function() {
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    });
+
+    audio.addEventListener('play', function() {
+      player.classList.add('is-playing');
+      toggle.setAttribute('aria-label', 'Pausar áudio');
+    });
+
+    audio.addEventListener('pause', function() {
+      player.classList.remove('is-playing');
+      toggle.setAttribute('aria-label', 'Reproduzir áudio');
+    });
+
+    audio.addEventListener('ended', function() {
+      player.classList.remove('is-playing');
+      progress.style.width = '0%';
+      audio.currentTime = 0;
+      updateTime();
+    });
+
+    audio.addEventListener('loadedmetadata', updateTime);
+    audio.addEventListener('timeupdate', updateTime);
+
+    bar.addEventListener('click', function(e) {
+      var rect = bar.getBoundingClientRect();
+      var ratio = (e.clientX - rect.left) / rect.width;
+      if (audio.duration) {
+        audio.currentTime = Math.max(0, Math.min(1, ratio)) * audio.duration;
+      }
+    });
+
+    updateTime();
+  });
+})();
