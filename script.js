@@ -77,6 +77,12 @@ var translations = {
     'sectors.s5.label': 'Educação e Cursos',
     'sectors.s6.label': 'Imobiliárias',
     'sectors.closing': 'Se o seu negócio atende clientes, a IA pode ajudar. Agende o diagnóstico e descubra como.',
+    'sectors.proof.title': 'O que clientes dizem sobre a DMV',
+    'sectors.proof.audioCaption': 'Depoimento em áudio de cliente DMV',
+    'sectors.proof.print1Alt': 'Depoimento de cliente DMV sobre os resultados da consultoria',
+    'sectors.proof.print2Alt': 'Depoimento de cliente DMV sobre a experiência com o diagnóstico',
+    'sectors.proof.print1Caption': 'Automação com IA · Prestadores de Serviço',
+    'sectors.proof.print2Caption': 'Assistente Administrativo com IA',
 
     'how.title': 'Consultoria primeiro. Tecnologia depois.',
     'how.subtitle': 'Nosso processo existe para garantir que cada solução resolve o problema certo.',
@@ -207,6 +213,12 @@ var translations = {
     'sectors.s5.label': 'Education & Courses',
     'sectors.s6.label': 'Real Estate',
     'sectors.closing': 'If your business serves clients, AI can help. Schedule your diagnosis and find out how.',
+    'sectors.proof.title': 'What clients say about DMV',
+    'sectors.proof.audioCaption': 'Audio testimonial from a DMV client',
+    'sectors.proof.print1Alt': 'DMV client testimonial about the consulting results',
+    'sectors.proof.print2Alt': 'DMV client testimonial about the diagnosis experience',
+    'sectors.proof.print1Caption': 'AI Automation · Service Providers',
+    'sectors.proof.print2Caption': 'AI Administrative Assistant',
 
     'how.title': 'Consulting first. Technology after.',
     'how.subtitle': 'Our process exists to ensure each solution fixes the right problem.',
@@ -281,6 +293,13 @@ function setLanguage(lang) {
     if (el.getAttribute('data-i18n-number') === 'true') return;
     if (translations[lang] && translations[lang][key]) {
       el.textContent = translations[lang][key];
+    }
+  });
+
+  document.querySelectorAll('[data-i18n-alt]').forEach(function(el) {
+    var key = el.getAttribute('data-i18n-alt');
+    if (translations[lang] && translations[lang][key]) {
+      el.setAttribute('alt', translations[lang][key]);
     }
   });
 
@@ -539,5 +558,110 @@ function setLanguage(lang) {
 
   revealElements.forEach(function(el) {
     observer.observe(el);
+  });
+})();
+
+
+/* === Custom audio player === */
+
+(function() {
+  function formatTime(seconds) {
+    if (!isFinite(seconds) || seconds < 0) return '0:00';
+    var m = Math.floor(seconds / 60);
+    var s = Math.floor(seconds % 60);
+    return m + ':' + (s < 10 ? '0' + s : s);
+  }
+
+  document.querySelectorAll('[data-audio-player]').forEach(function(player) {
+    var audio = player.querySelector('[data-audio-el]');
+    var toggle = player.querySelector('[data-audio-toggle]');
+    var bar = player.querySelector('[data-audio-bar]');
+    var progress = player.querySelector('[data-audio-progress]');
+    var timeLabel = player.querySelector('[data-audio-time]');
+    var muteBtn = player.querySelector('[data-audio-mute]');
+    var volumeSlider = player.querySelector('[data-audio-volume]');
+    if (!audio || !toggle || !bar || !progress || !timeLabel) return;
+
+    function updateVolumeUI() {
+      if (audio.muted || audio.volume === 0) {
+        player.classList.add('is-muted');
+        player.removeAttribute('data-volume-level');
+      } else {
+        player.classList.remove('is-muted');
+        player.setAttribute('data-volume-level', audio.volume < 0.5 ? 'low' : 'high');
+      }
+      if (muteBtn) {
+        muteBtn.setAttribute('aria-label', audio.muted ? 'Ativar som' : 'Silenciar áudio');
+      }
+    }
+
+    if (muteBtn) {
+      muteBtn.addEventListener('click', function() {
+        audio.muted = !audio.muted;
+        if (!audio.muted && audio.volume === 0 && volumeSlider) {
+          audio.volume = 1;
+          volumeSlider.value = 1;
+        }
+        updateVolumeUI();
+      });
+    }
+
+    if (volumeSlider) {
+      volumeSlider.addEventListener('input', function() {
+        var v = parseFloat(volumeSlider.value);
+        audio.volume = v;
+        if (v > 0 && audio.muted) audio.muted = false;
+        updateVolumeUI();
+      });
+    }
+
+    updateVolumeUI();
+
+    function updateTime() {
+      var cur = audio.currentTime || 0;
+      var dur = audio.duration || 0;
+      timeLabel.textContent = formatTime(cur) + ' / ' + formatTime(dur);
+      if (dur > 0) {
+        progress.style.width = ((cur / dur) * 100) + '%';
+      }
+    }
+
+    toggle.addEventListener('click', function() {
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    });
+
+    audio.addEventListener('play', function() {
+      player.classList.add('is-playing');
+      toggle.setAttribute('aria-label', 'Pausar áudio');
+    });
+
+    audio.addEventListener('pause', function() {
+      player.classList.remove('is-playing');
+      toggle.setAttribute('aria-label', 'Reproduzir áudio');
+    });
+
+    audio.addEventListener('ended', function() {
+      player.classList.remove('is-playing');
+      progress.style.width = '0%';
+      audio.currentTime = 0;
+      updateTime();
+    });
+
+    audio.addEventListener('loadedmetadata', updateTime);
+    audio.addEventListener('timeupdate', updateTime);
+
+    bar.addEventListener('click', function(e) {
+      var rect = bar.getBoundingClientRect();
+      var ratio = (e.clientX - rect.left) / rect.width;
+      if (audio.duration) {
+        audio.currentTime = Math.max(0, Math.min(1, ratio)) * audio.duration;
+      }
+    });
+
+    updateTime();
   });
 })();

@@ -2572,3 +2572,280 @@ button:focus-visible,
     border-radius: 12px;
   }
 }
+
+/* === Social Proof block (inside #sectors) === */
+.social-proof {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.social-proof-title {
+  font-family: var(--font-headline);
+  font-size: clamp(1.25rem, 2vw, 1.6rem);
+  font-weight: 700;
+  color: var(--color-text);
+  text-align: center;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.social-proof-audio {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.custom-audio {
+  width: 100%;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border-radius: 999px;
+  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: border-color var(--transition-default),
+              box-shadow var(--transition-default);
+}
+
+.custom-audio:hover {
+  border-color: rgba(0, 200, 255, 0.25);
+  box-shadow: 0 0 24px rgba(0, 200, 255, 0.08);
+}
+
+.audio-play-btn {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-cyan);
+  color: #001018;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition-default), background var(--transition-default);
+}
+
+.audio-play-btn:hover {
+  transform: scale(1.06);
+  background: #3ad4ff;
+}
+
+.audio-play-btn:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 3px;
+}
+
+.audio-play-btn .icon-pause { display: none; }
+.custom-audio.is-playing .audio-play-btn .icon-play { display: none; }
+.custom-audio.is-playing .audio-play-btn .icon-pause { display: inline-block; }
+
+.audio-play-btn .icon-play {
+  margin-left: 2px;
+}
+
+.audio-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.audio-progress {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--color-cyan), #3ad4ff);
+  border-radius: 999px;
+  transition: width 0.1s linear;
+}
+
+.audio-time {
+  flex-shrink: 0;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-secondary);
+  min-width: 72px;
+  text-align: right;
+}
+
+.custom-audio audio {
+  display: none;
+}
+
+.audio-mute-btn {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--transition-default), background var(--transition-default), border-color var(--transition-default);
+}
+
+.audio-mute-btn:hover {
+  color: var(--color-cyan);
+  background: rgba(0, 200, 255, 0.08);
+  border-color: rgba(0, 200, 255, 0.25);
+}
+
+.audio-mute-btn:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 2px;
+}
+
+.audio-mute-btn .icon-vol-low,
+.audio-mute-btn .icon-vol-mute { display: none; }
+.custom-audio[data-volume-level="low"] .audio-mute-btn .icon-vol-high { display: none; }
+.custom-audio[data-volume-level="low"] .audio-mute-btn .icon-vol-low { display: inline-block; }
+.custom-audio.is-muted .audio-mute-btn .icon-vol-high,
+.custom-audio.is-muted .audio-mute-btn .icon-vol-low { display: none; }
+.custom-audio.is-muted .audio-mute-btn .icon-vol-mute { display: inline-block; }
+.custom-audio.is-muted .audio-mute-btn { color: var(--color-cyan); }
+
+.audio-volume {
+  flex-shrink: 0;
+  width: 80px;
+  height: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  cursor: pointer;
+  outline: none;
+}
+
+.audio-volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-cyan);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 6px rgba(0, 200, 255, 0.5);
+}
+
+.audio-volume::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-cyan);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 6px rgba(0, 200, 255, 0.5);
+}
+
+.audio-volume:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 4px;
+}
+
+@media (max-width: 480px) {
+  .custom-audio {
+    padding: 8px 12px;
+    gap: 10px;
+  }
+  .audio-play-btn {
+    width: 36px;
+    height: 36px;
+  }
+  .audio-time {
+    font-size: 0.75rem;
+    min-width: 64px;
+  }
+  .audio-volume { display: none; }
+  .audio-mute-btn { width: 28px; height: 28px; }
+}
+
+.audio-caption {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.social-proof-prints {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.proof-print {
+  margin: 0;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  transition: border-color var(--transition-default),
+              box-shadow var(--transition-default),
+              transform var(--transition-default);
+}
+
+.proof-caption {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-cyan);
+  text-align: center;
+  margin: 0;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.proof-print:hover {
+  border-color: rgba(0, 200, 255, 0.25);
+  box-shadow: 0 0 30px rgba(0, 200, 255, 0.1), 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+.proof-print img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .social-proof {
+    margin-top: 48px;
+    gap: 24px;
+  }
+  .social-proof-prints {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    max-width: 440px;
+  }
+  .social-proof-audio {
+    padding: 20px;
+  }
+}
