@@ -2637,11 +2637,24 @@ button:focus-visible,
   border-radius: 20px;
   padding: 16px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 14px;
   transition: border-color var(--transition-default),
               box-shadow var(--transition-default),
               transform var(--transition-default);
+}
+
+.proof-caption {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-cyan);
+  text-align: center;
+  margin: 0;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
 }
 
 .proof-print:hover {

@@ -81,6 +81,8 @@ var translations = {
     'sectors.proof.audioCaption': 'Depoimento em áudio de cliente DMV',
     'sectors.proof.print1Alt': 'Depoimento de cliente DMV sobre os resultados da consultoria',
     'sectors.proof.print2Alt': 'Depoimento de cliente DMV sobre a experiência com o diagnóstico',
+    'sectors.proof.print1Caption': 'Automação com IA · Prestadores de Serviço',
+    'sectors.proof.print2Caption': 'Assistente Administrativo com IA',
 
     'how.title': 'Consultoria primeiro. Tecnologia depois.',
     'how.subtitle': 'Nosso processo existe para garantir que cada solução resolve o problema certo.',
@@ -215,6 +217,8 @@ var translations = {
     'sectors.proof.audioCaption': 'Audio testimonial from a DMV client',
     'sectors.proof.print1Alt': 'DMV client testimonial about the consulting results',
     'sectors.proof.print2Alt': 'DMV client testimonial about the diagnosis experience',
+    'sectors.proof.print1Caption': 'AI Automation · Service Providers',
+    'sectors.proof.print2Caption': 'AI Administrative Assistant',
 
     'how.title': 'Consulting first. Technology after.',
     'how.subtitle': 'Our process exists to ensure each solution fixes the right problem.',
