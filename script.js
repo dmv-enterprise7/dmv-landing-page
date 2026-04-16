@@ -578,7 +578,44 @@ function setLanguage(lang) {
     var bar = player.querySelector('[data-audio-bar]');
     var progress = player.querySelector('[data-audio-progress]');
     var timeLabel = player.querySelector('[data-audio-time]');
+    var muteBtn = player.querySelector('[data-audio-mute]');
+    var volumeSlider = player.querySelector('[data-audio-volume]');
     if (!audio || !toggle || !bar || !progress || !timeLabel) return;
+
+    function updateVolumeUI() {
+      if (audio.muted || audio.volume === 0) {
+        player.classList.add('is-muted');
+        player.removeAttribute('data-volume-level');
+      } else {
+        player.classList.remove('is-muted');
+        player.setAttribute('data-volume-level', audio.volume < 0.5 ? 'low' : 'high');
+      }
+      if (muteBtn) {
+        muteBtn.setAttribute('aria-label', audio.muted ? 'Ativar som' : 'Silenciar áudio');
+      }
+    }
+
+    if (muteBtn) {
+      muteBtn.addEventListener('click', function() {
+        audio.muted = !audio.muted;
+        if (!audio.muted && audio.volume === 0 && volumeSlider) {
+          audio.volume = 1;
+          volumeSlider.value = 1;
+        }
+        updateVolumeUI();
+      });
+    }
+
+    if (volumeSlider) {
+      volumeSlider.addEventListener('input', function() {
+        var v = parseFloat(volumeSlider.value);
+        audio.volume = v;
+        if (v > 0 && audio.muted) audio.muted = false;
+        updateVolumeUI();
+      });
+    }
+
+    updateVolumeUI();
 
     function updateTime() {
       var cur = audio.currentTime || 0;
